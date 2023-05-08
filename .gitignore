@@ -1,0 +1,5 @@
+venv/
+.rasa/
+.vscode/
+models/
+actions/__pycache__/
