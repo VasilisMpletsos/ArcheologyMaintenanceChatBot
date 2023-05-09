@@ -1,0 +1,27 @@
+version: "3.1"
+
+responses:
+
+      utter_faq/ask_what_creates_sulfuration:
+      - text: Sulphuration is caused by the combination of sulphur dioxide and humidity in the atmosphere.
+      - text: The sulphur dioxide and the humidity in the atmosphere interact together, cause the sulphuration.
+
+      utter_faq/ask_what_creates_cracks:
+      - text: Cracks are caused by the expansion and contraction of the material due to temperature changes. Further reasons are the cold, vibrations and local impacts.
+
+      utter_faq/ask_what_creates_cavities:
+      - text: Cavities generally tend to be observed in stone structures. Due to sea salts, in addition to organic elements, water (underground and surface) also contains inorganic compounds, as well as causing the corrosion of stone/marble as CaCl2 is created which are easily soluble in the water. While another source of dislocation is rain. When, for example, the oxides of sulphur, nitrogen or carbon present in the rain penetrate the marble, they react with the calcium carbonate creating salts, such as calcium sulphate, on the surface. When these are removed either through rain or mechanically, they carry healthy stone/marble with them, leaving their surface exposed to further erosion. Also, the activity of various microorganisms favored by increased humidity leads to sporadic cavities.
+
+      utter_faq/ask_what_creates_crystal_decomposition:
+      - text: Rainwater acidified by carbon dioxide, sulfur dioxide and nitrogen oxides from air pollution slowly dissolves calcium carbonate, leading to the phenomenon we call saccharification. In general, moisture leads to sugaring because it helps to deposit changes on the surface of building materials.
+
+      utter_faq/ask_what_creates_disintegration:
+      - text: Decomposition and flaking are generally seen in areas of the surface where the material is less cohesive, allowing water to penetrate more easily and retain more moisture. In general, the microstructure of the object plays a very important role in the speed of development of exfoliation.
+
+      utter_faq/ask_what_creates_infection:
+      - text: The growth and presence of microbial colonies causes physico-chemical damage to the structural elements (mainly stones) altering the color of the surface of the monuments and in some cases sporadic black spots or coffee spots as well as various crusts are created.
+
+      utter_faq/ask_what_creates_crystallization:
+      - text: "Crystallization in ancient monuments is caused by various factors, including humidity, temperature, atmospheric pollution and sedimentation (ie the deposition of dust and fine sand on the surface of the monument).\n
+      Moisture is one of the main factors that cause crystallization. When the monument is exposed to moisture, the salts and mineral elements on the surface begin to dissolve. \n
+      As the moisture evaporates, salts and mineral elements accumulate on the surface, causing crystallization. In addition, air pollution can cause crystallization in ancient monuments. \n "

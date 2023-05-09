@@ -65,6 +65,9 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - i am good
+    - i am alright
+    - i am fabulous
 
 - intent: mood_unhappy
   examples: |
@@ -82,6 +85,13 @@ nlu:
     - extremly sad
     - so saad
     - so sad
+    - so unhappy
+    - so unsatisfied
+    - unsatisfied
+    - not satisfied
+    - unhappy
+    - not happy
+    - not so happy
 
 - intent: bot_challenge
   examples: |
@@ -89,9 +99,23 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - are you a real person?
+    - you're a bot?
+    - are you a bot or human?
 
 - intent: out_of_scope
   examples: |
     - I want to order food
     - What is 2 + 2?
     - Who's the US President?
+    - What is my horoscope?
+    - What is the weather in Berlin right now?
+    - Tell me a joke
+    - What is the current time?
+    - Send an email
+    - tell me about other topics
+    - tell me about other things
+    - tell me about other stuff
+    - tell me about other archeological topics
+    - tell me about other archeological things
+    - tell me about other archeological stuff

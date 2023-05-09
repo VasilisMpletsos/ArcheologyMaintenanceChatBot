@@ -1,0 +1,44 @@
+version: "3.1"
+
+responses:
+
+      utter_marble_with_crystal_decomposition:
+            - text: To deal with the crystal decomposition of the marble, the only thing we can do is the surface fixation with sprays (ammonium oxalate) or impregnations, but the damage up to this point is irreparable.
+            - text: The use of n-semiconductors is recommended for the future protection of the marble from crystal decomposition.
+            - text: Surface fixing by spraying or impregnation is recommended.
+            - text: Spraying with ammonium oxalate is recommended in order the surface to be stabilized.
+
+      utter_marble_with_sulfuration:
+            - text: For the treatment of sulfuration on marble, there must be a reversal of sulfuration, the use of ammonium carbonate or potassium carbonate is recommended.
+            - text: The use of potassium carbonate is recommended for the reversal of sulfuration on marble.
+            - text: The best intervention will be to use potassium carbonate for the treatment and reversal of sulfuration.
+            - text: It is recommended to use potassium carbonate or ammonium carbonate for the treatment of sulfuration.
+
+      utter_marble_with_crystallization:
+            - text: We don't have a solution for the crystallization of marble, the only thing we can do is to use a protective coating.
+
+      utter_marble_with_cracks:
+            - text: For the treatment of cracks on marble, the use of grout is recommended. Warning even the smallest cracks should be filled because they are a passage for the penetration of various corrosive factors. The material used for sealing cracks is recommended to be an inert material.
+            - text: The use of grout is recommended for the treatment of cracks on marble.
+            - text: It is recommended to use calcium carbonate as a crystallization core to stabilize the surface of the marble and to use special grouts to fill the cracks.
+            - text: First of all, the surface of the marble must be stabilized with the use of calcium carbonate and then the microcracks must be filled with a suitable grout.
+            - text: The use of calcium carbonate is recommended for the stabilization of the marble surface and the use of grout for the filling of the cracks.
+            - text: A recommendation for the treatment of cracks on marble is to fill with special grouts and to stabilize the surface with the use of calcium carbonate.
+            - text: The use of calcium carbonate is recommended for the stabilization of the marble surface and the use of grout for the filling of the cracks.
+            - text: The filling of all cracks with grout is recommended.
+
+      utter_marble_with_disintegration:
+            - text: The required intervention for marble with disintegration is initially the fixation with impregnations, the filling of the cracks and the gluing of the microcracks with a weaker mechanically grout with the addition of calcite carbonate.
+            - text: For the treatment of disintegration on marble, the use of grout with some small addition of calcite carbonate is recommended. Furthermore for the bigger fragments the use of titanium nails is recommended.
+            - text: For the treatment of disintegration on marble, the use of titanium nails is recommended for the bigger fragments while for the smaller fragments the use of grout with the addition of calcite carbonate is recommended.
+            - text: It is reccomended to use grout with the addition of calcite carbonate for the treatment of disintegration on marble.
+            - text: Grout should be used in order to glue back the fragments of the marble.
+
+      utter_marble_with_cavities:
+            - text: We don't have a solution for the cavities on marble, the only thing we can do is to use a protective coating.
+
+      utter_marble_with_infection:
+            - text: "Since we have marble with microbial contamination, the conditions that favor their growth must first be checked and appropriate biocides can then be used after first investigating the possible side effects on the marble surface.\n
+            For safer solutions there are other more traditional methods. A frequent intervention for lichens is the mechanical method of scraping, although the process does not prevent their growth and must be repeated continuously.\n
+            For mosses, the best-known and most effective method is removal by hand. The auxiliary tools that can be used with care are a hard brush, a metal brush, but also a spatula or a metal shovel. For the removal of the black crust, the use of anaerobic thiobacteria has been highlighted.\n
+            In general, for preventive maintenance, it is advisable to remove moisture and generally control it if this is possible. In archaeological sites where rainfall is high, the placement of a roof is very important."

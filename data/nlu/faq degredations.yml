@@ -1,0 +1,105 @@
+version: "3.1"
+
+nlu:
+
+  - intent: faq/ask_what_creates_sulfuration
+    examples: |
+      - What creates sulfuration?
+      - What causes sulfuration?
+      - What causes the sulfuration?
+      - What causes the sulfuration of a material?
+      - What causes sulfuration of a material?
+      - How does sulfuration occur?
+      - How does sulfuration happen?
+      - How does sulfuration take place?
+      - How does sulfuration take place in a material?
+      - What is the cause of sulfuration?
+      - What is the cause of sulfuration of a material?
+      - What triggers sulfuration?
+      - What triggers sulfuration of a material?
+      - What leads to sulfuration?
+
+  - intent: faq/ask_what_creates_cracks
+    examples: |
+      - What creates cracks?
+      - What causes cracks?
+      - How do cracks occur?
+      - How do cracks happen?
+      - How do cracks take place?
+      - How do cracks take place in a material?
+      - What is the cause of cracks?
+      - What is the cause of cracks in a material?
+      - What triggers cracks?
+      - What triggers cracks in a material?
+      - What happens and cracks occur?
+      - What leads in crack creation?
+
+  - intent: faq/ask_what_creates_cavities
+    examples: |
+      - What creates hole creation?
+      - What causes hole creation?
+      - How do hole creation occur?
+      - How do hole creation happen?
+      - How do hole creation take place?
+      - How do hole creation take place in a material?
+      - What is the cause of hole creation?
+      - What is the cause of hole creation in a material?
+      - What triggers hole creation?
+      - What triggers hole creation in a material?
+      - What leads in hole creation?
+      - What leads in cavity creation?
+      - What leads in cavity creation in a material?
+      - How to cavity creation occur?
+      - How to cavity creation happen?
+      - How to cavity creation take place?
+      - How to cavity creation take place in a material?
+      
+  - intent: faq/ask_what_creates_crystal_decomposition
+    examples: |
+      - What creates crystal decomposition?
+      - What causes crystal decomposition?
+      - How does crystal decomposition occur?
+      - How does crystal decomposition happen?
+      - What leads to crystal decomposition?
+      - What leads to crystal decomposition in a material?
+      - What is the cause of crystal decomposition?
+      - What is the cause of crystal decomposition in a material?
+      - What triggers crystal decomposition?
+
+  - intent: faq/ask_what_creates_disintegration
+    examples: |
+      - What creates disintegration?
+      - What causes disintegration?
+      - How does disintegration occur?
+      - How does disintegration happen?
+      - What leads to disintegration?
+      - What leads to disintegration in a material?
+      - What is the cause of disintegration?
+      - What is the cause of disintegration in a material?
+      - What triggers disintegration?
+
+  - intent: faq/ask_what_creates_infection
+    examples: |
+      - What creates infection?
+      - What causes infection?
+      - How does infection occur?
+      - How does infection happen?
+      - What leads to infection?
+      - What leads to infection in a material?
+      - What is the cause of infection?
+      - What is the cause of infection in a material?
+      - What triggers infection?
+
+  - intent: faq/ask_what_creates_crystallization
+    examples: |
+      - What creates crystallization?
+      - What causes crystallization?
+      - How does crystallization occur?
+      - How does crystallization happen?
+      - What leads to crystallization?
+      - What leads to crystallization in a material?
+      - What is the cause of crystallization?
+      - What is the cause of crystallization in a material?
+      - What triggers crystallization?
+      - What triggers crystallization in a material?
+      - What happens and crystallization occur?

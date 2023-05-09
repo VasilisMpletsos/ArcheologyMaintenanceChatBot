@@ -1,0 +1,58 @@
+version: "3.1"
+
+nlu:
+  - intent: faq/bot_abilities
+    examples: |
+      - what can you do?
+      - what are your abilities?
+      - what are you able to do?
+      - what are you capable of?
+      - what are your capabilities?
+      - what are your skills?
+      - what are your features?
+      - what are your functions?
+      - what are your talents?
+      - how can you help me?
+      - what can you help me with?
+      - what can you help me do?
+      - what can you help me accomplish?
+      - what can you help me achieve?
+      - what can you help me perform?
+
+  - intent: faq/how_this_works
+    examples: |
+      - how does this work?
+      - how does this work exactly?
+      - how i use the app?
+      - how i use the application?
+      - how i use the software?
+      - how i use the program?
+      - how i use the system?
+      - how i use the tool?
+      - how i use the product?
+      - what is the procedure?
+      - what can i ask?
+      - what can i ask you?
+      - what can i ask you about?
+      - what can i ask you for?
+      - what questions can i ask?
+      - what questions can i ask you?
+      - what questions can i ask you about?
+      - what questions can i ask you for?
+
+  - intent: faq/speak_with_human
+    examples: |
+      - i want to speak with a human
+      - i want to speak with a person
+      - i want to speak with a real person
+      - i want to speak with a real human
+      - i want to speak with a real representative
+      - i want to speak with a real agent
+      - i want to speak with a real employee
+      - i want to speak with a real staff member
+      - i want to speak with a real team member
+      - i want to speak with a real service representative
+      - i want to speak with a real service agent
+      - i want to speak with a real service employee
+      - i want to speak with a real service staff member
+      - i want to speak with a real service team member
