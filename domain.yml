@@ -9,13 +9,18 @@ intents:
   - mood_unhappy
   - bot_challenge
   - faq
-  - inform_marble_with_crystal_decomposition
-  - inform_marble_with_sulfuration
-  - inform_marble_with_crystallization
-  - inform_marble_with_cracks
-  - inform_marble_with_disintegration
-  - inform_marble_with_cavities
-  - inform_marble_with_infection
+  - inform_material_with_degradation
+
+entities:
+- material
+- degradation
+
+slots:
+  degradation_slot:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: degradation
 
 responses:
   utter_greet:

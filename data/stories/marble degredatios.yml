@@ -4,36 +4,61 @@ stories:
 
   - story: marble_with_crystal_decomposition
     steps:
-    - intent: inform_marble_with_crystal_decomposition
+    - intent: inform_material_with_degradation
+      entities:
+      - degradation: "crystal decomposition"
     - action: utter_marble_with_crystal_decomposition
 
   - story: marble_with_sulfuration
     steps:
-    - intent: inform_marble_with_sulfuration
+    - intent: inform_material_with_degradation
+      entities:
+      - degradation: sulfuration
+        value: "sulfuration"
     - action: utter_marble_with_sulfuration
 
-  - story: marble_with_crystallization
-    steps:
-    - intent: inform_marble_with_crystallization
-    - action: utter_marble_with_crystallization
+  # - story: marble_with_crystallization
+  #   steps:
+  #   - intent: inform_material_with_degradation
+  #     entities:
+  #     - degradation
+  #   - slot_was_set:
+  #     - degradation_slot: "crystallization"
+  #   - action: utter_marble_with_crystallization
 
-  - story: marble_with_cracks
-    steps:
-    - intent: inform_marble_with_cracks
-    - action: utter_marble_with_cracks
+  # - story: marble_with_cracks
+  #   steps:
+  #   - intent: inform_material_with_degradation
+  #     entities:
+  #     - degradation
+  #   - slot_was_set:
+  #     - degradation_slot: "cracks"
+  #   - action: utter_marble_with_cracks
 
-  - story: marble_with_disintegration
-    steps:
-    - intent: inform_marble_with_disintegration
-    - action: utter_marble_with_disintegration
+  # - story: marble_with_disintegration
+  #   steps:
+  #   - intent: inform_material_with_degradation
+  #     entities:
+  #     - degradation
+  #   - slot_was_set:
+  #     - degradation_slot: "disintegration"
+  #   - action: utter_marble_with_disintegration
 
-  - story: marble_with_cavities
-    steps:
-    - intent: inform_marble_with_cavities
-    - action: utter_marble_with_cavities
+  # - story: marble_with_cavities
+  #   steps:
+  #   - intent: inform_material_with_degradation
+  #     entities:
+  #     - degradation
+  #   - slot_was_set:
+  #     - degradation_slot: "cavities"
+  #   - action: utter_marble_with_cavities
 
-  - story: marble_with_infection
-    steps:
-    - intent: inform_marble_with_infection
-    - action: utter_marble_with_infection
+  # - story: marble_with_infection
+  #   steps:
+  #   - intent: inform_material_with_degradation
+  #     entities:
+  #     - degradation
+  #   - slot_was_set:
+  #     - degradation_slot: "infection"
+  #   - action: utter_marble_with_infection
 
