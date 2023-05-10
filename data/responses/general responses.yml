@@ -1,0 +1,11 @@
+version: "3.1"
+
+responses:
+
+      utter_you_are_welcome:
+      - text: Hope I was able to help you. If you have any further questions, please feel free to ask me again.
+      - text: I hope I was able to help you. If you have any further questions, please feel free to ask me again.
+      - text: Glad to help you, goodbye.
+      - text: I am glad I was able to help you. If you have any further questions, please feel free to ask me again.
+      - text: Super! Hope everything goes well with the restoration.
+      

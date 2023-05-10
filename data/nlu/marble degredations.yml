@@ -1,105 +1,52 @@
 version: "3.1"
 
 nlu:
-  - intent: inform_material_with_degradation
+  - intent: inform_stone_with_cracks
     examples: | 
-      - We have [marble](material) with [crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} what should we do?
-      - We have [marble](material) with [crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} what should we do for its maintenance?
-      - We have [marble](material) with [crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} what should we do for its preservation?
-      - We have [marble](material) with [crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} what should we do for its conservation?
-      - We have [marble](material) with [crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} what should we do for its restoration?
-      - We have [marble](material) with [crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} what should we do for its repair?
-      - We have [marble](material) with [crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} what should we do for its conservation?
-      - [Crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} has been found on a [marble](material) object what should we do?
-      - [Crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} has been found on a [marble](material) object what should we do for its maintenance?
-      - [Crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} has been found on a [marble](material) object what should we do for its preservation?
-      - [Crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} has been found on a [marble](material) object what should we do for its conservation?
-      - [Crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} has been found on a [marble](material) object what should we do for its restoration?
-      - [Crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"} has been found on a [marble](material) object what should we do for its repair?
-      - How to treat [marble](material) with [crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"}?
-      - How to preserve [marble](material) with [crystal decomposition]{"entity":"degradation","value":"crystal_decomposition"}?
-      - We have [marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"} what should we do?
-      - We have [marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"} what should we do for its maintenance?
-      - We have [marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"} what should we do for its preservation?
-      - We have [marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"} what should we do for its conservation?
-      - We have [marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"} what should we do for its restoration?
-      - We have [marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"} what should we do for its repair?
-      - [Marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"} has been found what should we do?
-      - [Marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"} has been found what should we do for its maintenance?
-      - [Marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"} has been found what should we do for its preservation?
-      - [Marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"} has been found what should we do for its conservation?
-      - [Marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"} has been found what should we do for its restoration?
-      - [Marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"} has been found what should we do for its repair?
-      - How to treat [marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"}?
-      - How to preserve [marble](material) with [sulfuration]{"entity":"degradation","value":"sulfuration"}?
-      - We have [marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"} what should we do?
-      - We have [marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"} what should we do for its maintenance?
-      - We have [marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"} what should we do for its preservation?
-      - We have [marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"} what should we do for its conservation?
-      - We have [marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"} what should we do for its restoration?
-      - We have [marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"} what should we do for its repair?
-      - [Marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"} has been found what should we do?
-      - [Marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"} has been found what should we do for its maintenance?
-      - [Marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"} has been found what should we do for its preservation?
-      - [Marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"} has been found what should we do for its conservation?
-      - [Marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"} has been found what should we do for its restoration?
-      - How to treat [marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"}?
-      - How to preserve [marble](material) with [crystallization]{"entity":"degradation","value":"crystal_decompositionlization"}?
-      - We have [marble](material) with [cracks]{"entity":"degradation","value":"cracks"} what should we do?
-      - We have [marble](material) with [cracks]{"entity":"degradation","value":"cracks"} what should we do for its maintenance?
-      - We have [marble](material) with [cracks]{"entity":"degradation","value":"cracks"} what should we do for its preservation?
-      - We have [marble](material) with [cracks]{"entity":"degradation","value":"cracks"} what should we do for its conservation?
-      - We have [marble](material) with [cracks]{"entity":"degradation","value":"cracks"} what should we do for its restoration?
-      - [Cracks]{"entity":"degradation","value":"cracks"} have been found on a [marble](material) object what should we do?
-      - [Cracks]{"entity":"degradation","value":"cracks"} have been found on a [marble](material) object what should we do for its maintenance?
-      - [Cracks]{"entity":"degradation","value":"cracks"} have been found on a [marble](material) object what should we do for its preservation?
-      - [Cracks]{"entity":"degradation","value":"cracks"} have been found on a [marble](material) object what should we do for its conservation?
-      - [Cracks]{"entity":"degradation","value":"cracks"} have been found on a [marble](material) object what should we do for its restoration?
-      - [Cracks]{"entity":"degradation","value":"cracks"} have been found on a [marble](material) object what should we do for its repair?
-      - How to treat [marble](material) with [cracks]{"entity":"degradation","value":"cracks"}?
-      - How to preserve [marble](material) with [cracks]{"entity":"degradation","value":"cracks"}?
-      - We have [marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"} what should we do?
-      - We have [marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"} what should we do for its maintenance?
-      - We have [marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"} what should we do for its preservation?
-      - We have [marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"} what should we do for its conservation?
-      - We have [marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"} what should we do for its restoration?
-      - We have [marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"} what should we do for its repair?
-      - [Marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"} has been found what should we do?
-      - [Marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"} has been found what should we do for its maintenance?
-      - [Marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"} has been found what should we do for its preservation?
-      - [Marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"} has been found what should we do for its conservation?
-      - [Marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"} has been found what should we do for its restoration?
-      - [Disintegration]{"entity":"degradation","value":"disintegration"} has been found on a [marble](material) object what should we do for its repair?
-      - What can we do for [marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"}?
-      - How to treat [marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"}?
-      - How to preserve [marble](material) with [disintegration]{"entity":"degradation","value":"disintegration"}? 
-      - We have [marble](material) with [cavities]{"entity":"degradation","value":"cavities"} what should we do?
-      - We have [marble](material) with [cavities]{"entity":"degradation","value":"cavities"} what should we do for its maintenance?
-      - We have [marble](material) with [cavities]{"entity":"degradation","value":"cavities"} what should we do for its preservation?
-      - We have [marble](material) with [cavities]{"entity":"degradation","value":"cavities"} what should we do for its conservation?
-      - We have [marble](material) with [cavities]{"entity":"degradation","value":"cavities"} what should we do for its restoration?
-      - We have [marble](material) with [cavities]{"entity":"degradation","value":"cavities"} what should we do for its repair?
-      - [Marble](material) with [cavities]{"entity":"degradation","value":"cavities"} has been found what should we do?
-      - [Marble](material) with [cavities]{"entity":"degradation","value":"cavities"} has been found what should we do for its maintenance?
-      - [Marble](material) with [cavities]{"entity":"degradation","value":"cavities"} has been found what should we do for its preservation?
-      - What can we for for [marble](material) with [cavities]{"entity":"degradation","value":"cavities"}?
-      - How to treat [marble](material) with [cavities]{"entity":"degradation","value":"cavities"}?
-      - How to preserve [marble](material) with [cavities]{"entity":"degradation","value":"cavities"}?
-      - We have [marble](material) with [infection]{"entity":"degradation","value":"infection"} what should we do?
-      - We have [marble](material) with [infection]{"entity":"degradation","value":"infection"} what should we do for its maintenance?
-      - We have [marble](material) with [infection]{"entity":"degradation","value":"infection"} what should we do for its preservation?
-      - We have [marble](material) with [infection]{"entity":"degradation","value":"infection"} what should we do for its conservation?
-      - We have [marble](material) with [infection]{"entity":"degradation","value":"infection"} what should we do for its restoration?
-      - We have [marble](material) with [infection]{"entity":"degradation","value":"infection"} what should we do for its repair?
-      - [Marble](material) with [infection]{"entity":"degradation","value":"infection"} has been found what should we do?
-      - [Marble](material) with [infection]{"entity":"degradation","value":"infection"} has been found what should we do for its maintenance?
-      - [Marble](material) with [infection]{"entity":"degradation","value":"infection"} has been found what should we do for its preservation?
-      - [Marble](material) with [infection]{"entity":"degradation","value":"infection"} has been found what should we do for its conservation?
-      - [Marble](material) with [infection]{"entity":"degradation","value":"infection"} has been found what should we do for its restoration?
-      - [Marble](material) with [infection]{"entity":"degradation","value":"infection"} has been found what should we do for its repair?
-      - What can we do for [marble](material) with [infection]{"entity":"degradation","value":"infection"}?
-      - What actions should we take for [marble](material) with [infection]{"entity":"degradation","value":"infection"}?
-      - How to treat [marble](material) with [infection]{"entity":"degradation","value":"infection"}?
-      - How to treat [marble](material) with [infection]{"entity":"degradation","value":"infection"} for its maintenance?
-      - How to preserve [marble](material) with [infection]{"entity":"degradation","value":"infection"}?
-      
+      - How to preserve stone with crakcs?
+      - How to maintain stone with cracks?
+      - What to do for stone with cracks?
+      - We have stone with cracks, what to do?
+    
+  - intent: inform_stone_with_sulfuration
+    examples: | 
+      - How to preserve stone with sulfuration?
+      - How to maintain stone with sulfuration?
+      - How to preserve stone with sulfur dioxide?
+      - What to do for stone with sulfuration?
+      - We have stone with sulfuration, what to do?
+
+  - intent: inform_stone_with_cavities
+    examples: | 
+      - How to preserve stone with cavities?
+      - How to maintain stone with cavities?
+      - How to maintain stone with holes?
+      - How to preserve stone with cavities?
+      - How to preserve stone with holes?
+      - What to do for stone with cavities?
+      - We have stone with cavities, what to do?
+      - We have stone with holes, what to do?
+
+  - intent: inform_stone_with_crystal_decomposition
+    examples: | 
+      - How to preserve stone with crystallization?
+      - How to preserve stone with crystal decomposition?
+      - How to maintain stone with crystallization?
+      - How to maintain stone with crystal decomposition?
+      - What to do for stone with crystallization?
+      - We have stone with crystallization, what to do?
+      - We have stone with crystal decomposition, what to do?
+
+  - intent: inform_stone_with_disintegration
+    examples: | 
+      - How to preserve stone with crystal disintegration?
+      - How to maintain stone with crystal disintegration?
+      - What to do for stone with crystal disintegration?
+      - We have stone with crystal disintegration, what to do?
+
+  - intent: inform_stone_with_infection
+    examples: | 
+      - How to preserve stone with crystal infection?
+      - How to maintain stone with crystal infection?
+      - What to do for stone with crystal infection?
+      - We have stone with crystal infection, what to do?

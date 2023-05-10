@@ -6,5 +6,18 @@ stories:
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+
+- story: challenge bot
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: say thank you
+  steps:
+  - intent: appreciate
+  - action: utter_you_are_welcome

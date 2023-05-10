@@ -1,0 +1,24 @@
+version: "3.1"
+
+responses:
+
+      utter_shells_with_crystal_decomposition:
+      - text: We need to add this for shells solutions.
+
+      utter_shells_with_sulfuration:
+      - text: We need to add this for shells solutions.
+
+      utter_shells_with_crystallization:
+      - text: We need to add this for shells solutions.
+
+      utter_shells_with_cracks:
+      - text: We need to add this for shells solutions.
+
+      utter_shells_with_disintegration:
+      - text: We need to add this for shells solutions.
+
+      utter_shells_with_cavities:
+      - text: We need to add this for shells solutions.
+
+      utter_shells_with_infection:
+      - text: We need to add this for shells solutions.

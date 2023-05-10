@@ -1,0 +1,33 @@
+version: "3.1"
+
+stories:
+
+- story: solution for stone with cracks
+  steps:
+  - intent: inform_stone_with_cracks
+  - action: utter_stone_with_cracks
+
+- story: solution for stone with sulfuration
+  steps:
+  - intent: inform_stone_with_sulfuration
+  - action: utter_stone_with_sulfuration
+  
+- story: solution for stone with cavities
+  steps:
+  - intent: inform_stone_with_cavities
+  - action: utter_stone_with_cavities
+
+- story: solution for stone with crystal decomposition
+  steps:
+  - intent: inform_stone_with_crystal_decomposition
+  - action: utter_stone_with_crystal_decomposition
+
+- story: solution for stone with disintegration
+  steps:
+  - intent: inform_stone_with_disintegration
+  - action: utter_stone_with_disintegration
+
+- story: solution for stone with infection
+  steps:
+  - intent: inform_stone_with_infection
+  - action: utter_stone_with_infection

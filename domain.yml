@@ -5,22 +5,39 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
   - bot_challenge
   - faq
-  - inform_material_with_degradation
-
-entities:
-- material
-- degradation
-
-slots:
-  degradation_slot:
-    type: text
-    mappings:
-    - type: from_entity
-      entity: degradation
+  - appreciate
+  - inform_marble_with_cracks
+  - inform_marble_with_sulfuration
+  - inform_marble_with_cavities
+  - inform_marble_with_crystal_decomposition
+  - inform_marble_with_disintegration
+  - inform_marble_with_infection
+  - inform_stone_with_cracks
+  - inform_stone_with_sulfuration
+  - inform_stone_with_cavities
+  - inform_stone_with_crystal_decomposition
+  - inform_stone_with_disintegration
+  - inform_stone_with_infection
+  - inform_shale_with_cracks
+  - inform_shale_with_sulfuration
+  - inform_shale_with_cavities
+  - inform_shale_with_crystal_decomposition
+  - inform_shale_with_disintegration
+  - inform_shale_with_infection
+  - inform_mortar_with_cracks
+  - inform_mortar_with_sulfuration
+  - inform_mortar_with_cavities
+  - inform_mortar_with_crystal_decomposition
+  - inform_mortar_with_disintegration
+  - inform_mortar_with_infection
+  - inform_shells_with_cracks
+  - inform_shells_with_sulfuration
+  - inform_shells_with_cavities
+  - inform_shells_with_crystal_decomposition
+  - inform_shells_with_disintegration
+  - inform_shells_with_infection
 
 responses:
   utter_greet:

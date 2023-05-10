@@ -1,0 +1,33 @@
+version: "3.1"
+
+stories:
+
+- story: solution for marble with cracks
+  steps:
+  - intent: inform_marble_with_cracks
+  - action: utter_marble_with_cracks
+
+- story: solution for marble with sulfuration
+  steps:
+  - intent: inform_marble_with_sulfuration
+  - action: utter_marble_with_sulfuration
+  
+- story: solution for marble with cavities
+  steps:
+  - intent: inform_marble_with_cavities
+  - action: utter_marble_with_cavities
+
+- story: solution for marble with crystal decomposition
+  steps:
+  - intent: inform_marble_with_crystal_decomposition
+  - action: utter_marble_with_crystal_decomposition
+
+- story: solution for marble with disintegration
+  steps:
+  - intent: inform_marble_with_disintegration
+  - action: utter_marble_with_disintegration
+
+- story: solution for marble with infection
+  steps:
+  - intent: inform_marble_with_infection
+  - action: utter_marble_with_infection

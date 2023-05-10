@@ -1,0 +1,52 @@
+version: "3.1"
+
+nlu:
+  - intent: inform_shells_with_cracks
+    examples: | 
+      - How to preserve shells with crakcs?
+      - How to maintain shells with cracks?
+      - What to do for shells with cracks?
+      - We have shells with cracks, what to do?
+    
+  - intent: inform_shells_with_sulfuration
+    examples: | 
+      - How to preserve shells with sulfuration?
+      - How to maintain shells with sulfuration?
+      - How to preserve shells with sulfur dioxide?
+      - What to do for shells with sulfuration?
+      - We have shells with sulfuration, what to do?
+
+  - intent: inform_shells_with_cavities
+    examples: | 
+      - How to preserve shells with cavities?
+      - How to maintain shells with cavities?
+      - How to maintain shells with holes?
+      - How to preserve shells with cavities?
+      - How to preserve shells with holes?
+      - What to do for shells with cavities?
+      - We have shells with cavities, what to do?
+      - We have shells with holes, what to do?
+
+  - intent: inform_shells_with_crystal_decomposition
+    examples: | 
+      - How to preserve shells with crystallization?
+      - How to preserve shells with crystal decomposition?
+      - How to maintain shells with crystallization?
+      - How to maintain shells with crystal decomposition?
+      - What to do for shells with crystallization?
+      - We have shells with crystallization, what to do?
+      - We have shells with crystal decomposition, what to do?
+
+  - intent: inform_shells_with_disintegration
+    examples: | 
+      - How to preserve shells with crystal disintegration?
+      - How to maintain shells with crystal disintegration?
+      - What to do for shells with crystal disintegration?
+      - We have shells with crystal disintegration, what to do?
+
+  - intent: inform_shells_with_infection
+    examples: | 
+      - How to preserve shells with crystal infection?
+      - How to maintain shells with crystal infection?
+      - What to do for shells with crystal infection?
+      - We have shells with crystal infection, what to do?

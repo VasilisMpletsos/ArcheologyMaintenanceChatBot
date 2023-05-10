@@ -49,49 +49,32 @@ nlu:
     - no way
     - not really
 
-- intent: mood_great
+- intent: appreciate
   examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-    - i am good
-    - i am alright
-    - i am fabulous
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-    - so unhappy
-    - so unsatisfied
-    - unsatisfied
-    - not satisfied
-    - unhappy
-    - not happy
-    - not so happy
+    - thanks
+    - thank you
+    - thank you so much
+    - thanks bot
+    - thanks for that
+    - ok thanks!
+    - perfect thank you
+    - thanks a lot
+    - amazing, thanks
+    - cool, thanks
+    - cool thank you
+    - thanks a bunch
+    - thanks for the help
+    - thanks a lot for the help
+    - thanks a ton
+    - thanks for the support
+    - thanks for your support
+    - thanks for your help
+    - thank you very much
+    - thank you so much for the help
+    - thank you so much for your help
+    - thank you very much for your help
+    - thanks a million
+    - thank you very much for that
 
 - intent: bot_challenge
   examples: |

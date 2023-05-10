@@ -1,0 +1,52 @@
+version: "3.1"
+
+nlu:
+  - intent: inform_shale_with_cracks
+    examples: | 
+      - How to preserve shale with crakcs?
+      - How to maintain shale with cracks?
+      - What to do for shale with cracks?
+      - We have shale with cracks, what to do?
+    
+  - intent: inform_shale_with_sulfuration
+    examples: | 
+      - How to preserve shale with sulfuration?
+      - How to maintain shale with sulfuration?
+      - How to preserve shale with sulfur dioxide?
+      - What to do for shale with sulfuration?
+      - We have shale with sulfuration, what to do?
+
+  - intent: inform_shale_with_cavities
+    examples: | 
+      - How to preserve shale with cavities?
+      - How to maintain shale with cavities?
+      - How to maintain shale with holes?
+      - How to preserve shale with cavities?
+      - How to preserve shale with holes?
+      - What to do for shale with cavities?
+      - We have shale with cavities, what to do?
+      - We have shale with holes, what to do?
+
+  - intent: inform_shale_with_crystal_decomposition
+    examples: | 
+      - How to preserve shale with crystallization?
+      - How to preserve shale with crystal decomposition?
+      - How to maintain shale with crystallization?
+      - How to maintain shale with crystal decomposition?
+      - What to do for shale with crystallization?
+      - We have shale with crystallization, what to do?
+      - We have shale with crystal decomposition, what to do?
+
+  - intent: inform_shale_with_disintegration
+    examples: | 
+      - How to preserve shale with crystal disintegration?
+      - How to maintain shale with crystal disintegration?
+      - What to do for shale with crystal disintegration?
+      - We have shale with crystal disintegration, what to do?
+
+  - intent: inform_shale_with_infection
+    examples: | 
+      - How to preserve shale with crystal infection?
+      - How to maintain shale with crystal infection?
+      - What to do for shale with crystal infection?
+      - We have shale with crystal infection, what to do?
