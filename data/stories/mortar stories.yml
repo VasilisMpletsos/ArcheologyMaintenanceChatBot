@@ -1,0 +1,51 @@
+version: "3.1"
+
+stories:
+
+- story: solution for mortar with cracks
+  steps:
+  - intent: inform_mortar_with_cracks
+  - action: utter_mortar_with_cracks
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
+- story: solution for mortar with sulfuration
+  steps:
+  - intent: inform_mortar_with_sulfuration
+  - action: utter_mortar_with_sulfuration
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+  
+- story: solution for mortar with cavities
+  steps:
+  - intent: inform_mortar_with_cavities
+  - action: utter_mortar_with_cavities
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
+- story: solution for mortar with crystal decomposition
+  steps:
+  - intent: inform_mortar_with_crystal_decomposition
+  - action: utter_mortar_with_crystal_decomposition
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
+- story: solution for mortar with disintegration
+  steps:
+  - intent: inform_mortar_with_disintegration
+  - action: utter_mortar_with_disintegration
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
+- story: solution for mortar with infection
+  steps:
+  - intent: inform_mortar_with_infection
+  - action: utter_mortar_with_infection
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate

@@ -51,36 +51,6 @@ actions:
 
 
 responses:
-  utter_greet:
-  - text: Hello, tell me what degradation you found.
-  - text: Oh hey there! tell me what degradation you found.
-  - text: Hey! tell me what degradation you found.
-  - text: Hello, how can i help?
-  - text: Hi, how can i help?
-  - text: Aloha, how can i help you?
-
-  utter_happy:
-  - text: "Great, carry on!"
-
-  utter_goodbye:
-  - text: "Bye"
-  - text: "Bye-Bye"
-  - text: "Bye, see you soon!"
-  - text: "Talk to you later!"
-  - text: "Goodbye"
-  - text: "Goodbye, see you soon!"
-  - text: "Have a nice day!"
-  - text: "See you later!"
-  - text: "See you soon!"
-
-  utter_iamabot:
-  - text: I am a bot
-  - text: I'm a bot
-  - text: I am a chatbot
-  - text: I'm a chatbot
-  - text: I am not a human i am a chatbot
-  - text: You are speeking with a chatbot
-  - text: I am a chatbot and i am here to help you
 
   utter_out_of_scope:
   - text: Sorry, I can't handle that request, i only know for degradations.
@@ -94,8 +64,7 @@ responses:
 
   # This one is used when we are not sure what is the next action  
   utter_default:
-  - text: I'm sorry, I can't help you.
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: false
+  - text: "I'm sorry, I only know for restoration. You can say for example\n
+  - How to maintain marble with cracks\n
+  - What causes disintegration?\n
+  - What are your abilities?"

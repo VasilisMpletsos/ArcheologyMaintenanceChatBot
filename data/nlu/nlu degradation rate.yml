@@ -9,6 +9,7 @@ nlu:
       - slow
       - degredation rate 1
       - 1
+      - one
       - the rate is 1
       - degredation rate one
       - we have degredation rate 1
@@ -20,6 +21,7 @@ nlu:
       - slow to medium
       - degredation rate 2
       - 2
+      - two
       - the rate is 2
       - degredation rate two
       - we have degredation rate 2
@@ -30,6 +32,7 @@ nlu:
       - medium degredation rate
       - medium
       - 3
+      - three
       - the rate is 3
       - degredation rate 3
       - degredation rate three
@@ -41,6 +44,7 @@ nlu:
       - medium to fast degredation rate
       - medium to fast
       - 4
+      - four
       - the rate is 4
       - degredation rate 4
       - degredation rate four
@@ -52,6 +56,7 @@ nlu:
       - fast degredation rate
       - fast
       - 5
+      - five
       - the rate is 5
       - degredation rate 5
       - degredation rate five

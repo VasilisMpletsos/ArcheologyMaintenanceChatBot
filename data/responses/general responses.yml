@@ -2,18 +2,56 @@ version: "3.1"
 
 responses:
 
+      utter_greet:
+
+      - text: "Hi, welcome to the chat! I am a assistant chatbot and i will be glad to help you with the preservation of the cultural heritage.\n
+      You can ask me questions like which is the solution to maintain something, for example:\n
+      - How to maintain marble with cracks?\n
+      - How to preserve marble with cavities?\n
+      - How to maintain stone with sulfuration?\n
+      - How to preserve stone with crystal decomposition?\n
+      - We have found mortar with cracks what shall we do?\n
+
+      Or you can ask me what is the root of degradations for cracks, cavities, sulfuration, crystal decomposition and disintegration."
+
+      utter_goodbye:
+      - text: "Bye"
+      - text: "Bye-Bye"
+      - text: "Bye, see you soon!"
+      - text: "Talk to you later!"
+      - text: "Goodbye"
+      - text: "Goodbye, see you soon!"
+      - text: "Have a nice day!"
+      - text: "See you later!"
+      - text: "See you soon!"
+
+      utter_iamabot:
+      - text: I am a bot
+      - text: I'm a bot
+      - text: I am a chatbot
+      - text: I'm a chatbot
+      - text: I am not a human i am a chatbot
+      - text: You are speeking with a chatbot
+      - text: I am a chatbot and i am here to help you
+
       utter_you_are_welcome:
-      - text: Hope I was able to help you. If you have any further questions, please feel free to ask me again.
-      - text: I hope I was able to help you. If you have any further questions, please feel free to ask me again.
+      - text: I am happy that i helped you. If you have any further questions, please feel free to ask me again.
+      - text: I hope i actually helped you. If you have any further questions, please feel free to ask me again.
       - text: Glad to help you, goodbye.
-      - text: I am glad I was able to help you. If you have any further questions, please feel free to ask me again.
+      - text: I am glad i was able to help you. If you have any further questions, please feel free to ask me again.
       - text: Super! Hope everything goes well with the restoration.
+      - text: I am always happy to help you. If you have any further questions, please feel free to ask me again.
 
       utter_ask_degradation_rate:
       - text: What degredation rate do you have?
       - text: What is the degradation rate that was estimated from the neural network?
       - text: What degredation rate the neural network estimated?
       - text: What degradation rate did the neural network have calculated?
+
+      utter_degradation_guidance:
+      - text: You can answer with the following options 1, 2, 3, 4 or 5.
+      - text: You can answer with the following options one, two, three, four or five.
+      - text: Degradation rate should be calculated from the Neural Network. But this returns a float give me the integer part of the number.
 
       utter_warning_actions:
       - text: Warning! It is important to note that any treatment should be carefully selected and applied by a trained professional to avoid causing further damage.

@@ -3,19 +3,27 @@ version: "3.1"
 responses:
 
       utter_mortar_with_crystal_decomposition:
-      - text: We need to add this for mortar solutions.
+      - text: It is recommended to inject additional mortar if the stability of the structure is threatened.
+      - text: It is recommended to remove the old mortar that seems not to withstand the weather conditions and to add a new stronger one such as Theraic lime mortar.
+      - text: You can carefully remove the old mortar and install a new one of higher strength such as theraica lime mortar.
 
       utter_mortar_with_sulfuration:
-      - text: We need to add this for mortar solutions.
+      - text: The sulfuration in the mortar can be removed using suitable chemical solvents such as ethanol or ether. You can use a soft brush to clean the mortar gently.
+      - text: Removal of sulfuration from corroded ligaments is achieved with neutralized thioglycolic acid solution.
+      - text: It is recommended to use a neutralized thioglycolic acid solution to treat sulfuration.
 
       utter_mortar_with_cracks:
-      - text: We need to add this for mortar solutions.
+      - text: It is recommended to fill it with a matching mortar if it is durable or if the use of the new mortar has failed
+      - text: For cracks in the mortar, it is recommended to use cement mortar or lime mortar that can withstand large changes
+      - text: It is recommended to fill with mortar with the same thermal coefficient. However, if it is estimated that the old one has failed, it is recommended to remove it completely and inject a new one.
 
       utter_mortar_with_disintegration:
-      - text: We need to add this for mortar solutions.
+      - text: The thermal changes lead to flaking of the material due to the different thermal expansion with the joined materials. For this reason, filling with mortar of the same thermal coefficient as the materials to be joined is recommended.
+      - text: It is recommended to carefully remove the old mortar that does not seem to withstand the weather conditions and to add a new stronger one such as the Theraic lime mortar.
 
       utter_mortar_with_cavities:
-      - text: We need to add this for mortar solutions.
+      - text: If there are cavities in the mortar, it is recommended to fill them with a corresponding mortar composition of the time, while if you wish to install something stronger, it should be made of inert materials.
+      - text: It is recommended to fill it with a corresponding mortar if it is durable or if the use of new mortar has failed
 
       utter_mortar_with_infection:
-      - text: We need to add this for mortar solutions.
+      - text: "Apply a cleaning solution containing alcohol or hydrocarbon to a small area of the item using a cotton swab or cotton swab.\nDo a test on a small section of the item before applying the solution to the entire item to ensure that does not cause damage to the surface. Leave the solution on for a few minutes. \nRinse the surface thoroughly with water and let it dry naturally."
