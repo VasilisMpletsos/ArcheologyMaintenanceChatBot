@@ -1,0 +1,45 @@
+version: "3.1"
+
+stories:
+
+- story: solution for shale with cracks
+  steps:
+  - intent: inform_shale_with_cracks
+  - action: utter_shale_with_cracks
+  - action: utter_ask_degradation_rate
+  - checkpoint: asked_degradation_rate
+
+- story: solution for shale with sulfuration
+  steps:
+  - intent: inform_shale_with_sulfuration
+  - action: utter_shale_with_sulfuration
+  - action: utter_ask_degradation_rate
+  - checkpoint: asked_degradation_rate
+  
+- story: solution for shale with cavities
+  steps:
+  - intent: inform_shale_with_cavities
+  - action: utter_shale_with_cavities
+  - action: utter_ask_degradation_rate
+  - checkpoint: asked_degradation_rate
+
+- story: solution for shale with crystal decomposition
+  steps:
+  - intent: inform_shale_with_crystal_decomposition
+  - action: utter_shale_with_crystal_decomposition
+  - action: utter_ask_degradation_rate
+  - checkpoint: asked_degradation_rate
+
+- story: solution for shale with disintegration
+  steps:
+  - intent: inform_shale_with_disintegration
+  - action: utter_shale_with_disintegration
+  - action: utter_ask_degradation_rate
+  - checkpoint: asked_degradation_rate
+
+- story: solution for shale with infection
+  steps:
+  - intent: inform_shale_with_infection
+  - action: utter_shale_with_infection
+  - action: utter_ask_degradation_rate
+  - checkpoint: asked_degradation_rate

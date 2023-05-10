@@ -15,4 +15,10 @@ responses:
       - text: What degredation rate the neural network estimated?
       - text: What degradation rate did the neural network have calculated?
 
+      utter_warning_actions:
+      - text: Warning! It is important to note that any treatment should be carefully selected and applied by a trained professional to avoid causing further damage.
+      - text: Before taking any actions it is important to suggest a professional if you are not one and always be sure how to make the preservations
+      
+
+
       

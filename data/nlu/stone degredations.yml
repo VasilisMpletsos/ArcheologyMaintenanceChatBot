@@ -1,52 +1,52 @@
 version: "3.1"
 
 nlu:
-  - intent: inform_marble_with_cracks
+  - intent: inform_stone_with_cracks
     examples: | 
-      - How to preserve marble with crakcs?
-      - How to maintain marble with cracks?
-      - What to do for marble with cracks?
-      - We have marble with cracks, what to do?
+      - How to preserve stone with crakcs?
+      - How to maintain stone with cracks?
+      - What to do for stone with cracks?
+      - We have stone with cracks, what to do?
     
-  - intent: inform_marble_with_sulfuration
+  - intent: inform_stone_with_sulfuration
     examples: | 
-      - How to preserve marble with sulfuration?
-      - How to maintain marble with sulfuration?
-      - How to preserve marble with sulfur dioxide?
-      - What to do for marble with sulfuration?
-      - We have marble with sulfuration, what to do?
+      - How to preserve stone with sulfuration?
+      - How to maintain stone with sulfuration?
+      - How to preserve stone with sulfur dioxide?
+      - What to do for stone with sulfuration?
+      - We have stone with sulfuration, what to do?
 
-  - intent: inform_marble_with_cavities
+  - intent: inform_stone_with_cavities
     examples: | 
-      - How to preserve marble with cavities?
-      - How to maintain marble with cavities?
-      - How to maintain marble with holes?
-      - How to preserve marble with cavities?
-      - How to preserve marble with holes?
-      - What to do for marble with cavities?
-      - We have marble with cavities, what to do?
-      - We have marble with holes, what to do?
+      - How to preserve stone with cavities?
+      - How to maintain stone with cavities?
+      - How to maintain stone with holes?
+      - How to preserve stone with cavities?
+      - How to preserve stone with holes?
+      - What to do for stone with cavities?
+      - We have stone with cavities, what to do?
+      - We have stone with holes, what to do?
 
-  - intent: inform_marble_with_crystal_decomposition
+  - intent: inform_stone_with_crystal_decomposition
     examples: | 
-      - How to preserve marble with crystallization?
-      - How to preserve marble with crystal decomposition?
-      - How to maintain marble with crystallization?
-      - How to maintain marble with crystal decomposition?
-      - What to do for marble with crystallization?
-      - We have marble with crystallization, what to do?
-      - We have marble with crystal decomposition, what to do?
+      - How to preserve stone with crystallization?
+      - How to preserve stone with crystal decomposition?
+      - How to maintain stone with crystallization?
+      - How to maintain stone with crystal decomposition?
+      - What to do for stone with crystallization?
+      - We have stone with crystallization, what to do?
+      - We have stone with crystal decomposition, what to do?
 
-  - intent: inform_marble_with_disintegration
+  - intent: inform_stone_with_disintegration
     examples: | 
-      - How to preserve marble with crystal disintegration?
-      - How to maintain marble with crystal disintegration?
-      - What to do for marble with crystal disintegration?
-      - We have marble with crystal disintegration, what to do?
+      - How to preserve stone with crystal disintegration?
+      - How to maintain stone with crystal disintegration?
+      - What to do for stone with crystal disintegration?
+      - We have stone with crystal disintegration, what to do?
 
-  - intent: inform_marble_with_infection
+  - intent: inform_stone_with_infection
     examples: | 
-      - How to preserve marble with crystal infection?
-      - How to maintain marble with crystal infection?
-      - What to do for marble with crystal infection?
-      - We have marble with crystal infection, what to do?
+      - How to preserve stone with crystal infection?
+      - How to maintain stone with crystal infection?
+      - What to do for stone with crystal infection?
+      - We have stone with crystal infection, what to do?

@@ -8,9 +8,6 @@ responses:
       utter_mortar_with_sulfuration:
       - text: We need to add this for mortar solutions.
 
-      utter_mortar_with_crystallization:
-      - text: We need to add this for mortar solutions.
-
       utter_mortar_with_cracks:
       - text: We need to add this for mortar solutions.
 

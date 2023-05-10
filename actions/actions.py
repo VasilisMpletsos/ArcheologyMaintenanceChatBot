@@ -30,9 +30,9 @@ class ActionEvaluateSlowDegradationRate(Action):
         domain: DomainDict,
     ) -> List[EventType]:
         today = datetime.datetime.now()
-        random_delta = randint(30, 180)
+        random_delta = randint(90, 180)
         recommended_date = today + datetime.timedelta(days=random_delta)
-        message = 'The restoration is recommended to be done until ' + recommended_date.strftime("%d/%m/%Y") + ' (d/m/y)'
+        message = 'Slow: The restoration is recommended to be done until somwhere ' + recommended_date.strftime("%d/%m/%Y") + ' (d/m/y)'
 
         dispatcher.utter_message(message)
         return
@@ -52,7 +52,7 @@ class ActionEvaluateMediumDegradationRate(Action):
         today = datetime.datetime.now()
         random_delta = randint(30, 90)
         recommended_date = today + datetime.timedelta(days=random_delta)
-        message = 'The restoration is recommended to be done until ' + recommended_date.strftime("%d/%m/%Y") + ' (d/m/y)'
+        message = 'Medium: The restoration is recommended to be done the most until ' + recommended_date.strftime("%d/%m/%Y") + ' (d/m/y)'
         dispatcher.utter_message(message)
         return
     
@@ -71,6 +71,6 @@ class ActionEvaluateFastDegradationRate(Action):
         today = datetime.datetime.now()
         random_delta = randint(10, 30)
         recommended_date = today + datetime.timedelta(days=random_delta)
-        message = 'The restoration is recommended to be done until ' + recommended_date.strftime("%d/%m/%Y") + ' (d/m/y)'
+        message = 'The restoration is recommended to be done until as soon as possible until ' + recommended_date.strftime("%d/%m/%Y") + ' (d/m/y)'
         dispatcher.utter_message(message)
         return

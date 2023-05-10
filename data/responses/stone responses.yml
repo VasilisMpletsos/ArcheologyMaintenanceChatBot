@@ -3,22 +3,33 @@ version: "3.1"
 responses:
 
       utter_stone_with_crystal_decomposition:
-      - text: We need to add this for stone solutions.
+      - text: It is recommended to place suitable resins that secure the decaying surface to the solid stone beneath and should prevent further crystallization damage.
+      - text: You can use special resins that secure the surface of the stone and help in the prevention of further crystallization damage.
 
       utter_stone_with_sulfuration:
-      - text: We need to add this for stone solutions.
-
-      utter_stone_with_crystallization:
-      - text: We need to add this for stone solutions.
+      - text: It is recommended that the pores of the crust layer can be blocked with calcium sulfate deposits as a result of direct pollution with calcium sulfate, and this can be precipitated by the use of lime mortars. To maintain stonework with sulfuration, it is recommended to remove the cause through cleaning. This can be done through simple washing with water or a more effective methods for removing salts from the stone. However, this is a lengthy process and will need to be repeated a number of times for the best results.
+      - text: The use of lime mortars can help in the prevention of sulfuration. To maintain stonework with sulfuration, it is recommended to remove the cause through cleaning and removing the salts. After that you can apply calcium sulfate deposits to protect and seal the pores of the stone.
+      - text: Plastering is treated with a scalpel and the removal of deposits. For subsequent protection, a nanoparticle polymer film coating with superhydrophobic properties can be applied to protect the surface of the stone.
 
       utter_stone_with_cracks:
-      - text: We need to add this for stone solutions.
+      - text: If the cracks are extensive it is recommended to seperate the structure and combine it for start with the use of grout and stainless steel or titanium nails. If the cracks are small grout can be used.
+      - text: Cracks must be filled with grout. The grout should open in the family of hydraulic grouts to be able to penetrate even the smallest cracks.
+      - text: First, it must be filled with a suitable grout and then, after all the problems have been dealt with, a nanoparticle polymer film coating with superhydrophobic properties must be applied to protect the surface of the stone.
+      - text: It must be filled with grout and what will be used can penetrate even the thinnest cracks, so it is recommended to use thin-flowing grouts based on white cement and theraic earth.
+      - text: It is recommended to use thin-flowing hydraulic grouts based on white cement and theraic earth. These grouts can penetrate even the thinnest of cracks.
+      - text: "Since we have a stone that has cracks, we must fill in and seal these cracks with a suitable mortar.\n The mortar should initially have good adhesion, have the same or similar thermal coefficient, its porosity should be the same or greater than stone material and finally the color should be similar"
 
       utter_stone_with_disintegration:
-      - text: We need to add this for stone solutions.
+      - text: To maintain stonework with disintegration, it is important to identify the cause of the disintegration and address it accordingly. For example, if the disintegration is due to frost damage, it is recommended to prevent water from entering the stone by repairing any cracks or gaps in the stonework. If the disintegration is due to crystallization of soluble salts, it is recommended to remove any sources of salts from the environment through cleaning or clay poulticing. It is also suggested that deep impregnation treatments can be used to preserve stonework with crystal decomposition
+      - text: Filling with grout is recommended. After that it would be good to apply a nanoparticle polymer film coating with superhydrophobic properties to protect the surface of the stone.
 
       utter_stone_with_cavities:
-      - text: We need to add this for stone solutions.
+      - text: It is important to address any underlying causes of the cavity formation, such as water penetration or pollutants, to prevent further damage to the stonework. If there are cavities on the stone, it is recommended that they be filled with suitable material compatible with the historical structures of the time
+      - text: It is recommended to be filled with suitable material compatible with the historical structures of the time. Other options are filling with low-sulphate Portland cement."
 
       utter_stone_with_infection:
-      - text: We need to add this for stone solutions.
+      - text: You can use streptomycin and kanamycin to eliminate bacteria from stonework. Furthermore you have to determine what is the cause of the infection and eliminate it.
+      - text: To deal with colonization, we must reduce the humidity in the stony substrate, by creating drainage conditions, architectural interventions around the monuments. Sources that cause eutrophication of the surface with nitrates such as bird droppings should also be reduced.
+      - text: The various contaminants must be removed mechanically or using biocides and a nanoparticle polymer film coating with superhydrophobic properties must be applied to protect the stone surface.
+      - text: It is recommended to use appropriate biocides to deal with the infection.
+      - text: "Since we have stone with microbial contamination, the conditions that favor their growth must first be checked and then appropriate biocides can be used after first researching the possible side effects on the surface of the stone.\n For safer solutions there are other more traditional methods. \n A frequent intervention for lichens is the mechanical method of scraping, although the process does not prevent their growth and must be repeated constantly. \n For mosses, the best known and most effective method is removal by hand. auxiliary tools that can be used with care are a hard brush, a metal brush, but also a spatula or a metal shovel. \n For the removal of the black crust, the use of anaerobic thiobacteria such as Desulfovibrio has been shown. \n In general, for preventive maintenance, the removal of moisture and generally its control if this is possible. In archaeological sites where rainfall is high, the placement of a roof is very important."

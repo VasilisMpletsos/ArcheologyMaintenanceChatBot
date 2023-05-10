@@ -3,22 +3,24 @@ version: "3.1"
 responses:
 
       utter_shale_with_crystal_decomposition:
-      - text: We need to add this for shale solutions.
+      - text: It is recommended to remove any sources of salts from the environment through cleaning or clay poulticing.
 
       utter_shale_with_sulfuration:
-      - text: We need to add this for shale solutions.
-
-      utter_shale_with_crystallization:
-      - text: We need to add this for shale solutions.
+      - text: To deal with the sugaring of the shale, the only thing we can do is surface fixation with sprays (ammonium oxalate) or impregnations, but the damage up to this point is irreparable. In general, the rate of corrosion in shale objects with saccharification is faster than that ie shales.
 
       utter_shale_with_cracks:
-      - text: We need to add this for shale solutions.
+      - text: If the cracks are extensive it is recommended to seperate the structure and combine it for start with the use of grout and stainless steel or titanium nails. If the cracks are small grout can be used.
+      - text: Cracks must be filled with grout. The grout should open in the family of hydraulic grouts to be able to penetrate even the smallest cracks.
+      - text: First, it must be filled with a suitable grout and then, after all the problems have been dealt with, a nanoparticle polymer film coating with superhydrophobic properties must be applied to protect the surface of the shale.
+      - text: It must be filled with grout and what will be used can penetrate even the thinnest cracks, so it is recommended to use thin-flowing grouts based on white cement and theraic earth.
+      - text: It is recommended to use thin-flowing hydraulic grouts based on white cement and theraic earth. These grouts can penetrate even the thinnest of cracks.
+      - text: "Since we have e shale that has cracks, we must fill in and seal these cracks with a suitable mortar.\n The mortar should initially have good adhesion, have the same or similar thermal coefficient, its porosity should be the same or greater thae shale material and finally the color should be similar"
 
       utter_shale_with_disintegration:
-      - text: We need to add this for shale solutions.
+      - text: The required operation for shale with exfoliation is initially the fixation with impregnations, the filling of the cracks and the welding of the micro fragments with some special material.
 
       utter_shale_with_cavities:
-      - text: We need to add this for shale solutions.
+      - text: It is important to address any underlying causes of the cavity formation, such as water penetration or pollutants, to prevent further damage to the shale. If there are cavities on the shale, it is recommended that they be filled with suitable material compatible with the historical structures of the time.
 
       utter_shale_with_infection:
-      - text: We need to add this for shale solutions.
+      - text: "Since we have shale with microbial contamination, the conditions that favor their growth must first be checked and then appropriate biocides can be used after first researching the possible side effects on the surface of the shale.\n For safer solutions there are other more traditional methods. \n A frequent intervention for lichens is the mechanical method of scraping, although the process does not prevent their growth and must be repeated constantly. \n For mosses, the best known and most effective method is removal by hand. auxiliary tools that can be used with care are a hard brush, a metal brush, but also a spatula or a metal shovel. \n For the removal of the black crust, the use of anaerobic thiobacteria such as Desulfovibrio has been shown. \n In general, for preventive maintenance, the removal of moisture and generally its control if this is possible. In archaeological sites where rainfall is high, the placement of a roof is very important."

@@ -8,9 +8,6 @@ responses:
       utter_shells_with_sulfuration:
       - text: We need to add this for shells solutions.
 
-      utter_shells_with_crystallization:
-      - text: We need to add this for shells solutions.
-
       utter_shells_with_cracks:
       - text: We need to add this for shells solutions.
 
