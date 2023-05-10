@@ -6,28 +6,40 @@ stories:
   steps:
   - intent: inform_marble_with_cracks
   - action: utter_marble_with_cracks
+  - action: utter_ask_degradation_rate
+  - checkpoint: asked_degradation_rate
 
 - story: solution for marble with sulfuration
   steps:
   - intent: inform_marble_with_sulfuration
   - action: utter_marble_with_sulfuration
+  - action: utter_ask_degradation_rate
+  - checkpoint: asked_degradation_rate
   
 - story: solution for marble with cavities
   steps:
   - intent: inform_marble_with_cavities
   - action: utter_marble_with_cavities
+  - action: utter_ask_degradation_rate
+  - checkpoint: asked_degradation_rate
 
 - story: solution for marble with crystal decomposition
   steps:
   - intent: inform_marble_with_crystal_decomposition
   - action: utter_marble_with_crystal_decomposition
+  - action: utter_ask_degradation_rate
+  - checkpoint: asked_degradation_rate
 
 - story: solution for marble with disintegration
   steps:
   - intent: inform_marble_with_disintegration
   - action: utter_marble_with_disintegration
+  - action: utter_ask_degradation_rate
+  - checkpoint: asked_degradation_rate
 
 - story: solution for marble with infection
   steps:
   - intent: inform_marble_with_infection
   - action: utter_marble_with_infection
+  - action: utter_ask_degradation_rate
+  - checkpoint: asked_degradation_rate

@@ -21,3 +21,33 @@ stories:
   steps:
   - intent: appreciate
   - action: utter_you_are_welcome
+
+- story: inform degradation rate 1
+  steps:
+  - checkpoint: asked_degradation_rate
+  - intent: inform_degradation_rate_1
+  - action: action_recommend_for_slow_degradation_rate
+
+- story: inform degradation rate 2
+  steps:
+  - checkpoint: asked_degradation_rate
+  - intent: inform_degradation_rate_2
+  - action: action_recommend_for_slow_degradation_rate
+
+- story: inform degradation rate 3
+  steps:
+  - checkpoint: asked_degradation_rate
+  - intent: inform_degradation_rate_3
+  - action: action_recommend_for_medium_degradation_rate
+
+- story: inform degradation rate 4
+  steps:
+  - checkpoint: asked_degradation_rate
+  - intent: inform_degradation_rate_4
+  - action: action_recommend_for_medium_degradation_rate
+
+- story: inform degradation rate 5
+  steps:
+  - checkpoint: asked_degradation_rate
+  - intent: inform_degradation_rate_5
+  - action: action_recommend_for_fast_degradation_rate

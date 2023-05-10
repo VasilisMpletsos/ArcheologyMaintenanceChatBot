@@ -8,4 +8,11 @@ responses:
       - text: Glad to help you, goodbye.
       - text: I am glad I was able to help you. If you have any further questions, please feel free to ask me again.
       - text: Super! Hope everything goes well with the restoration.
+
+      utter_ask_degradation_rate:
+      - text: What degredation rate do you have?
+      - text: What is the degradation rate that was estimated from the neural network?
+      - text: What degredation rate the neural network estimated?
+      - text: What degradation rate did the neural network have calculated?
+
       

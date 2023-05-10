@@ -1,0 +1,58 @@
+version: "3.1"
+
+nlu:
+
+  - intent: inform_degradation_rate_1
+    examples: | 
+      - The degredation rate is slow
+      - slow degredation rate
+      - slow
+      - degredation rate 1
+      - 1
+      - the rate is 1
+      - degredation rate one
+      - we have degredation rate 1
+
+  - intent: inform_degradation_rate_2
+    examples: | 
+      - The degredation rate is fron slow to medium
+      - slow to medium degredation rate
+      - slow to medium
+      - degredation rate 2
+      - 2
+      - the rate is 2
+      - degredation rate two
+      - we have degredation rate 2
+
+  - intent: inform_degradation_rate_3
+    examples: | 
+      - The degredation rate is medium
+      - medium degredation rate
+      - medium
+      - 3
+      - the rate is 3
+      - degredation rate 3
+      - degredation rate three
+      - we have degredation rate 3
+
+  - intent: inform_degradation_rate_4
+    examples: | 
+      - The degredation rate is fron medium to fast
+      - medium to fast degredation rate
+      - medium to fast
+      - 4
+      - the rate is 4
+      - degredation rate 4
+      - degredation rate four
+      - we have degredation rate 4
+    
+  - intent: inform_degradation_rate_5
+    examples: | 
+      - The degredation rate is fast
+      - fast degredation rate
+      - fast
+      - 5
+      - the rate is 5
+      - degredation rate 5
+      - degredation rate five
+      - we have degredation rate 5

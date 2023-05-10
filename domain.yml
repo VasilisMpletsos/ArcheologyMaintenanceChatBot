@@ -38,6 +38,17 @@ intents:
   - inform_shells_with_crystal_decomposition
   - inform_shells_with_disintegration
   - inform_shells_with_infection
+  - inform_degradation_rate_1
+  - inform_degradation_rate_2
+  - inform_degradation_rate_3
+  - inform_degradation_rate_4
+  - inform_degradation_rate_5
+
+actions:
+  - action_recommend_for_slow_degradation_rate
+  - action_recommend_for_medium_degradation_rate
+  - action_recommend_for_fast_degradation_rate
+
 
 responses:
   utter_greet:
