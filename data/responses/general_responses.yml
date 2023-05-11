@@ -3,7 +3,6 @@ version: "3.1"
 responses:
 
       utter_greet:
-
       - text: "Hi, welcome to the chat! I am a assistant chatbot and i will be glad to help you with the preservation of the cultural heritage.\n
       You can ask me questions like which is the solution to maintain something, for example:\n
       - How to maintain marble with cracks?\n
