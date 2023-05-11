@@ -48,7 +48,7 @@ actions:
   - action_recommend_for_slow_degradation_rate
   - action_recommend_for_medium_degradation_rate
   - action_recommend_for_fast_degradation_rate
-
+  - action_save_unknown_intent
 
 responses:
 
@@ -64,7 +64,7 @@ responses:
 
   # This one is used when we are not sure what is the next action  
   utter_default:
-  - text: "I'm sorry, I only know for restoration. You can say for example\n
+  - text: "I'm sorry, I only know for restoration. You can say for example:\n
   - How to maintain marble with cracks\n
   - What causes disintegration?\n
   - What are your abilities?"
