@@ -1,0 +1,114 @@
+version: "3.1"
+
+nlu:
+  - intent: inform_marble_with_cracks
+    examples: | 
+      - How to preserve marble with crakcs?
+      - How to maintain marble with cracks?
+      - how should you care for marble cracks?
+      - how to maintain marble cracks?
+      - how do you maintain marbles with cracks?
+      - how do you maintain marble with cracks?
+      - What to do for marble with cracks?
+      - how do you repair cracked marble?
+      - how do you fix cracks on marble?
+      - what can you do to fix cracks in marble?
+      - what should i do if my marble cracks?
+      - how do i fix marble cracks?
+      - We have marble with cracks, what to do?
+      - what should i do if i have cracked marble?
+      - what should i do if my marble cracks?
+      - we have marble cracks what are we supposed to do?
+    
+  - intent: inform_marble_with_sulfuration
+    examples: | 
+      - How to preserve marble from sulfuration?
+      - How to maintain marble from sulfuration?
+      - What to do for marble with sulfuration?
+      - We have marble with sulfuration, what to do?
+      - what do you do when you have a marble with sulfuration?
+      - what should i do if my marble has sulfuration?
+      - how do i fix marble with sulfuration?
+      - how to preserve marble that has evident sulfuration?
+      - how do i preserve marble with sulfuration?
+
+  - intent: inform_marble_with_cavities
+    examples: | 
+      - How to preserve marble with cavities?
+      - how can you preserve a marble cavity?
+      - how do you preserve marble cavities?
+      - how can i preserve marbles in cavities?
+      - How to maintain marble with cavities?
+      - how do i maintain marble if it has holes in it?
+      - How to maintain marble with holes?
+      - how do you maintain marble with holes?
+      - How to preserve marble with cavities?
+      - tell me the best way to preserve marble with cavities?
+      - How to preserve marble with holes?
+      - tell me the best way to preserve marble that has holes?
+      - how do i preserve a marble that has holes?
+      - how to conserve marble with holes?
+      - how can i preserve marble with holes?
+      - how do you preserve marble with holes?
+      - What to do for marble with cavities?
+      - what should i do with a marble with cavities?
+      - what should i do for marble cavities?
+      - what should we do for marbles with cavities?
+      - what do you do for marbles with cavities?
+      - We have marble with cavities, what to do?
+      - what do you do when you have a marble cavity?
+      - what should be done to the marble?
+      - what should we do with the marble?
+      - what to do if there are cavities in a marble?
+      - We have marble with holes, what to do?
+      - what would you do if you had a marble with holes?
+      - what should i do with marble that has holes?
+      - what should we do with a marble with holes?
+      - what should we do with marble with holes?
+
+  - intent: inform_marble_with_crystal_decomposition
+    examples: | 
+      - How to preserve marble with crystallization?
+      - how do i preserve marble with crystallization?
+      - How to preserve marble with crystal decomposition?
+      - what is a good method to preserve marble from crystal decomposition?
+      - how can i preserve marble with crystal decomposition?
+      - How to maintain marble with crystallization?
+      - tell me the best way to keep marble from being crystallized?
+      - how do you maintain marble crystallization?
+      - How to maintain marble with crystal decomposition?
+      - how do you maintain marble from crystal decomposition?
+      - What to do for marble with crystallization?
+      - what can i do for marble crystallization?
+      - We have marble with crystallization, what to do?
+      - what to do if marble is under crystal decomposition?
+      - We have marble with crystal decomposition, what to do?
+      - what do you do when you have a marble that has been stripped by crystal decomposition?
+      - what should we do when marble is decomposed by crystal decomposition?
+
+  - intent: inform_marble_with_disintegration
+    examples: | 
+      - How to preserve marble with disintegration?
+      - how can i protect marble from disintegration?
+      - How to maintain marble with disintegration?
+      - what could be done to stop the marble f disintegration?
+      - how can marble be preserved after disintegration?
+      - how do i prevent marble disintegration?
+      - What to do for marble with disintegration?
+      - what should i do if my marble wi disintegration?
+      - how can a marble with disintegration be treated?
+      - how do you treat a marble with disintegration?
+      - We have marble with disintegration, what to do?
+      - what do you do when a marble breaks up?
+
+  - intent: inform_marble_with_infection
+    examples: | 
+      - how can marble be preserved from infection?
+      - tell me the best way to protect marble from infection?
+      - how should i protect marble from infection?
+      - How to maintain marble with infection?
+      - What to do for marble with infection?
+      - what do you do when you have a infection on your marble?
+      - what do i do to protect my marbles from infection?
+      - We have marble with infection, what to do?
+      - what should i do if i have an infection on my marble?

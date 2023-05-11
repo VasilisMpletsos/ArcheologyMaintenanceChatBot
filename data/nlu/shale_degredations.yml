@@ -1,0 +1,156 @@
+version: "3.1"
+
+nlu:
+  - intent: inform_shale_with_cracks
+    examples: | 
+      - How to preserve shale with cavities?
+      - tell me the best way to preserve shale with cavities?
+      - how do you preserve shale with cavities?
+      - How to maintain shale with cavities?
+      - how do i maintain a shale that has cavities?
+      - tell me the best way to maintain shale with cavities?
+      - how do you maintain shale with cavities?
+      - How to maintain shale with holes?
+      - how do i keep shale out of creating holes?
+      - what is the best way to preserve shale with holes?
+      - how can i maintain shale with holes?
+      - how do you maintain shale with holes?
+      - how does it work to maintain shale with holes?
+      - How to preserve shale with cavities?
+      - what should i do to preserve shale with cavities?
+      - how do you preserve shale in cavities?
+      - how can you preserve shale with cavities?
+      - How to preserve shale with holes?
+      - how can i preserve shale with holes?
+      - What to do for shale with cavities?
+      - how can i fix a shale with cavities?
+      - how do we treat shale with cavities?
+      - We have shale with cavities, what to do?
+      - what should you do if you have shale with cavities?
+      - what should we do when we have shale with cavities?
+      - We have shale with holes, what to do?
+      - what do i do when i see holes in the shale?
+      - what do we do when we have shale containing holes in it?
+    
+  - intent: inform_shale_with_sulfuration
+    examples: | 
+    - How to preserve shale with sulfuration?
+    - how does sulfuration is preserved if found in shale?
+    - how can you maintain shale from sulfuration?
+    - how can shale be preserved from sulfuration?
+    - how do i preserve shale from sulfuration?
+    - How to maintain shale with sulfuration?
+    - how can we sustain shale with sulfuration?
+    - how can you maintain shale with sulfuration?
+    - how can we maintain shale with sulfuration?
+    - How to preserve shale with sulfur dioxide?
+    - how can i maintain shale with sulfur dioxide?
+    - how can you preserve shale with sulfur dioxide?
+    - how do you preserve shale with sulfur dioxide?
+    - What to do for shale with sulfuration?
+    - what do you do for shale with sulfuration?
+    - We have shale with sulfuration, what to do?
+    - what can we do with shale?
+    - what is going on with shale sulfuration? what should we do?
+    - what can we do with shale with sulfuration?
+
+  - intent: inform_shale_with_cavities
+    examples: | 
+    - How to preserve shale with cavities?
+    - tell me the best way to preserve shale with cavities?
+    - how do you preserve shale with cavities?
+    - How to maintain shale with cavities?
+    - how do i maintain a shale that has cavities?
+    - tell me the best way to maintain shale with cavities?
+    - how do you maintain shale with cavities?
+    - How to maintain shale with holes?
+    - how do i keep shale out of deterioration?
+    - what is the best way to keep shale with holes?
+    - how can i maintain shale with holes?
+    - how do you maintain shale with holes?
+    - how does it work to maintain shale with holes?
+    - How to preserve shale with cavities?
+    - what should i do to preserve shale by cavities?
+    - how do you preserve shale in cavities?
+    - how can you preserve shale with cavities?
+    - How to preserve shale with holes?
+    - how do i avoid damaging shale?
+    - how can i preserve shale with holes?
+    - What to do for shale with cavities?
+    - how can i fix a shale with cavities?
+    - how do we treat shale with cavities?
+    - We have shale with cavities, what to do?
+    - what should you do if you get shale with cavities?
+    - are there cavities in the shale?
+    - what should we do when we have shale with cavities?
+    - We have shale with holes, what to do?
+    - what do i do when i see holes in the shale?
+    - what do we do when we have shale containing holes in it?
+
+  - intent: inform_shale_with_crystal_decomposition
+    examples: | 
+    - How to preserve shale with crystallization?
+    - how can i preserve the shale from crystallization?
+    - tell me the best way to preserve shale if it has crystallization?
+    - how do i preserve shale from crystallization?
+    - tell me the best way to preserve shale with crystallization?
+    - how can i preserve shale with crystallization?
+    - how can i preserve shale from crystallization?
+    - how do you preserve shale with crystallization?
+    - How to preserve shale with crystal decomposition?
+    - how does crystal decomposition is treated in shale?
+    - how can a shale be preserved after crystallization?
+    - can shale be preserved from a crystal decomposition?
+    - how can you preserve shale with crystal decomposition?
+    - How to maintain shale with crystallization?
+    - tell me the best way to maintain shale crystallization?
+    - how can you maintain shale crystallization?
+    - how can one maintain shale with crystallization?
+    - how can we maintain shale with crystallization?
+    - what should i do to maintain shale with crystallization?
+    - How to maintain shale with crystal decomposition?
+    - how can we retain shale with crystal decomposition?
+    - how do you maintain shale with crystal decomposition?
+    - What to do for shale with crystallization?
+    - what can i do for shale crystallization?
+    - what should i do to the shale with crystallization?
+    - We have shale with crystallization, what to do?
+    - what should we do if we have shale with crystallization?
+    - if we have shale crystallization what should we do?
+    - We have shale with crystal decomposition, what to do?
+    - what do you do when you get shale with a crystal decomposition?
+    - what is going on in shale with crystal decomposition?
+    - what should we do if we have shale with crystal decomposition?
+    - if we have shale with crystal decomposition what will we do?
+
+  - intent: inform_shale_with_disintegration
+    examples: | 
+      - How to preserve shale from disintegration?
+      - How to maintain shale with disintegration?
+      - What to do for shale with disintegration?
+      - We have shale with disintegration, what to do?
+      - how do i maintain a shale that has disintegration?
+      - how do you maintain shale with disintegration?
+      - how do i keep shale out of disintegration?
+      - how do i preserve shale from disintegration?
+      - how do you preserve shale with disintegration?
+      - how does it work to preserve shale with disintegration?
+      - how can i preserve shale with disintegration?
+      - how can you preserve shale with disintegration?
+      - how can i maintain shale with disintegration?
+      - how can you maintain shale with disintegration?
+      - how can we maintain shale with disintegration?
+      - how can i fix a shale with disintegration?
+      - how do we treat shale with disintegration?
+
+  - intent: inform_shale_with_infection
+    examples: | 
+      - How to preserve shale from infection?
+      - How to maintain shale with infection?
+      - What to do for shale with infection?
+      - We have shale with infection, what to do?
+      - how do i maintain a shale that has infection?
+      - how do you maintain shale with infection?
+      - how do i keep shale out of infection?
+      - how do i preserve shale from infection?
+      

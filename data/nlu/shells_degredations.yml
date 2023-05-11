@@ -39,14 +39,14 @@ nlu:
 
   - intent: inform_shells_with_disintegration
     examples: | 
-      - How to preserve shells with crystal disintegration?
-      - How to maintain shells with crystal disintegration?
-      - What to do for shells with crystal disintegration?
-      - We have shells with crystal disintegration, what to do?
+      - How to preserve shells with disintegration?
+      - How to maintain shells with disintegration?
+      - What to do for shells with disintegration?
+      - We have shells with disintegration, what to do?
 
   - intent: inform_shells_with_infection
     examples: | 
-      - How to preserve shells with crystal infection?
-      - How to maintain shells with crystal infection?
-      - What to do for shells with crystal infection?
-      - We have shells with crystal infection, what to do?
+      - How to preserve shells with infection?
+      - How to maintain shells with infection?
+      - What to do for shells with infection?
+      - We have shells with infection, what to do?

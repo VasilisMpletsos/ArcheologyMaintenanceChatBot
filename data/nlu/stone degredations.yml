@@ -3,50 +3,184 @@ version: "3.1"
 nlu:
   - intent: inform_stone_with_cracks
     examples: | 
-      - How to preserve stone with crakcs?
-      - How to maintain stone with cracks?
-      - What to do for stone with cracks?
+      - How to preserve stone from crakcs?
+      - how do we protect our stones from the crakcs?
+      - how do you save stones from crakcs?
+      - How to maintain stone that has cracks?
+      - how can i keep a stone from cracking?
+      - how do you fix a stones crack?
+      - how can you keep a stone that has cracks?
+      - how do i repair a stone that has cracks?
+      - how do i repair stone that has cracks?
+      - how to maintain stone with cracks?
+      - What to do for stone that has cracks?
+      - how can you fix a crack in your stone?
+      - tell me the best way to repair a stone that is cracked?
+      - what do you do if your stone has cracks?
+      - how do you deal with a stone that has cracks?
+      - how should you treat a stone that has cracks?
+      - what do you do for a stone that cracks?
+      - what should i do for stones that have cracks?
+      - what can i do for a stone that has cracks?
       - We have stone with cracks, what to do?
+      - what can you do when you have a stone cracked?
+      - what can i do with the stone?
+      - what should i do if i have cracks in my stone?
     
   - intent: inform_stone_with_sulfuration
     examples: | 
-      - How to preserve stone with sulfuration?
-      - How to maintain stone with sulfuration?
-      - How to preserve stone with sulfur dioxide?
-      - What to do for stone with sulfuration?
+      - How to preserve stone from sulfuration?
+      - how can i prevent stone from being sulfurized?
+      - how can i protect my stone from sulfur?
+      - how do you preserve stone from sulfur?
+      - How to maintain stone from sulfuration?
+      - how do you prevent stones from being contaminated with sulfur?
+      - how do you prevent a stone from being subjected to sulfuration?
+      - tell me the best way to prevent stoning from sulfuration?
+      - how can we prevent our own stone from sulfurization?
+      - how do i protect a stone from sulfuration?
+      - How to preserve stone from sulfur dioxide?
+      - how can we keep the minerals from getting the sulfur dioxide?
+      - how do you keep stone from exposing to sulfur dioxide?
+      - how can i keep stone clear of sulfur dioxide?
+      - how can we retain rocks from sulfur dioxide?
+      - how do you protect a stone from sulfur dioxide?
+      - how can we conserve stone from sulfur dioxide?
+      - how can i preserve a stone from sulfur dioxide?
+      - What to do for stone that has sulfuration?
+      - if a stone has sulfuration what can you do?
+      - what should i do when an item has sulfur?
+      - what should you do for the stone that has sulfur?
+      - what should i do for a stone with sulfuration?
+      - what should i do if stone has sulfuration?
       - We have stone with sulfuration, what to do?
+      - what should i do about a stone that is exposed to sulfur?
 
   - intent: inform_stone_with_cavities
     examples: | 
-      - How to preserve stone with cavities?
-      - How to maintain stone with cavities?
-      - How to maintain stone with holes?
-      - How to preserve stone with cavities?
-      - How to preserve stone with holes?
-      - What to do for stone with cavities?
-      - We have stone with cavities, what to do?
-      - We have stone with holes, what to do?
+      - How to preserve stone from cavities?
+      - what should i do to prevent natural stones from being damaged?
+      - how do i preserve stone cavities?
+      - how can you protect a stone from cavities?
+      - how can we preserve stone from cavities?
+      - How to maintain stone from cavities?
+      - how can you keep your stone from having cavities?
+      - how can i protect the rock from cavities?
+      - how do you prevent stone cavities?
+      - how do you keep stones from cavities?
+      - How to maintain stone from holes?
+      - how should we keep stone safe from hole creation?
+      - how can i protect my stones from holes?
+      - How to preserve stone from cavities?
+      - how can i protect stone from cavities?
+      - what is a good way to protect stone from cavities?
+      - how can you preserve a stone from cavities?
+      - How to preserve stone from holes?
+      - what can i do to protect the stone from holes?
+      - how do you preserve stones from holes?
+      - how to preserve stone from holes?
+      - What to do for stone that has cavities?
+      - what should i do if i have hollow stones?
+      - what should i do if the stone is filled with cavities?
+      - what should i do if i find a stone that has a cavity?
+      - what should i do if stone has cavities?
+      - how do you fix a stone that has cavities?
+      - We have stone that has cavities, what to do?
+      - how do you treat a stone that has cavities?
+      - what do we do with a stone that has cavities?
+      - We have stone that has holes, what to do?
+      - what should i do when i find a stone with holes?
+      - if you have a stone that has holes what should you do?
 
   - intent: inform_stone_with_crystal_decomposition
     examples: | 
-      - How to preserve stone with crystallization?
-      - How to preserve stone with crystal decomposition?
-      - How to maintain stone with crystallization?
-      - How to maintain stone with crystal decomposition?
-      - What to do for stone with crystallization?
-      - We have stone with crystallization, what to do?
-      - We have stone with crystal decomposition, what to do?
+      - How to preserve stone from crystallization?
+      - how does one prevent crystallization in stone?
+      - can i keep a stone from crystallizing?
+      - how do you prevent stone from crystallizing?
+      - How to preserve stone from crystal decomposition?
+      - how do you keep crystals from decomposing in stone?
+      - how can we preserve precious rocks from crystal decomposition?
+      - tell me the best way to keep stone from crystal decomposition?
+      - how can i protect my stones from crystal decomposition?
+      - how can you save a stone from crystal decomposition?
+      - how can one preserve a stone from crystal decomposition?
+      - how can we preserve stone from crystal decomposition?
+      - How to maintain stone from crystallization?
+      - how do you prevent crystallization?
+      - how can i prevent stones from crystallizing?
+      - how can i keep stone from crystallizing?
+      - how does one prevent stone from crystallizing?
+      - what should i do to keep my stone from crystallizing?
+      - how do you prevent stone from crystallizing?
+      - How to maintain stone from crystal decomposition?
+      - tell me the best way to prevent crystallinization in stones?
+      - how can i keep a stone from crystal decomposition?
+      - What to do for stone from crystallization?
+      - what are best practices for crystallization of stone?
+      - what are steps to do to remove crystallization from stones?
+      - what do i do to avoid stones from crystallization?
+      - We have stone that has crystallization, what to do?
+      - what do you do if a stone crystallizes?
+      - what should i do if i have a stone that has crystallized?
+      - what to do with a rock that has crystallized?
+      - what should i do with a stone that has crystallized?
+      - what should you do with the crystallization of rock?
+      - what can i do with stones that have crystallization?
+      - We have stone that has crystal decomposition, what to do?
+      - what should we do if it is stone that has crystal decomposition?
+      - what should i do with a stone that has crystal decomposition?
 
   - intent: inform_stone_with_disintegration
     examples: | 
-      - How to preserve stone with crystal disintegration?
-      - How to maintain stone with crystal disintegration?
-      - What to do for stone with crystal disintegration?
-      - We have stone with crystal disintegration, what to do?
+      - How to preserve stone from disintegration?
+      - how can you prevent a stone from decomposing?
+      - how can a stone be kept from disintegrating?
+      - how do i reduce stone disintegration?
+      - how can i preserve a stone from disintegration?
+      - How to maintain stone from disintegration?
+      - how can we maintain our stone from being decomposable?
+      - how can we help the stone from breaking up?
+      - how do we keep stone from breaking down?
+      - how do you prevent stone from decomposing?
+      - how do i prevent stone from breaking?
+      - how can you prevent a stone from disintegrating?
+      - how do you keep stones from disintegration?
+      - how do you prevent stone from disintegration?
+      - What to do for stone that has disintegration?
+      - tell me the best thing to do when stone has disintegrated?
+      - what should be done to a stone that has disintegrated?
+      - what can i do for a stone that has disintegrated?
+      - what can we do for a stone that has disintegration?
+      - We have stone that has disintegration, what to do?
+      - what do we do when a stone breaks?
+      - what should i do to protect a disintegrated stone?
+      - is it possible that a stone may have disintegrated?
+      - what should i do when i have a stone that has disintegration?
+      - what can we do to a stone that is disintegrating?
+      - do you have a stone that is disintegrating?
 
   - intent: inform_stone_with_infection
     examples: | 
-      - How to preserve stone with crystal infection?
-      - How to maintain stone with crystal infection?
-      - What to do for stone with crystal infection?
-      - We have stone with crystal infection, what to do?
+      - How to preserve stone from infection?
+      - how can you protect your stone from infection?
+      - how do you keep stone from infection?
+      - what should i do to protect my stone from infection?
+      - how can you prevent stone from infection?
+      - how can i preserve a stone from infection?
+      - How to maintain stone from infection?
+      - how do i prevent stones from becoming infected?
+      - how can we keep our stones clear from infection?
+      - how can i protect my stone from an infection?
+      - how should we protect a stone from infection?
+      - how can i protect my stone from infection?
+      - What to do for stone that has infection?
+      - what should i do if i have an infection on my stone?
+      - what should i do if i have a stone that has an infection?
+      - what should i do if a stone has infection?
+      - how should i treat a stone that has an infection?
+      - We have stone that has infection, what to do?
+      - tell me the best way to fix a stone that is infected?
+      - what should you do if you have a stone that has infection?
+      - what can i do when i have a stone that is infected?
+      - a stone has an infection what should you do?
