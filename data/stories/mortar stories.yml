@@ -2,6 +2,15 @@ version: "3.1"
 
 stories:
 
+- story: told material mortar and degradation cracks
+  steps:
+  - checkpoint: asked_degradation_for_mortar
+  - intent: inform_degradation_cracks
+  - action: utter_mortar_with_cracks
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
 - story: solution for mortar with cracks
   steps:
   - intent: inform_mortar_with_cracks
@@ -10,10 +19,28 @@ stories:
   - action: utter_degradation_guidance
   - checkpoint: asked_degradation_rate
 
+- story: told material mortar and degradation sulfuration
+  steps:
+  - checkpoint: asked_degradation_for_mortar
+  - intent: inform_degradation_sulfuration
+  - action: utter_mortar_with_sulfuration
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
 - story: solution for mortar with sulfuration
   steps:
   - intent: inform_mortar_with_sulfuration
   - action: utter_mortar_with_sulfuration
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
+- story: told material mortar and degradation cavities
+  steps:
+  - checkpoint: asked_degradation_for_mortar
+  - intent: inform_degradation_cavities
+  - action: utter_mortar_with_cavities
   - action: utter_ask_degradation_rate
   - action: utter_degradation_guidance
   - checkpoint: asked_degradation_rate
@@ -26,6 +53,15 @@ stories:
   - action: utter_degradation_guidance
   - checkpoint: asked_degradation_rate
 
+- story: told material mortar and degradation crystal decomposition
+  steps:
+  - checkpoint: asked_degradation_for_mortar
+  - intent: inform_degradation_crystal_decomposition
+  - action: utter_mortar_with_crystal_decomposition
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
 - story: solution for mortar with crystal decomposition
   steps:
   - intent: inform_mortar_with_crystal_decomposition
@@ -34,10 +70,28 @@ stories:
   - action: utter_degradation_guidance
   - checkpoint: asked_degradation_rate
 
+- story: told material mortar and degradation disintegration
+  steps:
+  - checkpoint: asked_degradation_for_mortar
+  - intent: inform_degradation_disintegration
+  - action: utter_mortar_with_disintegration
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
 - story: solution for mortar with disintegration
   steps:
   - intent: inform_mortar_with_disintegration
   - action: utter_mortar_with_disintegration
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
+- story: told material mortar and degradation infection
+  steps:
+  - checkpoint: asked_degradation_for_mortar
+  - intent: inform_degradation_infection
+  - action: utter_mortar_with_infection
   - action: utter_ask_degradation_rate
   - action: utter_degradation_guidance
   - checkpoint: asked_degradation_rate

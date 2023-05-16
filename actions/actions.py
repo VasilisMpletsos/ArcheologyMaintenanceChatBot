@@ -19,7 +19,7 @@ from rasa_sdk.events import (
 
     
 class ActionEvaluateSlowDegradationRate(Action):
-    """Respond to slow degredation rate"""
+    """Respond to slow degradation rate"""
 
     def name(self) -> Text:
         return "action_recommend_for_slow_degradation_rate"
@@ -39,7 +39,7 @@ class ActionEvaluateSlowDegradationRate(Action):
         return
     
 class ActionEvaluateMediumDegradationRate(Action):
-    """Respond to medium degredation rate"""
+    """Respond to medium degradation rate"""
 
     def name(self) -> Text:
         return "action_recommend_for_medium_degradation_rate"
@@ -58,7 +58,7 @@ class ActionEvaluateMediumDegradationRate(Action):
         return
     
 class ActionEvaluateFastDegradationRate(Action):
-    """Respond to fast degredation rate"""
+    """Respond to fast degradation rate"""
 
     def name(self) -> Text:
         return "action_recommend_for_fast_degradation_rate"

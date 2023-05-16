@@ -1,0 +1,121 @@
+version: "3.1"
+
+nlu:
+  - intent: inform_degradation_cracks
+    examples: | 
+      - There are some cracks on it
+      - Some cracks are visible
+      - There are some cracks
+      - There are some cracks on the surface
+      - There are some cracks on the structure
+      - There are some cracks on the building
+      - There are some cracks on the monument
+      - There are some cracks on the statue
+      - It is apparent that there are some cracks
+      - It is apparent that there are some cracks on the surface
+      - It is apparent that there are some cracks on the structure
+      - It is apparent that there are some cracks on the building
+      - We can see some cracks
+      - We can see some cracks on the surface
+      - We can see some cracks on the structure
+      - We can see some cracks on the building
+      - We can see some cracks on the monument
+
+  - intent: inform_degradation_sulfuration
+    examples: | 
+      - It appears to have some sulfuration
+      - It appears to have some sulfuration on the surface
+      - It appears to have some sulfuration on the structure
+      - It is affected by sulfuration
+      - We can see some sulfuration
+      - We can see some sulfuration on the surface
+      - Probably it has sulfuration
+      - There is some sulfuration
+      - Some sulfuration is visible
+      - Part of it is affected by sulfuration
+      - Sulfuration is visible on the surface
+      - We can detect some sulfuration
+
+  - intent: inform_degradation_cavities
+    examples: | 
+      - It appears to have some cavities
+      - It appears to have some cavities on the surface
+      - There are some holes on the surface
+      - Some holes or cavities are there
+      - There are some holes or cavities on the surface
+      - There are some holes or cavities on the structure
+      - There are some holes or cavities on the building
+      - There are some holes or cavities on the monument
+      - There are some holes or cavities on the statue
+      - We can see some cavities
+      - Part of it has some cavities
+      - Part of it has some cavities on the surface
+      - Part of it has some cavities on the structure
+      - Part of it has some cavities on the building
+      - Part of it has some cavities on the monument
+      - Part of it has some cavities on the statue
+
+  - intent: inform_degradation_crystal_decomposition
+    examples: | 
+      - It appears to have some crystallization
+      - It appears to have some crystallization on the surface
+      - Some crystallization is visible
+      - Crystallization is visible on the surface
+      - We can see some crystal decomposition on the surface
+      - We can see some crystallization
+      - We can see some crystallization on the surface
+      - We can see some crystallization on the structure
+      - We can see some crystallization on the building
+      - We can see some crystallization on the monument
+      - We can see some crystallization on the statue
+      - Part of it has some crystallization
+      - Part of it has some crystallization on the surface
+      - Crystallization is the degradation
+      - The degradation is crystallization
+      - The degradation is crystal decomposition
+      - For sure it has crystal decomposition
+      - We can see some crystal decomposition
+      - From the analysis crystal decomposition is found
+
+  - intent: inform_degradation_disintegration
+    examples: | 
+      - It appears to have some disintegration
+      - It appears to have some disintegration on the surface
+      - Disintegration is visible on the surface
+      - We can see some disintegration
+      - We can see some decomposition
+      - We can see some disintegration on the surface
+      - We can see some disintegration on the structure
+      - We can see some decomposing on the structure
+      - We can see some disintegration on the building
+      - We can see some disintegration on the monument
+      - We found disintegration
+      - We found decomposing
+      - Part of it has some disintegration
+      - Part of it is decomposing
+      - Part of it has some disintegration on the surface
+      - Part of it has some disintegration on the structure
+      - We are looking at some sort of signs of disintegration
+
+  - intent: inform_degradation_infection
+    examples: | 
+      - It appears to have some infection
+      - It appears to have some infection on the surface
+      - Infection is visible on the surface
+      - We can see some infection
+      - We can see some infection on the surface
+      - We can see some infection on the structure
+      - We can see some infection on the building
+      - We can see some infection on the monument
+      - We can see some infection on the statue
+      - Part of it has some infection
+      - Part of it has some infection on the surface
+      - Part of it has some infection on the structure
+      - There is some kind of infection
+      - It is an infection
+      - The degradation we can see is infection
+      - The degradation is infection
+
+
+
+

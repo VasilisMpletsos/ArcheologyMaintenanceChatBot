@@ -4,60 +4,80 @@ nlu:
 
   - intent: inform_degradation_rate_1
     examples: | 
-      - The degredation rate is slow
-      - slow degredation rate
+      - The degradation rate is slow
+      - slow degradation rate
       - slow
-      - degredation rate 1
+      - degradation rate 1
       - 1
       - one
       - the rate is 1
-      - degredation rate one
-      - we have degredation rate 1
+      - it told 1
+      - it told one
+      - it gave 1
+      - it gave one
+      - degradation rate one
+      - we have degradation rate 1
 
   - intent: inform_degradation_rate_2
     examples: | 
-      - The degredation rate is fron slow to medium
-      - slow to medium degredation rate
+      - The degradation rate is fron slow to medium
+      - slow to medium degradation rate
       - slow to medium
-      - degredation rate 2
+      - degradation rate 2
       - 2
       - two
+      - it told 2
+      - it gave 2
+      - it told two
+      - it gave two
       - the rate is 2
-      - degredation rate two
-      - we have degredation rate 2
+      - degradation rate two
+      - we have degradation rate 2
 
   - intent: inform_degradation_rate_3
     examples: | 
-      - The degredation rate is medium
-      - medium degredation rate
+      - The degradation rate is medium
+      - medium degradation rate
       - medium
       - 3
       - three
+      - it told 3
+      - it gave 3
+      - it told three
+      - it gave three
       - the rate is 3
-      - degredation rate 3
-      - degredation rate three
-      - we have degredation rate 3
+      - degradation rate 3
+      - degradation rate three
+      - we have degradation rate 3
 
   - intent: inform_degradation_rate_4
     examples: | 
-      - The degredation rate is fron medium to fast
-      - medium to fast degredation rate
+      - The degradation rate is fron medium to fast
+      - medium to fast degradation rate
       - medium to fast
       - 4
       - four
       - the rate is 4
-      - degredation rate 4
-      - degredation rate four
-      - we have degredation rate 4
+      - it told 4
+      - it gave 4
+      - it told four
+      - it gave four
+      - degradation rate 4
+      - degradation rate four
+      - we have degradation rate 4
     
   - intent: inform_degradation_rate_5
     examples: | 
-      - The degredation rate is fast
-      - fast degredation rate
+      - The degradation rate is fast
+      - fast degradation rate
       - fast
       - 5
       - five
       - the rate is 5
-      - degredation rate 5
-      - degredation rate five
-      - we have degredation rate 5
+      - it told 5
+      - it gave 5
+      - it told five
+      - it gave five
+      - degradation rate 5
+      - degradation rate five
+      - we have degradation rate 5

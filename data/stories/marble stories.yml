@@ -2,6 +2,17 @@ version: "3.1"
 
 stories:
 
+
+
+- story: told material stone and degradation cracks
+  steps:
+  - checkpoint: asked_degradation_for_marble
+  - intent: inform_degradation_cracks
+  - action: utter_marble_with_cracks
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
 - story: solution for marble with cracks
   steps:
   - intent: inform_marble_with_cracks
@@ -10,10 +21,28 @@ stories:
   - action: utter_degradation_guidance
   - checkpoint: asked_degradation_rate
 
+- story: told material stone and degradation sulfuration
+  steps:
+  - checkpoint: asked_degradation_for_marble
+  - intent: inform_degradation_sulfuration
+  - action: utter_marble_with_sulfuration
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
 - story: solution for marble with sulfuration
   steps:
   - intent: inform_marble_with_sulfuration
   - action: utter_marble_with_sulfuration
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
+- story: told material stone and degradation cavities
+  steps:
+  - checkpoint: asked_degradation_for_marble
+  - intent: inform_degradation_cavities
+  - action: utter_marble_with_cavities
   - action: utter_ask_degradation_rate
   - action: utter_degradation_guidance
   - checkpoint: asked_degradation_rate
@@ -26,6 +55,15 @@ stories:
   - action: utter_degradation_guidance
   - checkpoint: asked_degradation_rate
 
+- story: told material stone and degradation crystal decomposition
+  steps:
+  - checkpoint: asked_degradation_for_marble
+  - intent: inform_degradation_crystal_decomposition
+  - action: utter_marble_with_crystal_decomposition
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
 - story: solution for marble with crystal decomposition
   steps:
   - intent: inform_marble_with_crystal_decomposition
@@ -34,10 +72,28 @@ stories:
   - action: utter_degradation_guidance
   - checkpoint: asked_degradation_rate
 
+- story: told material stone and degradation disintegration
+  steps:
+  - checkpoint: asked_degradation_for_marble
+  - intent: inform_degradation_disintegration
+  - action: utter_marble_with_disintegration
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
 - story: solution for marble with disintegration
   steps:
   - intent: inform_marble_with_disintegration
   - action: utter_marble_with_disintegration
+  - action: utter_ask_degradation_rate
+  - action: utter_degradation_guidance
+  - checkpoint: asked_degradation_rate
+
+- story: told material stone and degradation infection
+  steps:
+  - checkpoint: asked_degradation_for_marble
+  - intent: inform_degradation_infection
+  - action: utter_marble_with_infection
   - action: utter_ask_degradation_rate
   - action: utter_degradation_guidance
   - checkpoint: asked_degradation_rate

@@ -22,6 +22,36 @@ stories:
   - intent: appreciate
   - action: utter_you_are_welcome
 
+- story: informed material stone
+  steps:
+  - intent: inform_material_stone
+  - action: utter_what_degradation_it_has
+  - checkpoint: asked_degradation_for_stone
+
+- story: informed material marble
+  steps:
+  - intent: inform_material_marble
+  - action: utter_what_degradation_it_has
+  - checkpoint: asked_degradation_for_marble
+
+- story: informed material shale
+  steps:
+  - intent: inform_material_shale
+  - action: utter_what_degradation_it_has
+  - checkpoint: asked_degradation_for_shale
+
+- story: informed material mortar
+  steps:
+  - intent: inform_material_mortar
+  - action: utter_what_degradation_it_has
+  - checkpoint: asked_degradation_for_mortar
+
+- story: informed material shells
+  steps:
+  - intent: inform_material_shells
+  - action: utter_what_degradation_it_has
+  - checkpoint: asked_degradation_for_shells
+
 - story: inform degradation rate 1
   steps:
   - checkpoint: asked_degradation_rate

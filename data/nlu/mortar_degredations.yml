@@ -92,7 +92,6 @@ nlu:
   - intent: inform_mortar_with_crystal_decomposition
     examples: | 
       - How to preserve mortar from crystallization?
-      - how do i prevent mortar from oxidation?
       - tell me the best way to prevent mortar from crystallizing?
       - how do you keep mortar from crystallising?
       - how can i protect mortar from crystallization?

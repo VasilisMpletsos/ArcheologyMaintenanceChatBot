@@ -8,6 +8,17 @@ intents:
   - bot_challenge
   - faq
   - appreciate
+  - inform_material_stone
+  - inform_material_marble
+  - inform_material_shale
+  - inform_material_mortar
+  - inform_material_shells
+  - inform_degradation_cracks
+  - inform_degradation_sulfuration
+  - inform_degradation_cavities
+  - inform_degradation_crystal_decomposition
+  - inform_degradation_disintegration
+  - inform_degradation_infection
   - inform_marble_with_cracks
   - inform_marble_with_sulfuration
   - inform_marble_with_cavities

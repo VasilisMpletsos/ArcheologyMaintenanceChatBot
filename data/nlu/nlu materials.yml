@@ -1,0 +1,120 @@
+version: "3.1"
+
+nlu:
+  - intent: inform_material_stone
+    examples: | 
+      - We have a stone structure
+      - We have a stone building
+      - We have a stone monument
+      - We have a stone statue
+      - We have a stone sculpture
+      - We have a stone fountain
+      - We have a stone wall
+      - We have a stone floor
+      - There is a stone structure
+      - There is a stone building
+      - There is a stone monument
+      - There is a stone statue
+      - It is a sculpture from rocks
+      - It is a rock sculpture
+      - It is a stone sculpture
+      - It is a stone fountain
+      - It is a stone wall
+      - There is a stone structure that shows signs of degradation
+      - There is a stone building that shows signs of degradation
+      - There is a stone monument that shows signs of degradation
+      - There is a stone statue that shows signs of degradation
+      - There is a stone sculpture that shows signs of degradation
+      - There is a stone fountain that shows signs of degradation
+
+  - intent: inform_material_marble
+    examples: |
+      - We have a marble structure
+      - We have a marble building
+      - We have a marble monument
+      - We have a marble statue
+      - We have a marble sculpture
+      - We have a marble fountain
+      - We have a marble wall
+      - We have a marble floor
+      - There is a marble structure
+      - There is a marble building
+      - There is a marble monument
+      - There is a marble statue
+      - It is a sculpture from marble
+      - It is a marble sculpture
+      - There is a marble structure that shows signs of degradation
+      - There is a marble building that shows signs of degradation
+      - There is a marble monument that shows signs of degradation
+      - There is a marble statue that shows signs of degradation
+      - There is a marble sculpture that shows signs of degradation
+      - There is a marble fountain that shows signs of degradation
+
+  - intent: inform_material_shale
+    examples: |
+      - We are looking at a shale structure
+      - We are looking at a shale building
+      - We are looking at a shale monument
+      - These is a statue made of shale
+      - We are looking at a shale sculpture
+      - There is a fountain made of shale
+      - There is a wall made of shale
+      - There is a floor made of shale
+      - There is a shale structure
+      - There is a shale building
+      - There is a shale monument
+      - There is a shale statue
+      - It is a sculpture from shale
+      - It is a shale sculpture
+      - It is a shale fountain
+      - It is a shale wall
+      - There is a shale structure that shows signs of degradation
+      - There is a shale building that shows signs of degradation
+      - There is a shale monument that shows signs of degradation
+      - There is a shale statue that shows signs of degradation
+      - There is a shale sculpture that shows signs of degradation
+      - There is a shale fountain that shows signs of degradation
+
+  - intent: inform_material_mortar
+    examples: |
+      - We have some mortar that has problems
+      - We have some mortar that is damaged
+      - We have some mortar that is deteriorated
+      - We have some mortar that is degraded
+      - We have some mortar that is in bad condition
+      - We have some mortar that is in poor condition
+      - We have some mortar that is in terrible condition
+      - We have some mortar that is in awful condition
+      - We have some mortar that is in horrible condition
+      - We have some mortar that is in terrible shape
+      - There is some mortar that has problems
+      - There is some mortar that is damaged
+      - There is some mortar that is deteriorated
+      - There is some mortar that is degraded
+      - There is some mortar that is in bad condition
+      - There is some mortar that is in poor condition
+
+  - intent: inform_material_shells
+    examples: |
+      - There are shells in the structure
+      - There are shells in the building
+      - There is a floor made of shells
+      - There is a wall made of shells
+      - There is a fountain made of shells
+      - There is a sculpture made of shells
+      - There is a statue made of shells that has problems
+      - There is a statue made of shells that is damaged
+      - There is a statue made of shells that is deteriorated
+      - There is a statue made of shells that is degraded
+      - There is a statue made of shells that is in bad condition
+      - There is a statue made of shells that is in poor condition
+      - We found a part made of shells with problems
+      - We found a part made of shells that is damaged
+      - We found a part made of shells that is deteriorated
+      - We found a part made of shells that is degraded
+      - We found a part made of shells that is in bad condition
+      - We found a part made of shells that is in poor condition
+      - We found a part made of shells that is in terrible condition
+
+
+
