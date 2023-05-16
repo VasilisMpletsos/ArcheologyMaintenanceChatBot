@@ -126,9 +126,11 @@ nlu:
   - intent: inform_shale_with_disintegration
     examples: | 
       - How to preserve shale from disintegration?
+      - How to maintain shale with exfoliation?
       - How to maintain shale with disintegration?
       - What to do for shale with disintegration?
       - We have shale with disintegration, what to do?
+      - We have shale with exfoliation, what to do?
       - how do i maintain a shale that has disintegration?
       - how do you maintain shale with disintegration?
       - how do i keep shale out of disintegration?
@@ -137,10 +139,13 @@ nlu:
       - how does it work to preserve shale with disintegration?
       - how can i preserve shale with disintegration?
       - how can you preserve shale with disintegration?
+      - how can you preserve shale with exfoliation?
       - how can i maintain shale with disintegration?
       - how can you maintain shale with disintegration?
+      - how can you maintain shale with exfoliation?
       - how can we maintain shale with disintegration?
       - how can i fix a shale with disintegration?
+      - how can i fix a shale with exfoliation?
       - how do we treat shale with disintegration?
 
   - intent: inform_shale_with_infection

@@ -40,7 +40,10 @@ nlu:
     examples: | 
       - It appears to have some cavities
       - It appears to have some cavities on the surface
+      - There are some cavities on the surface
+      - There are some pits on the surface
       - There are some holes on the surface
+      - Some holes or pits are there
       - Some holes or cavities are there
       - There are some holes or cavities on the surface
       - There are some holes or cavities on the structure
@@ -49,10 +52,13 @@ nlu:
       - There are some holes or cavities on the statue
       - We can see some cavities
       - Part of it has some cavities
+      - Part of it has some pits
       - Part of it has some cavities on the surface
       - Part of it has some cavities on the structure
+      - Part of it has some pits on the structure
       - Part of it has some cavities on the building
       - Part of it has some cavities on the monument
+      - Part of it has some pits on the monument
       - Part of it has some cavities on the statue
 
   - intent: inform_degradation_crystal_decomposition
@@ -81,6 +87,7 @@ nlu:
     examples: | 
       - It appears to have some disintegration
       - It appears to have some disintegration on the surface
+      - It appears to have some exfoliation on the surface
       - Disintegration is visible on the surface
       - We can see some disintegration
       - We can see some decomposition
@@ -88,13 +95,18 @@ nlu:
       - We can see some disintegration on the structure
       - We can see some decomposing on the structure
       - We can see some disintegration on the building
+      - We can see some exfoliation on the building
       - We can see some disintegration on the monument
       - We found disintegration
       - We found decomposing
       - Part of it has some disintegration
+      - Part of it has some exfoliation
       - Part of it is decomposing
+      - Part of it is exfoliation
       - Part of it has some disintegration on the surface
+      - Part of it has some exfoliation on the surface
       - Part of it has some disintegration on the structure
+      - We are looking at some sort of signs of exfoliation
       - We are looking at some sort of signs of disintegration
 
   - intent: inform_degradation_infection

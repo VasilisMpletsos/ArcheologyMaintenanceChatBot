@@ -43,17 +43,11 @@ stories:
   - checkpoint: asked_degradation_for_marble
   - intent: inform_degradation_cavities
   - action: utter_marble_with_cavities
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
   
 - story: solution for marble with cavities
   steps:
   - intent: inform_marble_with_cavities
   - action: utter_marble_with_cavities
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: told material stone and degradation crystal decomposition
   steps:

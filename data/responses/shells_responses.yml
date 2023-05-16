@@ -3,19 +3,35 @@ version: "3.1"
 responses:
 
       utter_shells_with_crystal_decomposition:
-      - text: We need to add this for shells solutions.
+      - text: Sorry i don't know anything for shells with crystal decomposition.
 
       utter_shells_with_sulfuration:
-      - text: We need to add this for shells solutions.
+      - text: To protect the pebbles from sulfuration it is recommended to use n-semiconductor material but also to first use potassium carbonate to reverse the sulfuration.
+      - text: In order to protect the shells from sulfuration you must use n-semiconductor material and potassium carbonate to reverse the sulfuration.
+      - text: It could help to use apply a material made of n-semiconductor that helps protect against sulfuration and UV radiation.
 
       utter_shells_with_cracks:
-      - text: We need to add this for shells solutions.
+      - text: Once we have the cracked pebbles, it is recommended to fill them with grout. Attention, even the smallest cracks must be filled because they are a passage for the penetration of various corrosive agents. The material used to seal cracks is suggested to be some inert material.
+      - text: Once we have cracks it is recommended to fill them with grout, attention even the smallest cracks must be filled because they are a passageway for the penetration of various corrosive agents the material used to seal cracks is suggested to be some inert material
 
       utter_shells_with_disintegration:
-      - text: We need to add this for shells solutions.
+      - text: The required operation for shale with exfoliation is initially the fixation with impregnations, the filling of the cracks and the welding of the micro fragments with some special material.
+      - text: The required operation for shale with exfoliation is initially the fixation of impregnations filling of cracks and welding of micro fragments with some special material
+      - text: The required operation for shale with exfoliation is initially the fixation of impregnations the filling of cracks and the welding of micro fragments with some special material
+      - text: The required operation for shale exfoliation is initially the fixation with impregnations the filling of the cracks and welding of the micro fragments with some special material
 
       utter_shells_with_cavities:
-      - text: We need to add this for shells solutions.
+      - text: To deal with the pits in the pebble it is recommended to grind it and also to throw marble dust with lime and sand to create a protective mantle.
+      - text: In order to preserve the cavities in shells it is recommended to grind it and also to throw marble dust with lime and sand to create a protective mantle.
 
       utter_shells_with_infection:
-      - text: We need to add this for shells solutions.
+      - text: You can mechanically clean the grown microorganisms carefully by scraping. You can use sand and water under a little pressure for the final cleaning.
+      - text: It is recommended to clean the microorganisms mechanically by scraping. You can use sand and water under a little pressure for the final cleaning.
+      - text: You can use sand and water to cleant the surface and scrap the microorganisms carefully.
+      - text: You can use sand and water to clean up the surface and thoroughly scrape the microorganisms
+      - text: You can use sand and water to clean the surface and carefully remove microorganisms
+      - text: You can use sand and water to clean the surface and carefully scrape microorganisms
+      - text: You can use sand and water to clean the surface and carefully scrape the microorganisms
+      - text: You can use sand and water to clean and scrape the surface and remove microorganisms carefully
+      - text: You can use sand and water to clean the surface and remove microorganisms carefully
+      - text: You can use sand and water to clean the surface and scrape the microorganisms carefully

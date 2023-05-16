@@ -90,16 +90,21 @@ nlu:
     examples: | 
       - How to preserve marble with disintegration?
       - how can i protect marble from disintegration?
+      - how can i protect marble from exfoliation?
       - How to maintain marble with disintegration?
       - what could be done to stop the marble f disintegration?
       - how can marble be preserved after disintegration?
       - how do i prevent marble disintegration?
+      - how do i prevent marble exfoliation?
       - What to do for marble with disintegration?
+      - What to do for marble with exfoliation?
       - what should i do if my marble wi disintegration?
       - how can a marble with disintegration be treated?
       - how do you treat a marble with disintegration?
+      - how do you treat a marble with exfoliation?
       - We have marble with disintegration, what to do?
       - what do you do when a marble breaks up?
+      - what do you do when a marble exfoliats?
 
   - intent: inform_marble_with_infection
     examples: | 

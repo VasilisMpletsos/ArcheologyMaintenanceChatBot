@@ -134,11 +134,15 @@ nlu:
   - intent: inform_stone_with_disintegration
     examples: | 
       - How to preserve stone from disintegration?
+      - How to preserve stone from exfoliation?
       - how can you prevent a stone from decomposing?
+      - how can you prevent a stone from exfoliation?
       - how can a stone be kept from disintegrating?
+      - how can a stone be kept from exfoliation?
       - how do i reduce stone disintegration?
       - how can i preserve a stone from disintegration?
       - How to maintain stone from disintegration?
+      - How to maintain stone from exfoliation?
       - how can we maintain our stone from being decomposable?
       - how can we help the stone from breaking up?
       - how do we keep stone from breaking down?
@@ -147,18 +151,22 @@ nlu:
       - how can you prevent a stone from disintegrating?
       - how do you keep stones from disintegration?
       - how do you prevent stone from disintegration?
+      - how do you prevent stone from exfoliation?
       - What to do for stone that has disintegration?
       - tell me the best thing to do when stone has disintegrated?
       - what should be done to a stone that has disintegrated?
       - what can i do for a stone that has disintegrated?
       - what can we do for a stone that has disintegration?
+      - what can we do for a stone that has exfoliation?
       - We have stone that has disintegration, what to do?
       - what do we do when a stone breaks?
       - what should i do to protect a disintegrated stone?
       - is it possible that a stone may have disintegrated?
+      - is it possible that a stone may have exfoliation?
       - what should i do when i have a stone that has disintegration?
       - what can we do to a stone that is disintegrating?
       - do you have a stone that is disintegrating?
+      - do you have a stone that is exfoliation?
 
   - intent: inform_stone_with_infection
     examples: | 

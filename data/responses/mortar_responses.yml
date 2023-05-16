@@ -66,3 +66,6 @@ responses:
 
       utter_mortar_with_infection:
       - text: "Apply a cleaning solution containing alcohol or hydrocarbon to a small area of the item using a cotton swab or cotton swab.\nDo a test on a small section of the item before applying the solution to the entire item to ensure that does not cause damage to the surface. Leave the solution on for a few minutes. \nRinse the surface thoroughly with water and let it dry naturally."
+      - text: Clean the surface with alcohol or hydrocarbon.
+      - text: You need to clean the surface with alcohol or hydrocarbon.
+      - text: You habe to follow a cleaning proccess and clean the surface with alcohol or hydrocarbon.
