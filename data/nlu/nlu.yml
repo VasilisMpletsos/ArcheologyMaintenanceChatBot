@@ -30,6 +30,36 @@ nlu:
     - bye bye
     - see you later
 
+- intent: another_question
+  examples: |
+    - I have another question
+    - I have a question
+    - I have a question for you
+    - I have a question for you, can you help?
+    - I have a question for you, can you help me?
+    - I have a question for you, can you help me with something?
+    - I have a question for you, can you help me with something else?
+    - I have a question for you, can you help me with something else please?
+    - I want to ask another question
+    - I want to ask another question please
+    - I want to ask another question, can you help me?
+    - One more question please
+    - I want to make another question
+    - I want to make another question please
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
 - intent: affirm
   examples: |
     - yes
@@ -85,3 +115,17 @@ nlu:
     - are you a real person?
     - you're a bot?
     - are you a bot or human?
+    - i want to know if you are a human or a bot?
+    - are you a bot or a human?
+    - can you tell me if you are a bot or a human?
+    - are you a bot or a human being?
+    - you are a robot?
+    - you are a human?
+    - are you a real human?
+    - you are a real human?
+    - i want to know if you are a real human?
+    - you are a real person
+    - you are a person?
+    - you are a real person, not a bot?
+    - you are a real person, not a robot?
+    - you are a real person, not a machine?

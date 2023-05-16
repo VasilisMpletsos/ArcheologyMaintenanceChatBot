@@ -3,6 +3,7 @@ version: "3.1"
 intents:
   - greet
   - goodbye
+  - another_question
   - affirm
   - deny
   - bot_challenge
@@ -64,18 +65,25 @@ actions:
 responses:
 
   utter_out_of_scope:
-  - text: Sorry, I can't handle that request, i only know for degradations.
-  - text: Sorry, I can't handle that request, i only know for degradations. Please ask me about degradations.
-  - text: I only know for degradations. Please ask me about degradations.
-  - text: I can only help you with degradation related questions.
+  - text: Sorry, I can't handle that request, i only know for degradations. Tell me we have a 'material' with 'degradation' and I will try to help you.
+  - text: Sorry, I can't handle that request, i only know for degradations. Please ask me about degradations. Tell me we have a 'material' with 'degradation' and I will try to help you.
+  - text: I only know for degradations. Please ask me about degradations. Say to me what material and degradation you have and i will help you.
+  - text: I can only help you with degradation related questions. Tell me we have a 'material' with 'degradation' and I will try to help you.
+  - text: Sorry i only know for degradations. Please ask me about degradations. Tell me we have a 'material' with 'degradation' and I will try to help you.
+  - text: I only know for degradations. Please ask me about degradations. Tell me we have a 'material' with 'degradation' and I will try to help you.
+  - text: I only know for degradations. Please ask me about degradations. Materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfuration, cavities, crystal decomposition, disintegration and infection.
+  - text: Tell me we have a 'material' with 'degradation' and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfuration, cavities, crystal decomposition, disintegration and infection.
 
   # This one is used in two stage fallback 
   utter_ask_rephrase:
-  - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase? Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfuration, cavities, crystal decomposition, disintegration and infection.
+  - text: Sorry i can't understand you. Please rephrase. Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfuration, cavities, crystal decomposition, disintegration and infection.
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase? Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfuration, cavities, crystal decomposition, disintegration and infection.
 
   # This one is used when we are not sure what is the next action  
   utter_default:
   - text: "I'm sorry, I only know for restoration. You can say for example:\n
   - How to maintain marble with cracks\n
   - What causes disintegration?\n
-  - What are your abilities?"
+  - What are your abilities?
+  - We have found a stone structure with degradations"

@@ -7,22 +7,28 @@ nlu:
       - how to avoid crick-crack mortar?
       - How to maintain mortar from cracks?
       - how can mortar be kept from cracking?
+      - how can groot be kept from cracking?
       - how can mortar be kept from cracks?
       - how do you prevent mortar cracks?
+      - how do you prevent groot cracks?
       - how do i repair mortar cracks?
       - how do you prevent mortar from cracks?
       - how can i repair mortar from cracks?
       - What to do for mortar with cracks?
+      - What to do for groot with cracks?
       - how do i repair a mortar crack?
       - what should you do when the mortar is cracked?
       - what should i do if my mortar has a crack?
       - tell me the best way to repair mortar cracks?
+      - tell me the best way to repair groot cracks?
       - what do you do when a mortar cracks?
       - what should be done for mortar cracks?
       - what to do if mortar is cracked?
+      - what to do if groot is cracked?
       - We have mortar with cracks, what to do?
       - what do you do if you have mortar with cracks?
       - what do you do if you have mortar with cracks in it?
+      - what do you do if you have groot with cracks in it?
       - we have mortar cracks what should we do?
     
   - intent: inform_mortar_with_sulfuration
@@ -30,28 +36,34 @@ nlu:
       - How to preserve mortar from sulfuration?
       - how do you prevent mortar from being exposed to sulfur?
       - tell me the best method to prevent mortar from being sulfated?
+      - tell me the best method to prevent groot from being sulfated?
       - how can you prevent mortar from being sulfurized?
       - how should i keep mortar clean from sulfuration?
       - How to maintain mortar from sulfuration?
+      - How to maintain groot from sulfuration?
       - how do we prevent mortar from being sulfurated?
       - how do i keep mortar from being sulfurized?
       - how can mortar be kept free from sulfuration?
       - tell me the best way to prevent mortar from sulfuration?
       - How to preserve mortar from sulfur dioxide?
       - how can mortars be prevented from getting contaminated with sulfur dioxide?
+      - how can groot be prevented from getting contaminated with sulfur dioxide?
       - how can i protect my mortar against sulfur dioxide?
       - how do you maintain the mortar from sulfur dioxide?
       - how do you keep mortars from sulfur dioxide?
       - how can you save mortar from sulfur dioxide?
       - how do you preserve mortar from sulfur dioxide?
+      - how do you preserve groot from sulfur dioxide?
       - how do i preserve mortar from sulfur dioxide?
       - What to do for mortar with sulfuration?
       - what should i do if mortar is exposed to sulfur?
       - what do i need for a mortar that has sulfuration?
+      - what do i need for a groot that has sulfuration?
       - what can i do for a mortar with sulfuration?
       - We have mortar with sulfuration, what to do?
       - what are we doing now that our mortar has been exposed to sulfur?
       - what should i do when i have a mortar that has sulfur?
+      - what should i do when i have a groot that has sulfur?
       - what should i do if my mortar is sulfurated?
 
   - intent: inform_mortar_with_cavities
@@ -66,6 +78,7 @@ nlu:
       - How to maintain mortar from holes?
       - how can i stop mortar from cutting into a hole?
       - how do i keep mortar from getting a hole?
+      - how do i keep groot from getting a hole?
       - tell me the best way to keep mortar out of holes?
       - how do i prevent mortars from cracks?
       - How to preserve mortar from cavities?
@@ -73,10 +86,12 @@ nlu:
       - How to preserve mortar from holes?
       - what do i do to keep mortar from holes?
       - how do you preserve mortar from holes?
+      - how do you preserve groot from holes?
       - What to do for mortar that has cavities?
       - what should i do if mortar has a cavity?
       - what should i do for a mortar with cavities?
       - what can i do for a mortar that has holes?
+      - what can i do for a groot that has holes?
       - what to do with mortar that has cavities?
       - We have mortar that has cavities, what to do?
       - what's the right solution for a mortar that has cavities?
@@ -84,10 +99,12 @@ nlu:
       - what can i do if my mortar has cavities?
       - what do you do if you have mortar that has cavities?
       - We have mortar that has holes, what to do?
+      - We have groot that has cavities, what to do?
       - what do i do if there are holes in the mortar?
       - what do you do if your mortar has holes?
       - what should i do with a mortar that has holes?
       - what do you do if you have mortar that has holes in it?
+      - what do you do if you have groot that has holes in it?
 
   - intent: inform_mortar_with_crystal_decomposition
     examples: | 
@@ -97,38 +114,48 @@ nlu:
       - how can i protect mortar from crystallization?
       - how do you save mortar from crystallization?
       - how to protect mortar from crystallisation?
+      - how to protect groot from crystallisation?
+      - how can you preserve groot from crystallization?
       - how can you preserve mortar from crystallization?
       - How to preserve mortar from crystal decomposition?
       - what do we do to prevent the mortar from crystallization?
       - how can mortar be kept from crystal decomposition?
       - how can i prevent mortar from crystal decomposition?
+      - how can i prevent groot from crystal decomposition?
       - how can you preserve a mortar from crystal decomposition?
       - how do you preserve mortar from crystal decomposition?
       - how do i preserve mortar from crystal decomposition?
+      - how do i preserve groot from crystal decomposition?
       - How to maintain mortar from crystallization?
       - tell me the best way to keep mortar from crystallizing?
       - how should you keep mortar from crystallizing?
+      - how should you keep groot from crystallizing?
       - how should i prevent mortar from crystallizing?
       - how do i keep the mortar from crystallizing?
       - how do you prevent mortar from crystallizing?
       - how do i prevent mortar from crystallizing?
       - how to prevent mortar from crystallizing?
+      - how to prevent groot from crystallizing?
       - how do you keep mortar from crystallization?
       - How to maintain mortar from crystal decomposition?
       - how to keep a mortar from crystallization?
       - how can we keep mortar from crystal decomposition?
       - how do you keep mortar from crystal decomposition?
+      - how do you keep groot from crystal decomposition?
       - how do i save a mortar from crystal decomposition?
       - What to do for mortar that has crystallization?
       - what should be done for mortars with crystallischers?
       - what should i do if i have a mortar that is crystallized?
       - what can you do for mortars that have crystallization?
       - We have mortar that has crystallization, what to do?
+      - We have groot that has crystallization, what to do?
       - what should we do if our mortar has crystallized?
       - what can i do if the mortar has crystallized?
       - what should we do for a mortar that is crystallizing?
+      - what should we do for a groot that is crystallizing?
       - we have a mortar that has crystallized what are we supposed to do?
       - we have a mortar that has crystallized what should we do?
+      - we have a groot that has crystallized what should we do?
       - We have mortar that has crystal decomposition, what to do?
       - tell me the best thing to do when mortars have crystal decomposition?
 
@@ -136,46 +163,58 @@ nlu:
     examples: | 
       - How to preserve mortar from disintegration?
       - how can mortars remain intact?
+      - how can groots remain intact?
       - how do you keep mortar from disassembling?
       - how do you keep mortar from exfoliation?
       - how do you keep mortars from disintegration?
+      - how do you keep groots from disintegration?
       - tell me the best way to preserve mortar from disintegration?
       - How to maintain mortar fromthat has disintegration?
       - how do you maintain a mortar that has been decomposed?
+      - how do you maintain a groot that has been decomposed?
       - how do you maintain a mortar that has been exfoliated?
       - how do we maintain a mortar that has disintegrated?
       - What to do for mortar that has disintegration?
       - what should be done to repair a mortar that has eroded?
       - what should i do if my mortar has disintegrated?
       - what should i do with a mortar which has disintegration?
+      - what should i do with a groot which has disintegration?
       - what can i do for a mortar that is disintegrating?
       - what can i do for a mortar that is exfoliating?
       - We have mortar that has disintegration, what to do?
       - what should i do when our mortar is decomposing?
       - what can i do to stop the mortar from decomposing?
+      - what can i do to stop the groot from decomposing?
       - what can i do to stop the mortar from exfoliation?
       - what should we do if our mortar is disintegrating?
       - tell me the best way to fix mortar that has disintegrated?
       - is there a mortar that has disintegration?
+      - is there a groot that has disintegration?
       - is there a mortar that has exfoliation?
+      - is there a groot that has exfoliation?
 
   - intent: inform_mortar_with_infection
     examples: | 
       - How to preserve mortar from infection?
-      - how do you protect your mortars?
       - how can i protect my mortar from infections?
+      - how can we protect our groot from infection?
       - how can we protect our mortar from infection?
       - how can i keep mortar from infection?
       - how do i protect a mortar from infection?
+      - how do i protect a groot from infection?
       - how can i preserve mortar from infection?
       - How to maintain mortar fromthat has infection?
+      - How to maintain groot fromthat has infection?
       - tell me the best way to keep the mortar from getting it?
       - tell me the best way to treat mortar infection?
       - how do i prevent a mortar from going infected?
+      - how do i prevent a groot from going infected?
       - What to do for mortar that has infection?
       - what should i do to check for an infection in mortars?
       - what should you do in case your mortar has an infection?
       - what should one do when mortar has infection?
       - We have mortar that has infection, what to do?
+      - We have groot that has infection, what to do?
       - what will you do if you have an infected mortar?
       - what should we do if our mortar was infected?
+      - what should we do if our groot was infected?

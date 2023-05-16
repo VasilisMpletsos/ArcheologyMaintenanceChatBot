@@ -25,6 +25,13 @@ responses:
       - text: "Have a nice day!"
       - text: "See you later!"
       - text: "See you soon!"
+      - text: Exit
+      - text: logout
+      - text: quit
+      - text: close
+      - text: stop
+      - text: end
+      - text: bye
 
       utter_iamabot:
       - text: I am a bot
@@ -44,10 +51,10 @@ responses:
       - text: I am always happy to help you. If you have any further questions, please feel free to ask me again.
 
       utter_ask_degradation_rate:
-      - text: What degradation rate do you have?
-      - text: What is the degradation rate that was estimated from the neural network?
-      - text: What degradation rate the neural network estimated?
-      - text: What degradation rate did the neural network have calculated?
+      - text: "\nWhat degradation rate do you have?"
+      - text: "\nWhat is the degradation rate that was estimated from the neural network?"
+      - text: "\nWhat degradation rate the neural network estimated?"
+      - text: "\nWhat degradation rate did the neural network have calculated?"
 
       utter_degradation_guidance:
       - text: You can answer with the following options one(1), two(2), three(3), four(4) or five(5).
@@ -64,6 +71,19 @@ responses:
       - text: Please tell me what degradation it has? For example cracks, cavities, sulfuration, crystal decomposition or disintegration?
       - text: Ok and what about the type of degradation? For example cracks, cavities, sulfuration, crystal decomposition or disintegration?
       - text: What type of degradation it has? For example cracks, cavities, sulfuration, crystal decomposition or disintegration?
+
+      utter_ok_ask_question:
+      - text: Yeah sure, you can ask me a question.
+      - text: Yes you can ask me a question.
+      - text: Yes, you can ask me a question.
+      - text: Say your question. I am listening.
+      - text: I am all ears. Ask me a question.
+      - text: I am all ears. You can ask me a question.
+      - text: I am all ears. What is your question?
+      - text: Definately, ask me a question.
+      - text: Definately, you can ask me a question.
+      - text: Definately, what is your question?
+      - text: Sure, just tell me the question and i will try to help you.
       
 
 

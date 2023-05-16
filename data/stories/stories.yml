@@ -2,10 +2,15 @@ version: "3.1"
 
 stories:
 
-- story: happy path
+- story: greet bot
   steps:
   - intent: greet
   - action: utter_greet
+
+- story: make another question
+  steps:
+  - intent: another_question
+  - action: utter_ok_ask_question
 
 - story: challenge bot
   steps:

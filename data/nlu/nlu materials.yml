@@ -5,23 +5,29 @@ nlu:
     examples: | 
       - We have a stone structure
       - We have a stone building
+      - We have a rock building
       - We have a stone monument
       - We have a stone statue
       - We have a stone sculpture
       - We have a stone fountain
+      - We have a rock fountain
       - We have a stone wall
       - We have a stone floor
       - There is a stone structure
       - There is a stone building
+      - There is a rock building
       - There is a stone monument
       - There is a stone statue
       - It is a sculpture from rocks
       - It is a rock sculpture
       - It is a stone sculpture
+      - It is a rock sculpture
       - It is a stone fountain
       - It is a stone wall
+      - It is a rock wall
       - There is a stone structure that shows signs of degradation
       - There is a stone building that shows signs of degradation
+      - There is a rock building that shows signs of degradation
       - There is a stone monument that shows signs of degradation
       - There is a stone statue that shows signs of degradation
       - There is a stone sculpture that shows signs of degradation
@@ -33,21 +39,27 @@ nlu:
       - We have a marble building
       - We have a marble monument
       - We have a marble statue
+      - We have a marmoreal statue
       - We have a marble sculpture
       - We have a marble fountain
+      - We have a marmoreal fountain
       - We have a marble wall
       - We have a marble floor
       - There is a marble structure
+      - There is a marmoreal structure
       - There is a marble building
       - There is a marble monument
       - There is a marble statue
+      - There is a marmoreal statue
       - It is a sculpture from marble
       - It is a marble sculpture
       - There is a marble structure that shows signs of degradation
+      - There is a marmoreal structure that shows signs of degradation
       - There is a marble building that shows signs of degradation
       - There is a marble monument that shows signs of degradation
       - There is a marble statue that shows signs of degradation
       - There is a marble sculpture that shows signs of degradation
+      - There is a marmoreal sculpture that shows signs of degradation
       - There is a marble fountain that shows signs of degradation
 
   - intent: inform_material_shale
@@ -80,19 +92,25 @@ nlu:
       - We have some mortar that has problems
       - We have some mortar that is damaged
       - We have some mortar that is deteriorated
+      - We have some groot that is deteriorated
       - We have some mortar that is degraded
       - We have some mortar that is in bad condition
+      - We have some groot that is in bad condition
       - We have some mortar that is in poor condition
       - We have some mortar that is in terrible condition
       - We have some mortar that is in awful condition
+      - We have some groot that is in awful condition
       - We have some mortar that is in horrible condition
       - We have some mortar that is in terrible shape
       - There is some mortar that has problems
+      - There is some groot that has problems
       - There is some mortar that is damaged
       - There is some mortar that is deteriorated
+      - There is some groot that is deteriorated
       - There is some mortar that is degraded
       - There is some mortar that is in bad condition
       - There is some mortar that is in poor condition
+      - There is some groot that is in poor condition
 
   - intent: inform_material_shells
     examples: |
