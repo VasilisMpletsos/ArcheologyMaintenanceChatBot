@@ -21,13 +21,12 @@ rules:
   - rule: out-of-scope
     steps:
     - intent: out_of_scope
-    - action: action_save_unknown_intent
-    - action: utter_out_of_scope
+    - action: action_reply_unknown_intent
 
   - rule: Implementation of the Two-Stage-Fallback
     steps:
     - intent: nlu_fallback
-    - action: action_save_unknown_intent
     - action: utter_ask_rephrase
     - action: action_two_stage_fallback
     - active_loop: action_two_stage_fallback
+    - action: action_reply_unknown_intent

@@ -60,7 +60,7 @@ actions:
   - action_recommend_for_slow_degradation_rate
   - action_recommend_for_medium_degradation_rate
   - action_recommend_for_fast_degradation_rate
-  - action_save_unknown_intent
+  - action_reply_unknown_intent
 
 responses:
 
