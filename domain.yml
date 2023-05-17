@@ -67,14 +67,11 @@ actions:
 responses:
 
   utter_out_of_scope:
-  - text: Sorry, I can't handle that request, i only know for degradations. Tell me we have a 'material' with 'degradation' and I will try to help you.
-  - text: Sorry, I can't handle that request, i only know for degradations. Please ask me about degradations. Tell me we have a 'material' with 'degradation' and I will try to help you.
-  - text: I only know for degradations. Please ask me about degradations. Say to me what material and degradation you have and i will help you.
-  - text: I can only help you with degradation related questions. Tell me we have a 'material' with 'degradation' and I will try to help you.
-  - text: Sorry i only know for degradations. Please ask me about degradations. Tell me we have a 'material' with 'degradation' and I will try to help you.
-  - text: I only know for degradations. Please ask me about degradations. Tell me we have a 'material' with 'degradation' and I will try to help you.
-  - text: I only know for degradations. Please ask me about degradations. Materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfuration, cavities, crystal decomposition, disintegration and infection.
-  - text: Tell me we have a 'material' with 'degradation' and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfuration, cavities, crystal decomposition, disintegration and infection.
+  - text: "This questions is out of scope. I will answer it but keep the context only for archeological restoration.\n"
+  - text: "I will answer this question but keep the context only for archeological restoration.\n"
+  - text: "This questions seems to be quite irrelevant with archeological restoration but i will answer it anyway.\n"
+  - text: "Please keep the conversation only for archeological restoration. I am going to try your question though.\n"
+
 
   # This one is used in two stage fallback 
   utter_ask_rephrase:

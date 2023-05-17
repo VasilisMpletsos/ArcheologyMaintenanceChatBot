@@ -5,13 +5,15 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 
-# Imports for similarity search
+# Imports for similarity search and LLM
 import os
 import torch
 import pandas as pd
 import numpy as np
-from transformers import AutoTokenizer, AutoModel, AutoModelForSeq2SeqLM, pipeline, DPRQuestionEncoder, DPRContextEncoder
+from transformers import AutoTokenizer, AutoModel, pipeline
 from sklearn.metrics.pairwise import cosine_similarity
+from langchain import PromptTemplate, LLMChain
+from langchain.llms import HuggingFacePipeline
 
 # Imports for date recommendation
 import datetime
@@ -32,8 +34,23 @@ LLM = pipeline(
     model="databricks/dolly-v2-3b", 
     torch_dtype=torch.bfloat16, 
     trust_remote_code=True,
-    device_map="auto"
+    device_map="auto",
+    return_full_text=True
 )
+
+# template for an instrution with no input
+prompt = PromptTemplate(
+    input_variables=["instruction"],
+    template="{instruction}")
+
+# template for an instruction with input
+prompt_with_context = PromptTemplate(
+    input_variables=["instruction", "context"],
+    template="{instruction}\n\nInput:\n{context}")
+
+hf_pipeline = HuggingFacePipeline(pipeline=LLM)
+llm_chain = LLMChain(llm=hf_pipeline, prompt=prompt)
+llm_context_chain = LLMChain(llm=hf_pipeline, prompt=prompt_with_context)
 print("Loaded LLM model!")
 
 # Load similarity model
@@ -137,12 +154,12 @@ class ActionSaveUnkownIntent(Action):
         tracker: Tracker,
         domain: DomainDict,
     ) -> List[EventType]:
-        last_message = tracker.latest_message['text']
+        query = tracker.latest_message['text']
         # with open('unkown_intents.csv', 'a+', newline='') as f:
-        #     f.write(last_message)
+        #     f.write(query)
         #     f.write("\n")
         #     f.close()
-        tokenized_query = similarity_tokenizer(last_message, padding=True, truncation=True, return_tensors='pt')
+        tokenized_query = similarity_tokenizer(query, padding=True, truncation=True, return_tensors='pt')
         embedded_query = similarity_model(**tokenized_query)
         question_embeddings = mean_pooling(embedded_query, tokenized_query['attention_mask'])
         question_embeddings = question_embeddings.detach().numpy()
@@ -153,18 +170,20 @@ class ActionSaveUnkownIntent(Action):
         context = df[df.question == similar_question].context.values[0]
         if max_score < 0.7:
             # dispatcher.utter_message('No answer found in the knowledge base')
-            res = LLM(last_message)
+            res = LLM(query)
             dispatcher.utter_message(res[0]['generated_text'])
-        elif  max_score > 0.8 and max_score < 0.9:
+        elif  max_score > 0.7 and max_score < 0.9:
             dispatcher.utter_message(f"Similar question found: {similar_question}")
             dispatcher.utter_message(f"Score: {max_score*100:.2f}%")
-            dispatcher.utter_message('Answer found but low confidence')
-            QA_input = {
-                'question': last_message,
-                'context': context
-            }
-            qa_result = qa_nlp(QA_input)
-            dispatcher.utter_message(f"Answer: {qa_result['answer']}")
+            answer = llm_context_chain.predict(instruction=query, context=context).lstrip()
+            dispatcher.utter_message(f"Answer: {answer}")
+            # dispatcher.utter_message('Answer found but low confidence')
+            # QA_input = {
+            #     'question': query,
+            #     'context': context
+            # }
+            # qa_result = qa_nlp(QA_input)
+            # dispatcher.utter_message(f"Answer: {qa_result['answer']}")
         else:
             dispatcher.utter_message(f"Similar question found: {similar_question}")
             dispatcher.utter_message(f"Score: {max_score*100:.2f}%")
