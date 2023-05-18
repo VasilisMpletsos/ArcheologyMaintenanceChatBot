@@ -29,6 +29,16 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - Exit
+    - logout
+    - quit
+    - close
+    - stop
+    - end
+    - bye
+    - cls
+    - end
+    - exit
 
 - intent: another_question
   examples: |

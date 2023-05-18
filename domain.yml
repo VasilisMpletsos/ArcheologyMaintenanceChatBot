@@ -17,37 +17,37 @@ intents:
   - inform_material_mortar
   - inform_material_shells
   - inform_degradation_cracks
-  - inform_degradation_sulfuration
+  - inform_degradation_sulfation
   - inform_degradation_cavities
   - inform_degradation_crystal_decomposition
   - inform_degradation_disintegration
   - inform_degradation_infection
   - inform_marble_with_cracks
-  - inform_marble_with_sulfuration
+  - inform_marble_with_sulfation
   - inform_marble_with_cavities
   - inform_marble_with_crystal_decomposition
   - inform_marble_with_disintegration
   - inform_marble_with_infection
   - inform_stone_with_cracks
-  - inform_stone_with_sulfuration
+  - inform_stone_with_sulfation
   - inform_stone_with_cavities
   - inform_stone_with_crystal_decomposition
   - inform_stone_with_disintegration
   - inform_stone_with_infection
   - inform_shale_with_cracks
-  - inform_shale_with_sulfuration
+  - inform_shale_with_sulfation
   - inform_shale_with_cavities
   - inform_shale_with_crystal_decomposition
   - inform_shale_with_disintegration
   - inform_shale_with_infection
   - inform_mortar_with_cracks
-  - inform_mortar_with_sulfuration
+  - inform_mortar_with_sulfation
   - inform_mortar_with_cavities
   - inform_mortar_with_crystal_decomposition
   - inform_mortar_with_disintegration
   - inform_mortar_with_infection
   - inform_shells_with_cracks
-  - inform_shells_with_sulfuration
+  - inform_shells_with_sulfation
   - inform_shells_with_cavities
   - inform_shells_with_crystal_decomposition
   - inform_shells_with_disintegration
@@ -75,9 +75,9 @@ responses:
 
   # This one is used in two stage fallback 
   utter_ask_rephrase:
-  - text: I'm sorry, I didn't quite understand that. Could you rephrase? Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfuration, cavities, crystal decomposition, disintegration and infection.
-  - text: Sorry i can't understand you. Please rephrase. Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfuration, cavities, crystal decomposition, disintegration and infection.
-  - text: I'm sorry, I didn't quite understand that. Could you rephrase? Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfuration, cavities, crystal decomposition, disintegration and infection.
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase? Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfation, cavities, crystal decomposition, disintegration and infection.
+  - text: Sorry i can't understand you. Please rephrase. Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfation, cavities, crystal decomposition, disintegration and infection.
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase? Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shells and the degradations cracks, sulfation, cavities, crystal decomposition, disintegration and infection.
 
   # This one is used when we are not sure what is the next action  
   utter_default:

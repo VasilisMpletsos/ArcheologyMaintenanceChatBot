@@ -7,26 +7,26 @@ responses:
       - text: It is recommended to remove the old mortar that seems not to withstand the weather conditions and to add a new stronger one such as Theraic lime mortar.
       - text: You can carefully remove the old mortar and install a new one of higher strength such as theraica lime mortar.
 
-      utter_mortar_with_sulfuration:
-      - text: The sulfuration in the mortar can be removed using suitable chemical solvents such as ethanol or ether. You can use a soft brush to clean the mortar gently.
-      - text: The sulfuration in the mortar can be removed using suitable chemical solvents such as ethanol or ether you can gently clean the mortar with a soft brush
-      - text: The sulfuration in the mortar can be removed using suitable chemical solvents such as ethanol or ether or you can use a soft brush to gently clean the mortar
-      - text: The sulfuration in the mortar can be removed using suitable chemical solvents such as ethanol or ether you can use a soft brush to gently clean the mortar
-      - text: The sulfuration in the mortar can be removed using suitable chemical solvents such as ethanol or ether you can use a soft brush to clean the mortar gently
-      - text: Removal of sulfuration from corroded ligaments is achieved with neutralized thioglycolic acid solution.
-      - text: Removal of sulfuration is achieved with a neutralized thioglycolic acid solution
-      - text: Removal of sulfuration from corroded ligaments is achieved with a neutralized solution of thioglycolic acid
+      utter_mortar_with_sulfation:
+      - text: The sulfation in the mortar can be removed using suitable chemical solvents such as ethanol or ether. You can use a soft brush to clean the mortar gently.
+      - text: The sulfation in the mortar can be removed using suitable chemical solvents such as ethanol or ether you can gently clean the mortar with a soft brush
+      - text: The sulfation in the mortar can be removed using suitable chemical solvents such as ethanol or ether or you can use a soft brush to gently clean the mortar
+      - text: The sulfation in the mortar can be removed using suitable chemical solvents such as ethanol or ether you can use a soft brush to gently clean the mortar
+      - text: The sulfation in the mortar can be removed using suitable chemical solvents such as ethanol or ether you can use a soft brush to clean the mortar gently
+      - text: Removal of sulfation from corroded ligaments is achieved with neutralized thioglycolic acid solution.
+      - text: Removal of sulfation is achieved with a neutralized thioglycolic acid solution
+      - text: Removal of sulfation from corroded ligaments is achieved with a neutralized solution of thioglycolic acid
       - text: Removal of sulfur from corroded ligaments is achieved by neutralized thioglycolic acid solutions
-      - text: Remove of sulfuration from corroded ligaments is achieved by neutralized thioglycolic acid solution
-      - text: Removal of sulfuration from corroded ligaments is achieved using a neutralized thioglycolic acid solution
+      - text: Remove of sulfation from corroded ligaments is achieved by neutralized thioglycolic acid solution
+      - text: Removal of sulfation from corroded ligaments is achieved using a neutralized thioglycolic acid solution
       - text: Removal of sulfur from corroded ligaments is achieved with neutralized thioglycolic acid solution
-      - text: Removal of sulfuration from corroded ligaments is achieved by neutralized thioglycolic acid solution
-      - text: Removal of sulfuration from corroded ligaments is achieved with neutralized thioglycolic acid solution
-      - text: It is recommended to use a neutralized thioglycolic acid solution to treat sulfuration.
-      - text: It is recommended to use a neutralized solution of thioglycolic acid to treat sulfuration
-      - text: It is recommended that a neutralized thioglycolic acid solution is used for sulfuration
-      - text: It is recommended to use neutralized thioglycolic acid solution to treat sulfuration
-      - text: It is recommended to use a neutralized thioglycolic acid solution to treat sulfurationI
+      - text: Removal of sulfation from corroded ligaments is achieved by neutralized thioglycolic acid solution
+      - text: Removal of sulfation from corroded ligaments is achieved with neutralized thioglycolic acid solution
+      - text: It is recommended to use a neutralized thioglycolic acid solution to treat sulfation.
+      - text: It is recommended to use a neutralized solution of thioglycolic acid to treat sulfation
+      - text: It is recommended that a neutralized thioglycolic acid solution is used for sulfation
+      - text: It is recommended to use neutralized thioglycolic acid solution to treat sulfation
+      - text: It is recommended to use a neutralized thioglycolic acid solution to treat sulfationI
 
       utter_mortar_with_cracks:
       - text: It is recommended that it be filled with a matching mortar if it is durable or if the use of the new mortar has failed

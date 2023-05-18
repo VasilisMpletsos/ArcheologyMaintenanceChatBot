@@ -5,7 +5,7 @@ responses:
       utter_shale_with_crystal_decomposition:
       - text: It is recommended to remove any sources of salts from the environment through cleaning or clay poulticing.
 
-      utter_shale_with_sulfuration:
+      utter_shale_with_sulfation:
       - text: To deal with the sugaring of the shale, the only thing we can do is surface fixation with sprays (ammonium oxalate) or impregnations, but the damage up to this point is irreparable. In general, the rate of corrosion in shale objects with saccharification is faster than that ie shales.
 
       utter_shale_with_cracks:

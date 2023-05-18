@@ -5,10 +5,10 @@ responses:
       utter_shells_with_crystal_decomposition:
       - text: Sorry i don't know anything for shells with crystal decomposition.
 
-      utter_shells_with_sulfuration:
-      - text: To protect the pebbles from sulfuration it is recommended to use n-semiconductor material but also to first use potassium carbonate to reverse the sulfuration.
-      - text: In order to protect the shells from sulfuration you must use n-semiconductor material and potassium carbonate to reverse the sulfuration.
-      - text: It could help to use apply a material made of n-semiconductor that helps protect against sulfuration and UV radiation.
+      utter_shells_with_sulfation:
+      - text: To protect the pebbles from sulfation it is recommended to use n-semiconductor material but also to first use potassium carbonate to reverse the sulfation.
+      - text: In order to protect the shells from sulfation you must use n-semiconductor material and potassium carbonate to reverse the sulfation.
+      - text: It could help to use apply a material made of n-semiconductor that helps protect against sulfation and UV radiation.
 
       utter_shells_with_cracks:
       - text: Once we have the cracked pebbles, it is recommended to fill them with grout. Attention, even the smallest cracks must be filled because they are a passage for the penetration of various corrosive agents. The material used to seal cracks is suggested to be some inert material.

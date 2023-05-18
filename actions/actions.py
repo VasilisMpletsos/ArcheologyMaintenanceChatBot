@@ -58,11 +58,6 @@ similarity_tokenizer = AutoTokenizer.from_pretrained('sentence-transformers/all-
 similarity_model = AutoModel.from_pretrained('sentence-transformers/all-MiniLM-L6-v2')
 print("Loaded similarity model!")
 
-# # Load question answer model
-qa_model_name = "deepset/roberta-base-squad2"
-qa_nlp = pipeline('question-answering', model=qa_model_name, tokenizer=qa_model_name)
-print("Loaded QA model!")
-
 # Mean Pooling - Take attention mask into account for correct averaging
 def mean_pooling(model_output, attention_mask):
     # First element of model_output contains all token embeddings
@@ -71,15 +66,15 @@ def mean_pooling(model_output, attention_mask):
     return torch.sum(token_embeddings * input_mask_expanded, 1) / torch.clamp(input_mask_expanded.sum(1), min=1e-9)
 
 # Read the extracted questions csv
-df = pd.read_csv('./actions/cleared_questions.csv')
-questions = df.question.to_list()
-encoded_input = similarity_tokenizer(questions, padding=True, truncation=True, return_tensors='pt')
+df = pd.read_csv('./actions/new_passages.csv')
+passages = df.passages.to_list()
+encoded_input = similarity_tokenizer(passages, padding=True, truncation=True, return_tensors='pt')
 with torch.no_grad():
     model_output = similarity_model(**encoded_input)
 # Perform pooling
 sentence_embeddings = mean_pooling(model_output, encoded_input['attention_mask'])
 sentence_embeddings = sentence_embeddings.detach().numpy()
-print("Loaded extracted questions!")
+print("Loaded knowledge base!")
 
 
 # ------------------------ CLASSES FOR RASA ------------------------
@@ -166,27 +161,18 @@ class ActionSaveUnkownIntent(Action):
         scores = cosine_similarity([question_embeddings[0]], sentence_embeddings)[0]
         max_pos = np.argmax(scores[1:])
         max_score = scores[max_pos+1]
-        similar_question = questions[max_pos+1]
-        context = df[df.question == similar_question].context.values[0]
-        if max_score < 0.7:
-            # dispatcher.utter_message('No answer found in the knowledge base')
-            res = LLM(query)
-            dispatcher.utter_message(res[0]['generated_text'])
-        elif  max_score > 0.7 and max_score < 0.9:
-            dispatcher.utter_message(f"Similar question found: {similar_question}")
-            dispatcher.utter_message(f"Score: {max_score*100:.2f}%")
-            answer = llm_context_chain.predict(instruction=query, context=context).lstrip()
-            dispatcher.utter_message(f"Answer: {answer}")
-            # dispatcher.utter_message('Answer found but low confidence')
-            # QA_input = {
-            #     'question': query,
-            #     'context': context
-            # }
-            # qa_result = qa_nlp(QA_input)
-            # dispatcher.utter_message(f"Answer: {qa_result['answer']}")
+        context = passages[max_pos+1]
+
+        if max_score <= 0.4:
+            dispatcher.utter_message("We do not have such context in our knowledge base. Answering with AI without providing it with context, make sure to search the correct answer with critical thinking and research.")
+            dispatcher.utter_message(llm_chain.predict(instruction=query).lstrip())
+        elif max_score <= 0.65 and max_score > 4:
+            dispatcher.utter_message("Sorry, i am not exactly sure based on my knowledge base, answering with very low confidence...")
+            dispatcher.utter_message(llm_context_chain.predict(instruction=query, context='context').lstrip())
+        elif max_score <= 0.85 and max_score > 0.65:
+            dispatcher.utter_message("Based on the knowledge from database, generating answer...")
+            dispatcher.utter_message(llm_context_chain.predict(instruction=query, context=context).lstrip())
         else:
-            dispatcher.utter_message(f"Similar question found: {similar_question}")
-            dispatcher.utter_message(f"Score: {max_score*100:.2f}%")
-            dispatcher.utter_message('Answer found from knowledge base with high confidence')
-            dispatcher.utter_message(f"Answer: {context}")
+            dispatcher.utter_message("Similar question was found with high confidence")
+            dispatcher.utter_message(llm_context_chain.predict(instruction=query, context=context).lstrip())
         return

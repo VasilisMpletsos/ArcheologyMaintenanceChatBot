@@ -2,9 +2,9 @@ version: "3.1"
 
 responses:
 
-      utter_faq/ask_what_creates_sulfuration:
+      utter_faq/ask_what_creates_sulfation:
       - text: Sulphuration is caused by the combination of sulphur dioxide and humidity in the atmosphere.
-      - text: The sulphur dioxide and the humidity in the atmosphere interact together this causes the sulfuration.
+      - text: The sulphur dioxide and the humidity in the atmosphere interact together this causes the sulfation.
 
       utter_faq/ask_what_creates_cracks:
       - text: Cracks are caused by the expansion and contraction of the material due to temperature changes. Further reasons are the cold, vibrations and local impacts.

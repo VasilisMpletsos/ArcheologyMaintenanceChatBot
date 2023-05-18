@@ -26,20 +26,20 @@ nlu:
       - we have marble cracks what are we supposed to do?
       - we have marmoreal cracks what are we supposed to do?
     
-  - intent: inform_marble_with_sulfuration
+  - intent: inform_marble_with_sulfation
     examples: | 
-      - How to preserve marble from sulfuration?
-      - How to maintain marble from sulfuration?
-      - How to maintain marmoreal from sulfuration?
-      - What to do for marble with sulfuration?
-      - We have marble with sulfuration, what to do?
-      - what do you do when you have a marble with sulfuration?
-      - what do you do when you have a marmoreal with sulfuration?
-      - what should i do if my marble has sulfuration?
-      - how do i fix marble with sulfuration?
-      - how to preserve marble that has evident sulfuration?
-      - how to preserve marmoreal that has evident sulfuration?
-      - how do i preserve marble with sulfuration?
+      - How to preserve marble from sulfation?
+      - How to maintain marble from sulfation?
+      - How to maintain marmoreal from sulfation?
+      - What to do for marble with sulfation?
+      - We have marble with sulfation, what to do?
+      - what do you do when you have a marble with sulfation?
+      - what do you do when you have a marmoreal with sulfation?
+      - what should i do if my marble has sulfation?
+      - how do i fix marble with sulfation?
+      - how to preserve marble that has evident sulfation?
+      - how to preserve marmoreal that has evident sulfation?
+      - how do i preserve marble with sulfation?
 
   - intent: inform_marble_with_cavities
     examples: | 

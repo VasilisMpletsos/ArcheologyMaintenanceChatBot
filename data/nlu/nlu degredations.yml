@@ -21,20 +21,20 @@ nlu:
       - We can see some cracks on the building
       - We can see some cracks on the monument
 
-  - intent: inform_degradation_sulfuration
+  - intent: inform_degradation_sulfation
     examples: | 
-      - It appears to have some sulfuration
-      - It appears to have some sulfuration on the surface
-      - It appears to have some sulfuration on the structure
-      - It is affected by sulfuration
-      - We can see some sulfuration
-      - We can see some sulfuration on the surface
-      - Probably it has sulfuration
-      - There is some sulfuration
-      - Some sulfuration is visible
-      - Part of it is affected by sulfuration
-      - Sulfuration is visible on the surface
-      - We can detect some sulfuration
+      - It appears to have some sulfation
+      - It appears to have some sulfation on the surface
+      - It appears to have some sulfation on the structure
+      - It is affected by sulfation
+      - We can see some sulfation
+      - We can see some sulfation on the surface
+      - Probably it has sulfation
+      - There is some sulfation
+      - Some sulfation is visible
+      - Part of it is affected by sulfation
+      - sulfation is visible on the surface
+      - We can detect some sulfation
 
   - intent: inform_degradation_cavities
     examples: | 

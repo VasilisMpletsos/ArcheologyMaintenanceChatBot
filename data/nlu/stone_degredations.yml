@@ -27,18 +27,18 @@ nlu:
       - what can i do with the stone?
       - what should i do if i have cracks in my stone?
     
-  - intent: inform_stone_with_sulfuration
+  - intent: inform_stone_with_sulfation
     examples: | 
-      - How to preserve stone from sulfuration?
+      - How to preserve stone from sulfation?
       - how can i prevent stone from being sulfurized?
       - how can i protect my stone from sulfur?
       - how do you preserve stone from sulfur?
-      - How to maintain stone from sulfuration?
+      - How to maintain stone from sulfation?
       - how do you prevent stones from being contaminated with sulfur?
-      - how do you prevent a stone from being subjected to sulfuration?
-      - tell me the best way to prevent stoning from sulfuration?
+      - how do you prevent a stone from being subjected to sulfation?
+      - tell me the best way to prevent stoning from sulfation?
       - how can we prevent our own stone from sulfurization?
-      - how do i protect a stone from sulfuration?
+      - how do i protect a stone from sulfation?
       - How to preserve stone from sulfur dioxide?
       - how can we keep the minerals from getting the sulfur dioxide?
       - how do you keep stone from exposing to sulfur dioxide?
@@ -47,13 +47,13 @@ nlu:
       - how do you protect a stone from sulfur dioxide?
       - how can we conserve stone from sulfur dioxide?
       - how can i preserve a stone from sulfur dioxide?
-      - What to do for stone that has sulfuration?
-      - if a stone has sulfuration what can you do?
+      - What to do for stone that has sulfation?
+      - if a stone has sulfation what can you do?
       - what should i do when an item has sulfur?
       - what should you do for the stone that has sulfur?
-      - what should i do for a stone with sulfuration?
-      - what should i do if stone has sulfuration?
-      - We have stone with sulfuration, what to do?
+      - what should i do for a stone with sulfation?
+      - what should i do if stone has sulfation?
+      - We have stone with sulfation, what to do?
       - what should i do about a stone that is exposed to sulfur?
 
   - intent: inform_stone_with_cavities

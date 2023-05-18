@@ -11,16 +11,16 @@ nlu:
       - We have shells with cracks, what to do?
       - We have pebbles with cracks, what to do?
     
-  - intent: inform_shells_with_sulfuration
+  - intent: inform_shells_with_sulfation
     examples: | 
-      - How to preserve shells with sulfuration?
-      - How to maintain shells with sulfuration?
-      - How to maintain pebbles with sulfuration?
+      - How to preserve shells with sulfation?
+      - How to maintain shells with sulfation?
+      - How to maintain pebbles with sulfation?
       - How to preserve shells with sulfur dioxide?
-      - What to do for shells with sulfuration?
-      - What to do for pebbles with sulfuration?
-      - We have shells with sulfuration, what to do?
-      - We have pebbles with sulfuration, what to do?
+      - What to do for shells with sulfation?
+      - What to do for pebbles with sulfation?
+      - We have shells with sulfation, what to do?
+      - We have pebbles with sulfation, what to do?
 
   - intent: inform_shells_with_cavities
     examples: | 
