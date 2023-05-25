@@ -149,30 +149,34 @@ class ActionSaveUnkownIntent(Action):
         tracker: Tracker,
         domain: DomainDict,
     ) -> List[EventType]:
+        
         query = tracker.latest_message['text']
-        # with open('unkown_intents.csv', 'a+', newline='') as f:
-        #     f.write(query)
-        #     f.write("\n")
-        #     f.close()
-        tokenized_query = similarity_tokenizer(query, padding=True, truncation=True, return_tensors='pt')
-        embedded_query = similarity_model(**tokenized_query)
-        question_embeddings = mean_pooling(embedded_query, tokenized_query['attention_mask'])
-        question_embeddings = question_embeddings.detach().numpy()
-        scores = cosine_similarity([question_embeddings[0]], sentence_embeddings)[0]
-        max_pos = np.argmax(scores[1:])
-        max_score = scores[max_pos+1]
-        context = passages[max_pos+1]
+        if len(query) > 10:
+            # with open('unkown_intents.csv', 'a+', newline='') as f:
+            #     f.write(query)
+            #     f.write("\n")
+            #     f.close()
+            tokenized_query = similarity_tokenizer(query, padding=True, truncation=True, return_tensors='pt')
+            embedded_query = similarity_model(**tokenized_query)
+            question_embeddings = mean_pooling(embedded_query, tokenized_query['attention_mask'])
+            question_embeddings = question_embeddings.detach().numpy()
+            scores = cosine_similarity([question_embeddings[0]], sentence_embeddings)[0]
+            max_pos = np.argmax(scores[1:])
+            max_score = scores[max_pos+1]
+            context = passages[max_pos+1]
 
-        if max_score <= 0.4:
-            dispatcher.utter_message("We do not have such context in our knowledge base. Answering with AI without providing it with context, make sure to search the correct answer with critical thinking and research.")
-            dispatcher.utter_message(llm_chain.predict(instruction=query).lstrip())
-        elif max_score <= 0.65 and max_score > 4:
-            dispatcher.utter_message("Sorry, i am not exactly sure based on my knowledge base, answering with very low confidence...")
-            dispatcher.utter_message(llm_context_chain.predict(instruction=query, context='context').lstrip())
-        elif max_score <= 0.85 and max_score > 0.65:
-            dispatcher.utter_message("Based on the knowledge from database, generating answer...")
-            dispatcher.utter_message(llm_context_chain.predict(instruction=query, context=context).lstrip())
+            query = 'Answer the following question only with the provided input. ' + query;
+            if max_score <= 0.5:
+                dispatcher.utter_message("Sorry i don't know the answer to that question.")
+            elif max_score <= 0.65 and max_score > 5:
+                dispatcher.utter_message("Sorry, i am not exactly sure based on my knowledge base, answering with very low confidence...")
+                dispatcher.utter_message(llm_context_chain.predict(instruction=query, context='context').lstrip())
+            elif max_score <= 0.85 and max_score > 0.65:
+                dispatcher.utter_message("Based on the knowledge from database but slightly precautious, generating answer...")
+                dispatcher.utter_message(llm_context_chain.predict(instruction=query, context=context).lstrip())
+            else:
+                dispatcher.utter_message("Similar context was found in the knowledgebase with high confidence, generating answer...")
+                dispatcher.utter_message(llm_context_chain.predict(instruction=query, context=context).lstrip())
         else:
-            dispatcher.utter_message("Similar question was found with high confidence")
-            dispatcher.utter_message(llm_context_chain.predict(instruction=query, context=context).lstrip())
-        return
+            dispatcher.utter_message("Please write complete questions to get an answer.")
+            return
