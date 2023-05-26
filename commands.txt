@@ -1,2 +1,4 @@
 rasa run actions --cors "*"
 rasa run -m models --enable-api --cors "*" --endpoints ENDPOINTS
+
+http://160.40.54.245:5005/webhooks/rest/webhook
