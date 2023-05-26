@@ -34,10 +34,6 @@ pipeline:
   - name: EntitySynonymMapper
   - name: ResponseSelector
     epochs: 50
-    retrieval_intent: faq
-    constrain_similarities: true
-  - name: ResponseSelector
-    epochs: 50
     loss_type: cross_entropy
     constrain_similarities: true
     regularization_constant: 0.002
