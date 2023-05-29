@@ -33,6 +33,9 @@ responses:
 
       utter_marble_with_cavities:
       - text: We don't have a solution for the cavities on marble, the only thing we can do is to use a protective coating.
+      - text: We cannot treat the cavities on marble, the only thing we can do is to use a protective coating.
+      - text: The only thing we can do for the cavities on marble is to use a protective coating.
+      - text: The already cavities in marble are irreparable, the only thing we can do is to use a protective coating.
 
       utter_marble_with_infection:
       - text: "Since we have marble with microbial contamination, the conditions that favor their growth must first be checked and appropriate biocides can then be used after first investigating the possible side effects on the marble surface.\n

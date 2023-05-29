@@ -10,10 +10,28 @@ responses:
       - How to maintain stone with sulfation?\n
       - How to preserve stone with crystal decomposition?\n
       - We have found mortar with cracks what shall we do?\n\n
-
       Make sure that you always tell me the material and the type of degradation \n\n
-
       Or you can ask me what is the root of degradations for cracks, cavities, sulfation, crystal decomposition and disintegration."
+      - text: "Hello, i am a chatbot and i will answer maintenance questions.\n
+      You can tell me what material and what problem you see on it, then i will suggest you a solution\n
+      For example:\n
+      - How to maintain marble with cracks?\n
+      - How to preserve marble with cavities?\n
+      - There are some cracks in the stone what shall we do?\n
+      Further than that you can ask general questions.\n
+      The materials that i can help you with are:\n
+      - Marble\n
+      - Stone\n
+      - Mortar\n
+      - Shale\n
+      - Conch Shells\n"
+      - text: "Welcome to the chat! I am chatbot and i am here for you to help you with the preservation of different materials.\n
+      You can ask me questions for maintenance or more general questions.\n
+      For example:\n
+      - How to maintain marble with cracks?\n
+      - How to preserve marble with cavities?\n
+      - What can i do to stop the groot from decomposing?\n
+      - Is marble strong?"
 
       utter_goodbye:
       - text: "Bye"
