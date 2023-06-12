@@ -1,0 +1,52 @@
+version: "3.1"
+
+nlu:
+  - intent: inform_shell_stone_with_cracks
+    examples: | 
+      - How to preserve shell stone with crakcs?
+      - How to maintain shell stone with cracks?
+      - What to do for shell stone with cracks?
+      - We have shell stone with cracks, what to do?
+    
+  - intent: inform_shell_stone_with_sulfation
+    examples: | 
+      - How to preserve shell stone with sulfation?
+      - How to maintain shell stone with sulfation?
+      - How to preserve shell stone with sulfur dioxide?
+      - What to do for shell stone with sulfation?
+      - We have shell stone with sulfation, what to do?
+
+  - intent: inform_shell_stone_with_cavities
+    examples: | 
+      - How to preserve shell stone with cavities?
+      - How to maintain shell stone with cavities?
+      - How to maintain shell stone with holes?
+      - How to preserve shell stone with cavities?
+      - How to preserve shell stone with holes?
+      - What to do for shell stone with cavities?
+      - We have shell stone with cavities, what to do?
+      - We have shell stone with holes, what to do?
+
+  - intent: inform_shell_stone_with_crystal_decomposition
+    examples: | 
+      - How to preserve shell stone with crystallization?
+      - How to preserve shell stone with crystal decomposition?
+      - How to maintain shell stone with crystallization?
+      - How to maintain shell stone with crystal decomposition?
+      - What to do for shell stone with crystallization?
+      - We have shell stone with crystallization, what to do?
+      - We have shell stone with crystal decomposition, what to do?
+
+  - intent: inform_shell_stone_with_disintegration
+    examples: | 
+      - How to preserve shell stone with disintegration?
+      - How to maintain shell stone with disintegration?
+      - What to do for shell stone with disintegration?
+      - We have shell stone with disintegration, what to do?
+
+  - intent: inform_shell_stone_with_infection
+    examples: | 
+      - How to preserve shell stone with infection?
+      - How to maintain shell stone with infection?
+      - What to do for shell stone with infection?
+      - We have shell stone with infection, what to do?

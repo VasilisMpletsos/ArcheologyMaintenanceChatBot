@@ -112,34 +112,39 @@ nlu:
       - There is some mortar that is in poor condition
       - There is some groot that is in poor condition
 
-  - intent: inform_material_shells
+  - intent: inform_material_shell_stone
     examples: |
-      - There are shells in the structure
-      - There are shells in the building
-      - There are pebbles in the building
-      - There is a floor made of shells
-      - There is a floor made of pebbles
-      - There is a wall made of shells
-      - There is a wall made of pebbles
-      - There is a fountain made of shells
-      - There is a sculpture made of shells
-      - There is a sculpture made of pebbles
-      - There is a statue made of shells that has problems
-      - There is a statue made of shells that is damaged
-      - There is a statue made of shells that is deteriorated
-      - There is a statue made of pebbles that is deteriorated
-      - There is a statue made of shells that is degraded
-      - There is a statue made of shells that is in bad condition
-      - There is a statue made of shells that is in poor condition
-      - We found a part made of shells with problems
-      - We found a part made of pebbles with problems
-      - We found a part made of shells that is damaged
-      - We found a part made of shells that is deteriorated
-      - We found a part made of shells that is degraded
-      - We found a part made of pebbles that is degraded
-      - We found a part made of shells that is in bad condition
-      - We found a part made of shells that is in poor condition
-      - We found a part made of pebbles that is in terrible condition
+      - There are shell stone in the structure
+      - There are shell stone in the building
+      - There is a floor made of shell stone
+      - There is a wall made of shell stone
+      - There is a fountain made of shell stone
+      - There is a sculpture made of shell stone
+      - There is a statue made of shell stone that has problems
+      - There is a statue made of shell stone that is damaged
+      - There is a statue made of shell stone that is deteriorated
+      - There is a statue made of shell stone that is degraded
+      - There is a statue made of shell stone that is in bad condition
+      - There is a statue made of shell stone that is in poor condition
+      - We found a part made of shell stone with problems
+      - We found a part made of shell stone that is damaged
+      - We found a part made of shell stone that is deteriorated
+      - We found a part made of shell stone that is degraded
+      - We found a part made of shell stone that is in bad condition
+      - We found a part made of shell stone that is in poor condition
+
+  - intent: inform_material_pebbles
+    examples: |
+      - The floor is made of pebbles
+      - The floor seems to be made out of pebbles
+      - The floor is made out of pebbles
+      - It is a pebbled floor
+      - There is a pebbled floor
+      - We found a pebbled floor
+      - We found a floor made of pebbles
+      - We found a floor made out of pebbles
+      - We found a floor that is made of pebbles
+      - We found a floor that is made out of pebbles
 
 
 

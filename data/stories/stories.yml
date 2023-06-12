@@ -51,11 +51,17 @@ stories:
   - action: utter_what_degradation_it_has
   - checkpoint: asked_degradation_for_mortar
 
-- story: informed material shells
+- story: informed material shell stone
   steps:
-  - intent: inform_material_shells
+  - intent: inform_material_shell_stone
   - action: utter_what_degradation_it_has
-  - checkpoint: asked_degradation_for_shells
+  - checkpoint: asked_degradation_for_shell_stone
+
+- story: informed material pebbles
+  steps:
+  - intent: inform_material_pebbles
+  - action: utter_what_degradation_it_has
+  - checkpoint: asked_degradation_for_pebbles
 
 - story: inform degradation rate 1
   steps:

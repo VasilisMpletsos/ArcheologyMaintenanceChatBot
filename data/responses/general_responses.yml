@@ -20,18 +20,27 @@ responses:
       - There are some cracks in the stone what shall we do?\n
       Further than that you can ask general questions.\n
       The materials that i can help you with are:\n
-      - Marble\n
-      - Stone\n
-      - Mortar\n
-      - Shale\n
-      - Conch Shells\n"
+      - Marble (Marmaro)\n
+      - Stone, Rock (Lithos)\n
+      - Mortar, Groot (Koniama)\n
+      - Shale (Sxistolithos)\n
+      - Shell Stone (Kogxyliatis)\n
+      - Pebbles (Votsaloto)\n"
       - text: "Welcome to the chat! I am chatbot and i am here for you to help you with the preservation of different materials.\n
       You can ask me questions for maintenance or more general questions.\n
       For example:\n
       - How to maintain marble with cracks?\n
       - How to preserve marble with cavities?\n
       - What can i do to stop the groot from decomposing?\n
-      - Is marble strong?"
+      - Is marble strong?\n
+      - Pebbles (Votsaloto)\n
+      The materials that i can help you with are:\n
+      - Marble (Marmaro)\n
+      - Stone, Rock (Lithos)\n
+      - Mortar, Groot (Koniama)\n
+      - Shale (Sxistolithos)\n
+      - Shell Stone (Kogxyliatis)\n
+      - Pebbles (Votsaloto)\n"
 
       utter_goodbye:
       - text: "Bye"

@@ -3,6 +3,7 @@ version: "3.1"
 nlu:
   - intent: inform_degradation_cracks
     examples: | 
+      - Cracks
       - There are some cracks on it
       - Some cracks are visible
       - There are some cracks
@@ -23,6 +24,7 @@ nlu:
 
   - intent: inform_degradation_sulfation
     examples: | 
+      - Sulfation
       - It appears to have some sulfation
       - It appears to have some sulfation on the surface
       - It appears to have some sulfation on the structure
@@ -38,6 +40,7 @@ nlu:
 
   - intent: inform_degradation_cavities
     examples: | 
+      - Cavities
       - It appears to have some cavities
       - It appears to have some cavities on the surface
       - There are some cavities on the surface
@@ -66,6 +69,7 @@ nlu:
       - It appears to have some crystallization
       - It appears to have some crystallization on the surface
       - Some crystallization is visible
+      - Crystallization
       - Crystallization is visible on the surface
       - We can see some crystal decomposition on the surface
       - We can see some crystallization
@@ -91,6 +95,7 @@ nlu:
       - Disintegration is visible on the surface
       - We can see some disintegration
       - We can see some decomposition
+      - Disintegration
       - We can see some disintegration on the surface
       - We can see some disintegration on the structure
       - We can see some decomposing on the structure
@@ -111,6 +116,7 @@ nlu:
 
   - intent: inform_degradation_infection
     examples: | 
+      - Infection
       - It appears to have some infection
       - It appears to have some infection on the surface
       - Infection is visible on the surface

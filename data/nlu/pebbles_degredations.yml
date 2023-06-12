@@ -1,0 +1,52 @@
+version: "3.1"
+
+nlu:
+  - intent: inform_pebbles_with_cracks
+    examples: | 
+      - How to preserve pebbles with crakcs?
+      - How to maintain pebbles with cracks?
+      - What to do for pebbles with cracks?
+      - We have pebbles with cracks, what to do?
+    
+  - intent: inform_pebbles_with_sulfation
+    examples: | 
+      - How to preserve pebbles with sulfation?
+      - How to maintain pebbles with sulfation?
+      - How to preserve pebbles with sulfur dioxide?
+      - What to do for pebbles with sulfation?
+      - We have pebbles with sulfation, what to do?
+
+  - intent: inform_pebbles_with_cavities
+    examples: | 
+      - How to preserve pebbles with cavities?
+      - How to maintain pebbles with cavities?
+      - How to maintain pebbles with holes?
+      - How to preserve pebbles with cavities?
+      - How to preserve pebbles with holes?
+      - What to do for pebbles with cavities?
+      - We have pebbles with cavities, what to do?
+      - We have pebbles with holes, what to do?
+
+  - intent: inform_pebbles_with_crystal_decomposition
+    examples: | 
+      - How to preserve pebbles with crystallization?
+      - How to preserve pebbles with crystal decomposition?
+      - How to maintain pebbles with crystallization?
+      - How to maintain pebbles with crystal decomposition?
+      - What to do for pebbles with crystallization?
+      - We have pebbles with crystallization, what to do?
+      - We have pebbles with crystal decomposition, what to do?
+
+  - intent: inform_pebbles_with_disintegration
+    examples: | 
+      - How to preserve pebbles with disintegration?
+      - How to maintain pebbles with disintegration?
+      - What to do for pebbles with disintegration?
+      - We have pebbles with disintegration, what to do?
+
+  - intent: inform_pebbles_with_infection
+    examples: | 
+      - How to preserve pebbles with infection?
+      - How to maintain pebbles with infection?
+      - What to do for pebbles with infection?
+      - We have pebbles with infection, what to do?

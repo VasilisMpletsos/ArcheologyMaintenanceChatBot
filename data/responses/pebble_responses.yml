@@ -1,0 +1,25 @@
+version: "3.1"
+
+responses:
+
+      utter_pebbles_with_crystal_decomposition:
+      - text: We don't know something yet for pebble with this problem.
+
+      utter_pebbles_with_sulfation:
+      - text: We don't know something yet for pebble with this problem.
+
+      utter_pebbles_with_cracks:
+      - text: First clean the cracked area, then remove the loose pebbles and the cracked area carefully. When finished place new groot and pebbles in the area under reconstruction. Also a coating of the pebble surface would be advised to protect later deteriorations.
+
+      utter_pebbles_with_disintegration:
+      - text: Filling with grout is recommended. After that it would be good to apply a nanoparticle polymer film coating with superhydrophobic properties to protect the surface.
+      - text: You must protect the surface from deterioration factors. Coating with the proper material is recommended.
+
+      utter_pebbles_with_cavities:
+      - text: One option would be to fill the cavities with a compatible material. This could be done using mortar mix, grout, or another substance that closely matches the color and texture of the existing floor. Filling the cavities can provide structural stability to the area and prevent further deterioration of the surrounding pebbles.
+      - text: Like other materials, also for pebble structure the filling of cavities with mortar mix is recommended.
+      - text: Fill the cavities with mortar mix. It will help with the stability of the pebble structure.
+      - text: An approach would be to seal the surface of the floor to protect against moisture intrusion and other damaging factors. Care should be taken to ensure that the chosen sealer is compatible with the materials used in the construction of the pebbled floor.
+
+      utter_pebbles_with_infection:
+      - text: We don't know something yet for pebble with this problem. 
