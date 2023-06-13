@@ -139,3 +139,12 @@ nlu:
     - you are a real person, not a bot?
     - you are a real person, not a robot?
     - you are a real person, not a machine?
+
+  - intent: where_to_find_degredation_rate
+  examples: |
+    - Where i find the degradation rate?
+    - Where is this degradation rate calculated?
+    - What is this degradation rate?
+    - From where i get this degradation rate?
+    - How to calculate degradation rate?
+    - Do i have to calculate the degradation rate?

@@ -32,7 +32,8 @@ from rasa_sdk.events import (
 
 LLM = pipeline(
     model="databricks/dolly-v2-3b", 
-    torch_dtype=torch.bfloat16, 
+    torch_dtype=torch.bfloat16,
+    temperature=0.9, 
     trust_remote_code=True,
     device_map="auto",
     return_full_text=True

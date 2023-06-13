@@ -104,6 +104,9 @@ responses:
       - text: Definately, you can ask me a question.
       - text: Definately, what is your question?
       - text: Sure, just tell me the question and i will try to help you.
+
+      utter_degradation_rate_is_calculated_in_nn:
+      - text: The degradation rate is calculated from the neural network. You can open the relative app and give it with the proper inputs.
       
 
 

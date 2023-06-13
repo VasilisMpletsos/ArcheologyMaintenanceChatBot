@@ -18,6 +18,11 @@ rules:
       - intent: faq
       - action: utter_faq
 
+  - rule: where to find degradation rate
+    steps:
+    - intent: where_to_find_degredation_rate
+    - action: utter_degradation_rate_is_calculated_in_nn
+
   - rule: general question
     steps:
     - intent: general_questions
