@@ -29,7 +29,9 @@ nlu:
   - intent: inform_marble_with_sulfation
     examples: | 
       - How to preserve marble from sulfation?
+      - How to preserve marble with sulfation?
       - How to maintain marble from sulfation?
+      - How to maintain marble with sulfation?
       - How to maintain marmoreal from sulfation?
       - What to do for marble with sulfation?
       - We have marble with sulfation, what to do?

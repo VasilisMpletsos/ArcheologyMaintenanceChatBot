@@ -20,7 +20,7 @@ rules:
 
   - rule: where to find degradation rate
     steps:
-    - intent: where_to_find_degredation_rate
+    - intent: where_to_find_degradation_rate
     - action: utter_degradation_rate_is_calculated_in_nn
 
   - rule: general question

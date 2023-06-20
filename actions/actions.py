@@ -153,10 +153,10 @@ class ActionSaveUnkownIntent(Action):
         
         query = tracker.latest_message['text']
         if len(query) > 10:
-            # with open('unkown_intents.csv', 'a+', newline='') as f:
-            #     f.write(query)
-            #     f.write("\n")
-            #     f.close()
+            with open('unkown_intents.csv', 'a+', newline='') as f:
+                f.write(query)
+                f.write("\n")
+                f.close()
             tokenized_query = similarity_tokenizer(query, padding=True, truncation=True, return_tensors='pt')
             embedded_query = similarity_model(**tokenized_query)
             question_embeddings = mean_pooling(embedded_query, tokenized_query['attention_mask'])

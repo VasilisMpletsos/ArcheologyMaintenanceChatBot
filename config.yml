@@ -22,8 +22,11 @@ pipeline:
     analyzer: char_wb
     min_ngram: 1
     max_ngram: 4
+  - name: LanguageModelFeaturizer
+    model_weights: "rasa/LaBSE"
+    model_name: "bert"
   - name: DIETClassifier
-    epochs: 100
+    epochs: 50
     loss_type: cross_entropy
     constrain_similarities: true
     number_of_transformer_layers: 2

@@ -11,7 +11,7 @@ intents:
   - bot_challenge
   - faq
   - appreciate
-  - where_to_find_degredation_rate
+  - where_to_find_degradation_rate
   - inform_material_stone
   - inform_material_marble
   - inform_material_shale
