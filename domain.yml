@@ -3,6 +3,7 @@ version: "3.1"
 intents:
   - greet
   - goodbye
+  - bad_answer
   - out_of_scope
   - general_questions
   - another_question
@@ -75,22 +76,25 @@ actions:
 responses:
 
   utter_out_of_scope:
-  - text: "This questions is out of scope. I will answer it but keep the context only for archeological restoration.\n"
-  - text: "I will answer this question but keep the context only for archeological restoration.\n"
-  - text: "This questions seems to be quite irrelevant with archeological restoration but i will answer it anyway.\n"
-  - text: "Please keep the conversation only for archeological restoration. I am going to try your question though.\n"
+  - text: "This questions is out of scope.\n"
+  - text: "I will try to answer this question but keep the context only for archeological restoration.\n"
+  - text: "This questions seems to be quite irrelevant with archeological restoration.\n"
+  - text: "Please keep the conversation only for archeological restoration.\n"
+  - text: "Keep the context only for archeological restoration.\n"
+  - text: "This sentence is not related to archeological restoration. I am a bot for archeological restoration.\n"
+  - text: "Please i am an archeological restoration bot, ask me only questions based on this topic.\n"
+  - text: "Well this is an irrelevant question for archeological restoration. Please stay on the topic.\n"
 
 
   # This one is used in two stage fallback 
   utter_ask_rephrase:
   - text: I'm sorry, I didn't quite understand that. Could you rephrase? Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shell_stone and the degradations cracks, sulfation, cavities, crystal decomposition, disintegration and infection.
   - text: Sorry i can't understand you. Please rephrase. Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shell_stone and the degradations cracks, sulfation, cavities, crystal decomposition, disintegration and infection.
-  - text: I'm sorry, I didn't quite understand that. Could you rephrase? Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shell_stone and the degradations cracks, sulfation, cavities, crystal decomposition, disintegration and infection.
 
   # This one is used when we are not sure what is the next action  
   utter_default:
   - text: "I'm sorry, I only know for restoration. You can say for example:\n
   - How to maintain marble with cracks\n
   - What causes disintegration?\n
-  - What are your abilities?
+  - What are your abilities?\n
   - We have found a stone structure with degradations"

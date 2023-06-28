@@ -6,6 +6,11 @@ rules:
     - intent: goodbye
     - action: utter_goodbye
 
+  - rule: Say that it returned wrong answer
+    steps:
+    - intent: bad_answer
+    - action: utter_bad_answer
+
   - rule: Say 'I am a bot' anytime the user challenges
     steps:
     - intent: bot_challenge
@@ -18,10 +23,10 @@ rules:
       - intent: faq
       - action: utter_faq
 
-  - rule: where to find degradation rate
-    steps:
-    - intent: where_to_find_degradation_rate
-    - action: utter_degradation_rate_is_calculated_in_nn
+  # - rule: where to find degradation rate
+  #   steps:
+  #   - intent: where_to_find_degradation_rate
+  #   - action: utter_degradation_rate_is_calculated_in_nn
 
   - rule: general question
     steps:

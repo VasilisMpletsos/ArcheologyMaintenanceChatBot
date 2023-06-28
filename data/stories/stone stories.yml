@@ -7,99 +7,63 @@ stories:
   - checkpoint: asked_degradation_for_stone
   - intent: inform_degradation_cracks
   - action: utter_stone_with_cracks
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: solution for stone with cracks
   steps:
   - intent: inform_stone_with_cracks
   - action: utter_stone_with_cracks
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: told material stone and degradation sulfation
   steps:
   - checkpoint: asked_degradation_for_stone
   - intent: inform_degradation_sulfation
   - action: utter_stone_with_sulfation
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: solution for stone with sulfation
   steps:
   - intent: inform_stone_with_sulfation
   - action: utter_stone_with_sulfation
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: told material stone and degradation cavities
   steps:
   - checkpoint: asked_degradation_for_stone
   - intent: inform_degradation_cavities
   - action: utter_stone_with_cavities
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
   
 - story: solution for stone with cavities
   steps:
   - intent: inform_stone_with_cavities
   - action: utter_stone_with_cavities
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: told material stone and degradation crystal decomposition
   steps:
   - checkpoint: asked_degradation_for_stone
   - intent: inform_degradation_crystal_decomposition
   - action: utter_stone_with_crystal_decomposition
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: solution for stone with crystal decomposition
   steps:
   - intent: inform_stone_with_crystal_decomposition
   - action: utter_stone_with_crystal_decomposition
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: told material stone and degradation disintegration
   steps:
   - checkpoint: asked_degradation_for_stone
   - intent: inform_degradation_disintegration
   - action: utter_stone_with_disintegration
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: solution for stone with disintegration
   steps:
   - intent: inform_stone_with_disintegration
   - action: utter_stone_with_disintegration
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: told material stone and degradation infection
   steps:
   - checkpoint: asked_degradation_for_stone
   - intent: inform_degradation_infection
   - action: utter_stone_with_infection
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: solution for stone with infection
   steps:
   - intent: inform_stone_with_infection
   - action: utter_stone_with_infection
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate

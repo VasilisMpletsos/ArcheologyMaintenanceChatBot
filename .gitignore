@@ -3,3 +3,4 @@ venv/
 .vscode/
 models/
 actions/__pycache__/
+scripts/train/

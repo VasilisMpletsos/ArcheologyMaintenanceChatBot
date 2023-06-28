@@ -7,6 +7,8 @@ nlu:
       - How to maintain pebbles with cracks?
       - What to do for pebbles with cracks?
       - We have pebbles with cracks, what to do?
+      - what about pebbles cracks?
+      - how do you maintain pebbles with cracks?
     
   - intent: inform_pebbles_with_sulfation
     examples: | 
@@ -15,6 +17,7 @@ nlu:
       - How to preserve pebbles with sulfur dioxide?
       - What to do for pebbles with sulfation?
       - We have pebbles with sulfation, what to do?
+      - what about pebbles sulfation?
 
   - intent: inform_pebbles_with_cavities
     examples: | 
@@ -26,6 +29,8 @@ nlu:
       - What to do for pebbles with cavities?
       - We have pebbles with cavities, what to do?
       - We have pebbles with holes, what to do?
+      - what about pebbles cavities?
+      - what about pebbles holes?
 
   - intent: inform_pebbles_with_crystal_decomposition
     examples: | 
@@ -36,6 +41,8 @@ nlu:
       - What to do for pebbles with crystallization?
       - We have pebbles with crystallization, what to do?
       - We have pebbles with crystal decomposition, what to do?
+      - what about pebbles crystallization?
+      - what about pebbles crystal decomposition?
 
   - intent: inform_pebbles_with_disintegration
     examples: | 
@@ -43,6 +50,7 @@ nlu:
       - How to maintain pebbles with disintegration?
       - What to do for pebbles with disintegration?
       - We have pebbles with disintegration, what to do?
+      - what about pebbles disintegration?
 
   - intent: inform_pebbles_with_infection
     examples: | 
@@ -50,3 +58,17 @@ nlu:
       - How to maintain pebbles with infection?
       - What to do for pebbles with infection?
       - We have pebbles with infection, what to do?
+      - what to do if Stachybotrys was found in pebbles?
+      - what to do if Aspergillus was found in pebbles?
+      - what to do if Rhizopus was found in pebbles?
+      - what to do if Penicillium was found in pebbles?
+      - what to do if Acremonium was found in pebbles?
+      - what to do if Cladosporium was found in pebbles?
+      - what to do if Fusarium was found in pebbles?
+      - what to do if Streptococcus thermophilus was found in pebbles?
+      - what to do if Bacillus coagulans was found in pebbles?
+      - what to do if Brevibacillus brevis was found in pebbles?
+      - what to do if Chlamydomonas was found in pebbles?
+      - what to do if Volvox brevis was found in pebbles?
+      - what to do if Chlorococcum brevis was found in pebbles?
+      - what about pebbles infection?

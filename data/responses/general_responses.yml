@@ -52,6 +52,15 @@ responses:
       - text: "See you later!"
       - text: "See you soon!"
 
+      utter_bad_answer:
+      - text: So sorry, please try to ask me again.
+      - text: I am sorry, i didn't understand you. Please try to ask me again.
+      - text: I am sorry, i didn't get you. Please try to ask me again.
+      - text: I am sorry, i didn't get it. Please try to ask me again.
+      - text: I am sorry, please state your question again clearly, i am just a bot.
+      - text: So sorry, don't be mad at me, i am just a bot. Please try to ask me again.
+      - text: I am sorry, try to ask me again
+
       utter_iamabot:
       - text: I am a bot
       - text: I'm a bot

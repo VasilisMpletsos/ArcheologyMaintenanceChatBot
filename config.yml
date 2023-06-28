@@ -15,7 +15,9 @@ pipeline:
   # If you'd like to customize it, uncomment and adjust the pipeline.
   # See https://rasa.com/docs/rasa/tuning-your-model for more information.
   - name: WhitespaceTokenizer
+    # case_sensitive: False
   - name: RegexFeaturizer
+    # case_sensitive: False
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
@@ -25,6 +27,9 @@ pipeline:
   - name: LanguageModelFeaturizer
     model_weights: "rasa/LaBSE"
     model_name: "bert"
+  # - name: SpacyNLP
+  #   case_sensitive: False
+  #   model: en_core_web_md
   - name: DIETClassifier
     epochs: 50
     loss_type: cross_entropy

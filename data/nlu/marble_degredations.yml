@@ -25,6 +25,8 @@ nlu:
       - what should i do if my marmoreal cracks?
       - we have marble cracks what are we supposed to do?
       - we have marmoreal cracks what are we supposed to do?
+      - what about marble cracks?
+      - what about marmoreal cracks?
     
   - intent: inform_marble_with_sulfation
     examples: | 
@@ -42,6 +44,8 @@ nlu:
       - how to preserve marble that has evident sulfation?
       - how to preserve marmoreal that has evident sulfation?
       - how do i preserve marble with sulfation?
+      - what about marble sulfation?
+      - what about marmoreal sulfation?
 
   - intent: inform_marble_with_cavities
     examples: | 
@@ -82,6 +86,10 @@ nlu:
       - what should i do with marble that has holes?
       - what should we do with a marble with holes?
       - what should we do with marble with holes?
+      - what about marble cavities?
+      - what about marmoreal cavities?
+      - what about marble holes?
+      - what about marmoreal holes?
 
   - intent: inform_marble_with_crystal_decomposition
     examples: | 
@@ -106,6 +114,8 @@ nlu:
       - what do you do when you have a marble that has been stripped by crystal decomposition?
       - what should we do when marble is decomposed by crystal decomposition?
       - what should we do when marmoreal is decomposed by crystal decomposition?
+      - what about marble crystallization?
+      - what about marmoreal crystallization?
 
   - intent: inform_marble_with_disintegration
     examples: | 
@@ -132,10 +142,19 @@ nlu:
       - what do you do when a marble breaks up?
       - what do you do when a marmoreal breaks up?
       - what do you do when a marble exfoliats?
+      - what about marble disintegration?
+      - what about marmoreal disintegration?
 
   - intent: inform_marble_with_infection
     examples: | 
       - how can marble be preserved from infection?
+      - what to do if Stachybotrys was found in marble?
+      - what to do if Aspergillus was found in marble?
+      - what to do if Rhizopus was found in marble?
+      - what to do if Penicillium was found in marble?
+      - what to do if Acremonium was found in marble?
+      - what to do if Cladosporium was found in marble?
+      - what to do if Fusarium was found in marble?
       - tell me the best way to protect marble from infection?
       - how should i protect marble from infection?
       - how should i protect marmoreal from infection?
@@ -148,3 +167,17 @@ nlu:
       - We have marble with infection, what to do?
       - We have marmoreal with infection, what to do?
       - what should i do if i have an infection on my marble?
+      - what to do if Streptococcus thermophilus was found in marble?
+      - how to preserve marble if Streptococcus thermophilus was found?
+      - what to do if Bacillus coagulans was found in marble?
+      - how to preserve marble if Bacillus coagulans was found?
+      - what to do if Brevibacillus brevis was found in marble?
+      - how to preserve marble if Brevibacillus brevis was found?
+      - what to do if Chlamydomonas was found in marble?
+      - how to preserve marble if Chlamydomonas was found?
+      - what to do if Volvox brevis was found in marble?
+      - how to preserve marble if Volvox brevis was found?
+      - what to do if Chlorococcum brevis was found in marble?
+      - how to preserve marble if Chlorococcum brevis was found?
+      - what about marble infection?
+      - what about marmoreal infection?

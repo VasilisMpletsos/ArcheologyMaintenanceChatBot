@@ -40,6 +40,19 @@ nlu:
     - end
     - exit
 
+- intent: bad_answer
+  examples: |
+    - no you didn't understood me
+    - no you didn't understood
+    - no you didn't get me
+    - no you didn't get it
+    - no thats not what i want
+    - no thats not what i want to know
+    - no this is wrong please answer the question correctly
+    - please this is wrong
+    - thats a bad answer
+    - no that is not what i am looking for
+
 - intent: another_question
   examples: |
     - I have another question
@@ -53,6 +66,9 @@ nlu:
     - I want to ask another question
     - I want to ask another question please
     - I want to ask another question, can you help me?
+    - I want to ask another question, can you help me please?
+    - No dont go.
+    - Please come back.
     - One more question please
     - I want to make another question
     - I want to make another question please
@@ -115,6 +131,7 @@ nlu:
     - thank you very much for your help
     - thanks a million
     - thank you very much for that
+    - cool story bro
 
 - intent: bot_challenge
   examples: |

@@ -115,7 +115,7 @@ class ActionEvaluateMediumDegradationRate(Action):
         today = datetime.datetime.now()
         random_delta = randint(30, 90)
         recommended_date = today + datetime.timedelta(days=random_delta)
-        message = 'The restoration is recommended to be done the most until ' + recommended_date.strftime("%d/%m/%Y") + ' (d/m/y)'
+        message = 'The restoration is recommended to be done utmost until ' + recommended_date.strftime("%d/%m/%Y") + ' (d/m/y)'
         dispatcher.utter_message(message)
         return
     
@@ -152,11 +152,12 @@ class ActionSaveUnkownIntent(Action):
     ) -> List[EventType]:
         
         query = tracker.latest_message['text']
-        if len(query) > 10:
-            with open('unkown_intents.csv', 'a+', newline='') as f:
-                f.write(query)
-                f.write("\n")
-                f.close()
+        if len(query) > 4:
+            # with open('unkown_intents.csv', 'a+', newline='') as f:
+            #  The query here has some error and cant write all the charachters need to see why.
+            #     f.write(query)
+            #     f.write("\n")
+            #     f.close()
             tokenized_query = similarity_tokenizer(query, padding=True, truncation=True, return_tensors='pt')
             embedded_query = similarity_model(**tokenized_query)
             question_embeddings = mean_pooling(embedded_query, tokenized_query['attention_mask'])
@@ -166,18 +167,16 @@ class ActionSaveUnkownIntent(Action):
             max_score = scores[max_pos+1]
             context = passages[max_pos+1]
 
+            print(context)
             query = 'Answer the following question only with the provided input. ' + query;
-            if max_score <= 0.5:
+            if max_score <= 0.50:
                 dispatcher.utter_message("Sorry i don't know the answer to that question.")
-            elif max_score <= 0.65 and max_score > 5:
-                dispatcher.utter_message("Sorry, i am not exactly sure based on my knowledge base, answering with very low confidence...")
-                dispatcher.utter_message(llm_context_chain.predict(instruction=query, context='context').lstrip())
-            elif max_score <= 0.85 and max_score > 0.65:
-                dispatcher.utter_message("Based on the knowledge from database but slightly precautious, generating answer...")
-                dispatcher.utter_message(llm_context_chain.predict(instruction=query, context=context).lstrip())
             else:
-                dispatcher.utter_message("Similar context was found in the knowledgebase with high confidence, generating answer...")
-                dispatcher.utter_message(llm_context_chain.predict(instruction=query, context=context).lstrip())
+                # dispatcher.utter_message("Similar context was found in the knowledgebase with high confidence, generating answer...")
+                response = llm_context_chain.predict(instruction=query, context=context).lstrip()
+                if response[-1] != '.':
+                    response += '.'
+                dispatcher.utter_message(response)
         else:
             dispatcher.utter_message("Please write complete questions to get an answer.")
             return

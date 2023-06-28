@@ -7,17 +7,11 @@ stories:
   - checkpoint: asked_degradation_for_pebbles
   - intent: inform_degradation_cracks
   - action: utter_pebbles_with_cracks
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: solution for pebbles with cracks
   steps:
   - intent: inform_pebbles_with_cracks
   - action: utter_pebbles_with_cracks
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: told material pebbles and degradation sulfation
   steps:
@@ -35,17 +29,11 @@ stories:
   - checkpoint: asked_degradation_for_pebbles
   - intent: inform_degradation_cavities
   - action: utter_pebbles_with_cavities
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
   
 - story: solution for pebbles with cavities
   steps:
   - intent: inform_pebbles_with_cavities
   - action: utter_pebbles_with_cavities
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: told material pebbles and degradation crystal decomposition
   steps:
@@ -63,17 +51,11 @@ stories:
   - checkpoint: asked_degradation_for_pebbles
   - intent: inform_degradation_disintegration
   - action: utter_pebbles_with_disintegration
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: solution for pebbles with disintegration
   steps:
   - intent: inform_pebbles_with_disintegration
   - action: utter_pebbles_with_disintegration
-  - action: utter_ask_degradation_rate
-  - action: utter_degradation_guidance
-  - checkpoint: asked_degradation_rate
 
 - story: told material pebbles and degradation infection
   steps:

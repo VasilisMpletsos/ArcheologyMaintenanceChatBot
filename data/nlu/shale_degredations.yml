@@ -3,34 +3,34 @@ version: "3.1"
 nlu:
   - intent: inform_shale_with_cracks
     examples: | 
-      - How to preserve shale with cavities?
-      - tell me the best way to preserve shale with cavities?
-      - how do you preserve shale with cavities?
-      - How to maintain shale with cavities?
-      - how do i maintain a shale that has cavities?
-      - tell me the best way to maintain shale with cavities?
-      - how do you maintain shale with cavities?
-      - How to maintain shale with holes?
-      - how do i keep shale out of creating holes?
-      - what is the best way to preserve shale with holes?
-      - how can i maintain shale with holes?
-      - how do you maintain shale with holes?
-      - how does it work to maintain shale with holes?
-      - How to preserve shale with cavities?
-      - what should i do to preserve shale with cavities?
-      - how do you preserve shale in cavities?
-      - how can you preserve shale with cavities?
-      - How to preserve shale with holes?
-      - how can i preserve shale with holes?
-      - What to do for shale with cavities?
-      - how can i fix a shale with cavities?
-      - how do we treat shale with cavities?
-      - We have shale with cavities, what to do?
-      - what should you do if you have shale with cavities?
-      - what should we do when we have shale with cavities?
-      - We have shale with holes, what to do?
-      - what do i do when i see holes in the shale?
-      - what do we do when we have shale containing holes in it?
+      - How to preserve shale with cracks?
+      - tell me the best way to preserve shale with cracks?
+      - how do you preserve shale with cracks?
+      - How to maintain shale with cracks?
+      - how do i maintain a shale that has cracks?
+      - tell me the best way to maintain shale with cracks?
+      - how do you maintain shale with cracks?
+      - How to maintain shale with cracks?
+      - how do i keep shale out of creating cracks?
+      - what is the best way to preserve shale with cracks?
+      - how can i maintain shale with cracks?
+      - how do you maintain shale with cracks?
+      - how does it work to maintain shale with cracks?
+      - How to preserve shale with cracks?
+      - what should i do to preserve shale with cracks?
+      - how do you preserve shale in cracks?
+      - how can you preserve shale with cracks?
+      - How to preserve shale with cracks?
+      - how can i preserve shale with cracks?
+      - What to do for shale with cracks?
+      - how can i fix a shale with cracks?
+      - how do we treat shale with cracks?
+      - We have shale with cracks, what to do?
+      - what should you do if you have shale with cracks?
+      - what should we do when we have shale with cracks?
+      - We have shale with cracks, what to do?
+      - what do i do when i see cracks in the shale?
+      - what about shale cracks?
     
   - intent: inform_shale_with_sulfation
     examples: | 
@@ -53,6 +53,7 @@ nlu:
       - what can we do with shale?
       - what is going on with shale sulfation? what should we do?
       - what can we do with shale with sulfation?
+      - what about shale with sulfation?
 
   - intent: inform_shale_with_cavities
     examples: | 
@@ -86,6 +87,8 @@ nlu:
       - We have shale with holes, what to do?
       - what do i do when i see holes in the shale?
       - what do we do when we have shale containing holes in it?
+      - what about shale cavities?
+      - what about shale holes?
 
   - intent: inform_shale_with_crystal_decomposition
     examples: | 
@@ -122,6 +125,8 @@ nlu:
       - what is going on in shale with crystal decomposition?
       - what should we do if we have shale with crystal decomposition?
       - if we have shale with crystal decomposition what will we do?
+      - what about shale with crystallization?
+      - what about shale with crystal decomposition?
 
   - intent: inform_shale_with_disintegration
     examples: | 
@@ -147,6 +152,7 @@ nlu:
       - how can i fix a shale with disintegration?
       - how can i fix a shale with exfoliation?
       - how do we treat shale with disintegration?
+      - what about shale disintegration?
 
   - intent: inform_shale_with_infection
     examples: | 
@@ -158,4 +164,18 @@ nlu:
       - how do you maintain shale with infection?
       - how do i keep shale out of infection?
       - how do i preserve shale from infection?
+      - what to do if Stachybotrys was found in shale?
+      - what to do if Aspergillus was found in shale?
+      - what to do if Rhizopus was found in shale?
+      - what to do if Penicillium was found in shale?
+      - what to do if Acremonium was found in shale?
+      - what to do if Cladosporium was found in shale?
+      - what to do if Fusarium was found in shale?
+      - what to do if Streptococcus thermophilus was found in shale?
+      - what to do if Bacillus coagulans was found in shale?
+      - what to do if Brevibacillus brevis was found in shale?
+      - what to do if Chlamydomonas was found in shale?
+      - what to do if Volvox brevis was found in shale?
+      - what to do if Chlorococcum brevis was found in shale?
+      - what about shale infection?
       

@@ -30,6 +30,8 @@ nlu:
       - what do you do if you have mortar with cracks in it?
       - what do you do if you have groot with cracks in it?
       - we have mortar cracks what should we do?
+      - what about mortar cracks?
+      - what about groot cracks?
     
   - intent: inform_mortar_with_sulfation
     examples: | 
@@ -65,6 +67,8 @@ nlu:
       - what should i do when i have a mortar that has sulfur?
       - what should i do when i have a groot that has sulfur?
       - what should i do if my mortar is sulfurated?
+      - what about mortar sulfation?
+      - what about groot sulfation?
 
   - intent: inform_mortar_with_cavities
     examples: | 
@@ -105,6 +109,10 @@ nlu:
       - what should i do with a mortar that has holes?
       - what do you do if you have mortar that has holes in it?
       - what do you do if you have groot that has holes in it?
+      - what about mortar cavities?
+      - what about mortar holes?
+      - what about groot cavities?
+      - what about groot holes?
 
   - intent: inform_mortar_with_crystal_decomposition
     examples: | 
@@ -158,6 +166,10 @@ nlu:
       - we have a groot that has crystallized what should we do?
       - We have mortar that has crystal decomposition, what to do?
       - tell me the best thing to do when mortars have crystal decomposition?
+      - what about mortar crystallization?
+      - what about mortar crystal decomposition?
+      - what about groot crystallization?
+      - what about groot crystal decomposition?
 
   - intent: inform_mortar_with_disintegration
     examples: | 
@@ -192,6 +204,10 @@ nlu:
       - is there a groot that has disintegration?
       - is there a mortar that has exfoliation?
       - is there a groot that has exfoliation?
+      - what about mortar disintegration?
+      - what about mortar exfoliation?
+      - what about groot disintegration?
+      - what about groot exfoliation?
 
   - intent: inform_mortar_with_infection
     examples: | 
@@ -218,3 +234,27 @@ nlu:
       - what will you do if you have an infected mortar?
       - what should we do if our mortar was infected?
       - what should we do if our groot was infected?
+      - what to do if Stachybotrys was found in mortar?
+      - what to do if Stachybotrys was found in groot?
+      - what to do if Aspergillus was found in mortar?
+      - what to do if Aspergillus was found in groot?
+      - what to do if Rhizopus was found in mortar?
+      - what to do if Rhizopus was found in groot?
+      - what to do if Penicillium was found in mortar?
+      - what to do if Penicillium was found in groot?
+      - what to do if Acremonium was found in mortar?
+      - what to do if Acremonium was found in groot?
+      - what to do if Cladosporium was found in mortar?
+      - what to do if Fusarium was found in mortar?
+      - what to do if Fusarium was found in groot?
+      - what to do if Streptococcus thermophilus was found in mortar?
+      - what to do if Streptococcus thermophilus was found in groot?
+      - what to do if Bacillus coagulans was found in mortar?
+      - what to do if Bacillus coagulans was found in groot?
+      - what to do if Brevibacillus brevis was found in mortar?
+      - what to do if Brevibacillus brevis was found in groot?
+      - what to do if Chlamydomonas was found in mortar?
+      - what to do if Volvox brevis was found in mortar?
+      - what to do if Chlorococcum brevis was found in mortar?
+      - what about mortar infection?
+      - what about groot infection?

@@ -26,6 +26,7 @@ nlu:
       - what can you do when you have a stone cracked?
       - what can i do with the stone?
       - what should i do if i have cracks in my stone?
+      - what about stone degredations?
     
   - intent: inform_stone_with_sulfation
     examples: | 
@@ -55,6 +56,7 @@ nlu:
       - what should i do if stone has sulfation?
       - We have stone with sulfation, what to do?
       - what should i do about a stone that is exposed to sulfur?
+      - what about stone sulfation?
 
   - intent: inform_stone_with_cavities
     examples: | 
@@ -91,6 +93,9 @@ nlu:
       - We have stone that has holes, what to do?
       - what should i do when i find a stone with holes?
       - if you have a stone that has holes what should you do?
+      - what about stone cavities?
+      - what about stone holes?
+
 
   - intent: inform_stone_with_crystal_decomposition
     examples: | 
@@ -130,6 +135,7 @@ nlu:
       - We have stone that has crystal decomposition, what to do?
       - what should we do if it is stone that has crystal decomposition?
       - what should i do with a stone that has crystal decomposition?
+      - what about stone crystallization?
 
   - intent: inform_stone_with_disintegration
     examples: | 
@@ -175,6 +181,7 @@ nlu:
       - do you have a stone that is disintegrating?
       - do you have a rock that is disintegrating?
       - do you have a stone that is exfoliation?
+      - what about stone disintegration?
 
   - intent: inform_stone_with_infection
     examples: | 
@@ -208,3 +215,17 @@ nlu:
       - what can i do when i have a stone that is infected?
       - a rock has an infection what should you do?
       - a stone has an infection what should you do?
+      - what to do if Stachybotrys was found in stone?
+      - what to do if Aspergillus was found in stone?
+      - what to do if Rhizopus was found in stone?
+      - what to do if Penicillium was found in stone?
+      - what to do if Acremonium was found in stone?
+      - what to do if Cladosporium was found in stone?
+      - what to do if Fusarium was found in stone?
+      - what to do if Streptococcus thermophilus was found in stone?
+      - what to do if Bacillus coagulans was found in stone?
+      - what to do if Brevibacillus brevis was found in stone?
+      - what to do if Chlamydomonas was found in stone?
+      - what to do if Volvox brevis was found in stone?
+      - what to do if Chlorococcum brevis was found in stone?
+      - what about stone infection?
