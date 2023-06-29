@@ -30,16 +30,16 @@ nlu:
     
   - intent: inform_stone_with_sulfation
     examples: | 
-      - How to preserve stone from sulfation?
+      - How to preserve stone from sulphation?
       - how can i prevent stone from being sulfurized?
       - how can i protect my stone from sulfur?
       - how do you preserve stone from sulfur?
-      - How to maintain stone from sulfation?
+      - How to maintain stone from sulphation?
       - how do you prevent stones from being contaminated with sulfur?
-      - how do you prevent a stone from being subjected to sulfation?
-      - tell me the best way to prevent stoning from sulfation?
+      - how do you prevent a stone from being subjected to sulphation?
+      - tell me the best way to prevent stoning from sulphation?
       - how can we prevent our own stone from sulfurization?
-      - how do i protect a stone from sulfation?
+      - how do i protect a stone from sulphation?
       - How to preserve stone from sulfur dioxide?
       - how can we keep the minerals from getting the sulfur dioxide?
       - how do you keep stone from exposing to sulfur dioxide?
@@ -48,15 +48,15 @@ nlu:
       - how do you protect a stone from sulfur dioxide?
       - how can we conserve stone from sulfur dioxide?
       - how can i preserve a stone from sulfur dioxide?
-      - What to do for stone that has sulfation?
-      - if a stone has sulfation what can you do?
+      - What to do for stone that has sulphation?
+      - if a stone has sulphation what can you do?
       - what should i do when an item has sulfur?
       - what should you do for the stone that has sulfur?
-      - what should i do for a stone with sulfation?
-      - what should i do if stone has sulfation?
-      - We have stone with sulfation, what to do?
+      - what should i do for a stone with sulphation?
+      - what should i do if stone has sulphation?
+      - We have stone with sulphation, what to do?
       - what should i do about a stone that is exposed to sulfur?
-      - what about stone sulfation?
+      - what about stone sulphation?
 
   - intent: inform_stone_with_cavities
     examples: | 

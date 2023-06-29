@@ -88,8 +88,8 @@ responses:
 
   # This one is used in two stage fallback 
   utter_ask_rephrase:
-  - text: I'm sorry, I didn't quite understand that. Could you rephrase? Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shell_stone and the degradations cracks, sulfation, cavities, crystal decomposition, disintegration and infection.
-  - text: Sorry i can't understand you. Please rephrase. Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shell_stone and the degradations cracks, sulfation, cavities, crystal decomposition, disintegration and infection.
+  - text: I'm sorry, I didn't quite understand that. Could you rephrase? Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shell_stone and the degradations cracks, sulphation, cavities, crystal decomposition, disintegration and infection.
+  - text: Sorry i can't understand you. Please rephrase. Tell me the material and the degradation you have and I will try to help you. The materials i know about are for marble, stone, shale, mortar and shell_stone and the degradations cracks, sulphation, cavities, crystal decomposition, disintegration and infection.
 
   # This one is used when we are not sure what is the next action  
   utter_default:

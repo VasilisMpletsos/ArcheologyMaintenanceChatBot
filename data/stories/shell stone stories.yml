@@ -13,13 +13,13 @@ stories:
   - intent: inform_shell_stone_with_cracks
   - action: utter_shell_stone_with_cracks
 
-- story: told material shell stone and degradation sulfation
+- story: told material shell stone and degradation sulphation
   steps:
   - checkpoint: asked_degradation_for_shell_stone
   - intent: inform_degradation_sulfation
   - action: utter_shell_stone_with_sulfation
 
-- story: solution for shell stone with sulfation
+- story: solution for shell stone with sulphation
   steps:
   - intent: inform_shell_stone_with_sulfation
   - action: utter_shell_stone_with_sulfation

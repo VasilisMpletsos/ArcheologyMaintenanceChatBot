@@ -35,18 +35,18 @@ nlu:
     
   - intent: inform_mortar_with_sulfation
     examples: | 
-      - How to preserve mortar from sulfation?
+      - How to preserve mortar from sulphation?
       - how do you prevent mortar from being exposed to sulfur?
       - tell me the best method to prevent mortar from being sulfated?
       - tell me the best method to prevent groot from being sulfated?
       - how can you prevent mortar from being sulfurized?
-      - how should i keep mortar clean from sulfation?
-      - How to maintain mortar from sulfation?
-      - How to maintain groot from sulfation?
+      - how should i keep mortar clean from sulphation?
+      - How to maintain mortar from sulphation?
+      - How to maintain groot from sulphation?
       - how do we prevent mortar from being sulfurated?
       - how do i keep mortar from being sulfurized?
-      - how can mortar be kept free from sulfation?
-      - tell me the best way to prevent mortar from sulfation?
+      - how can mortar be kept free from sulphation?
+      - tell me the best way to prevent mortar from sulphation?
       - How to preserve mortar from sulfur dioxide?
       - how can mortars be prevented from getting contaminated with sulfur dioxide?
       - how can groot be prevented from getting contaminated with sulfur dioxide?
@@ -57,18 +57,18 @@ nlu:
       - how do you preserve mortar from sulfur dioxide?
       - how do you preserve groot from sulfur dioxide?
       - how do i preserve mortar from sulfur dioxide?
-      - What to do for mortar with sulfation?
+      - What to do for mortar with sulphation?
       - what should i do if mortar is exposed to sulfur?
-      - what do i need for a mortar that has sulfation?
-      - what do i need for a groot that has sulfation?
-      - what can i do for a mortar with sulfation?
-      - We have mortar with sulfation, what to do?
+      - what do i need for a mortar that has sulphation?
+      - what do i need for a groot that has sulphation?
+      - what can i do for a mortar with sulphation?
+      - We have mortar with sulphation, what to do?
       - what are we doing now that our mortar has been exposed to sulfur?
       - what should i do when i have a mortar that has sulfur?
       - what should i do when i have a groot that has sulfur?
       - what should i do if my mortar is sulfurated?
-      - what about mortar sulfation?
-      - what about groot sulfation?
+      - what about mortar sulphation?
+      - what about groot sulphation?
 
   - intent: inform_mortar_with_cavities
     examples: | 

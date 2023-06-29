@@ -11,12 +11,12 @@ nlu:
     
   - intent: inform_shell_stone_with_sulfation
     examples: | 
-      - How to preserve shell stone with sulfation?
-      - How to maintain shell stone with sulfation?
+      - How to preserve shell stone with sulphation?
+      - How to maintain shell stone with sulphation?
       - How to preserve shell stone with sulfur dioxide?
-      - What to do for shell stone with sulfation?
-      - We have shell stone with sulfation, what to do?
-      - what about shell stone sulfation?
+      - What to do for shell stone with sulphation?
+      - We have shell stone with sulphation, what to do?
+      - what about shell stone sulphation?
 
   - intent: inform_shell_stone_with_cavities
     examples: | 

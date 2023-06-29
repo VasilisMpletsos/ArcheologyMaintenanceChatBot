@@ -15,13 +15,13 @@ stories:
   - intent: inform_marble_with_cracks
   - action: utter_marble_with_cracks
 
-- story: told material stone and degradation sulfation
+- story: told material stone and degradation sulphation
   steps:
   - checkpoint: asked_degradation_for_marble
   - intent: inform_degradation_sulfation
   - action: utter_marble_with_sulfation
 
-- story: solution for marble with sulfation
+- story: solution for marble with sulphation
   steps:
   - intent: inform_marble_with_sulfation
   - action: utter_marble_with_sulfation

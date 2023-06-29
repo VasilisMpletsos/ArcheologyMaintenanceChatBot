@@ -34,26 +34,26 @@ nlu:
     
   - intent: inform_shale_with_sulfation
     examples: | 
-      - How to preserve shale with sulfation?
-      - how does sulfation is preserved if found in shale?
-      - how can you maintain shale from sulfation?
-      - how can shale be preserved from sulfation?
-      - how do i preserve shale from sulfation?
-      - How to maintain shale with sulfation?
-      - how can we sustain shale with sulfation?
-      - how can you maintain shale with sulfation?
-      - how can we maintain shale with sulfation?
+      - How to preserve shale with sulphation?
+      - how does sulphation is preserved if found in shale?
+      - how can you maintain shale from sulphation?
+      - how can shale be preserved from sulphation?
+      - how do i preserve shale from sulphation?
+      - How to maintain shale with sulphation?
+      - how can we sustain shale with sulphation?
+      - how can you maintain shale with sulphation?
+      - how can we maintain shale with sulphation?
       - How to preserve shale with sulfur dioxide?
       - how can i maintain shale with sulfur dioxide?
       - how can you preserve shale with sulfur dioxide?
       - how do you preserve shale with sulfur dioxide?
-      - What to do for shale with sulfation?
-      - what do you do for shale with sulfation?
-      - We have shale with sulfation, what to do?
+      - What to do for shale with sulphation?
+      - what do you do for shale with sulphation?
+      - We have shale with sulphation, what to do?
       - what can we do with shale?
-      - what is going on with shale sulfation? what should we do?
-      - what can we do with shale with sulfation?
-      - what about shale with sulfation?
+      - what is going on with shale sulphation? what should we do?
+      - what can we do with shale with sulphation?
+      - what about shale with sulphation?
 
   - intent: inform_shale_with_cavities
     examples: | 

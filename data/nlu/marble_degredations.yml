@@ -30,22 +30,22 @@ nlu:
     
   - intent: inform_marble_with_sulfation
     examples: | 
-      - How to preserve marble from sulfation?
-      - How to preserve marble with sulfation?
-      - How to maintain marble from sulfation?
-      - How to maintain marble with sulfation?
-      - How to maintain marmoreal from sulfation?
-      - What to do for marble with sulfation?
-      - We have marble with sulfation, what to do?
-      - what do you do when you have a marble with sulfation?
-      - what do you do when you have a marmoreal with sulfation?
-      - what should i do if my marble has sulfation?
-      - how do i fix marble with sulfation?
-      - how to preserve marble that has evident sulfation?
-      - how to preserve marmoreal that has evident sulfation?
-      - how do i preserve marble with sulfation?
-      - what about marble sulfation?
-      - what about marmoreal sulfation?
+      - How to preserve marble from sulphation?
+      - How to preserve marble with sulphation?
+      - How to maintain marble from sulphation?
+      - How to maintain marble with sulphation?
+      - How to maintain marmoreal from sulphation?
+      - What to do for marble with sulphation?
+      - We have marble with sulphation, what to do?
+      - what do you do when you have a marble with sulphation?
+      - what do you do when you have a marmoreal with sulphation?
+      - what should i do if my marble has sulphation?
+      - how do i fix marble with sulphation?
+      - how to preserve marble that has evident sulphation?
+      - how to preserve marmoreal that has evident sulphation?
+      - how do i preserve marble with sulphation?
+      - what about marble sulphation?
+      - what about marmoreal sulphation?
 
   - intent: inform_marble_with_cavities
     examples: | 

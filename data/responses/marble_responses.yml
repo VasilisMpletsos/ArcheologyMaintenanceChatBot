@@ -9,10 +9,10 @@ responses:
       - text: Spraying with ammonium oxalate is recommended in order the surface to be stabilized.
 
       utter_marble_with_sulfation:
-      - text: For the treatment of sulfation on marble, there must be a reversal of sulfation, the use of ammonium carbonate or potassium carbonate is recommended.
-      - text: The use of potassium carbonate is recommended for the reversal of sulfation on marble.
-      - text: The best intervention will be to use potassium carbonate for the treatment and reversal of sulfation.
-      - text: It is recommended to use potassium carbonate or ammonium carbonate for the treatment of sulfation.
+      - text: For the treatment of sulphation on marble, there must be a reversal of sulphation, the use of ammonium carbonate or potassium carbonate is recommended.
+      - text: The use of potassium carbonate is recommended for the reversal of sulphation on marble.
+      - text: The best intervention will be to use potassium carbonate for the treatment and reversal of sulphation.
+      - text: It is recommended to use potassium carbonate or ammonium carbonate for the treatment of sulphation.
 
       utter_marble_with_cracks:
       - text: For the treatment of cracks on marble, the use of grout is recommended. Warning even the smallest cracks should be filled because they are a passage for the penetration of various corrosive factors. The material used for sealing cracks is recommended to be an inert material.

@@ -24,19 +24,19 @@ nlu:
 
   - intent: inform_degradation_sulfation
     examples: | 
-      - Sulfation
-      - It appears to have some sulfation
-      - It appears to have some sulfation on the surface
-      - It appears to have some sulfation on the structure
-      - It is affected by sulfation
-      - We can see some sulfation
-      - We can see some sulfation on the surface
-      - Probably it has sulfation
-      - There is some sulfation
-      - Some sulfation is visible
-      - Part of it is affected by sulfation
-      - sulfation is visible on the surface
-      - We can detect some sulfation
+      - sulphation
+      - It appears to have some sulphation
+      - It appears to have some sulphation on the surface
+      - It appears to have some sulphation on the structure
+      - It is affected by sulphation
+      - We can see some sulphation
+      - We can see some sulphation on the surface
+      - Probably it has sulphation
+      - There is some sulphation
+      - Some sulphation is visible
+      - Part of it is affected by sulphation
+      - sulphation is visible on the surface
+      - We can detect some sulphation
 
   - intent: inform_degradation_cavities
     examples: | 

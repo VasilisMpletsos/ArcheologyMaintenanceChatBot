@@ -5,14 +5,14 @@ responses:
       utter_faq/bot_abilities:
       - text: I can help you with maintenance questions
       - text: I can help you with maintenance questions, like e.g. how to preserve a marble with cracks
-      - text: I can help you with maintenance questions, like e.g. what to do if you find sulfation on a stone
+      - text: I can help you with maintenance questions, like e.g. what to do if you find sulphation on a stone
       - text: I can help you with maintenance questions, like e.g. how to preserve a monument
       - text: I can help you with maintenance questions, like e.g. how to preserve a monument made of marble with crystal decomposition
 
       utter_faq/how_this_works:
       - text: You can ask me questions about maintenance of monuments, like e.g. how to preserve a marble with cracks
-      - text: You can ask me questions about maintenance of monuments, like e.g. what to do if you find sulfation on a stone
-      - text: You can ask me questions about maintenance of monuments, like e.g. we found sulfation on a lime stone, what to do?
+      - text: You can ask me questions about maintenance of monuments, like e.g. what to do if you find sulphation on a stone
+      - text: You can ask me questions about maintenance of monuments, like e.g. we found sulphation on a lime stone, what to do?
       - text: You can ask me questions about maintenance of monuments, like e.g. we have seen mortar with crystal decomposition, what to do?
       - text: You can ask me questions about maintenance of monuments, like e.g. there is a marble with cracks, what to do?
 

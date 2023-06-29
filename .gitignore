@@ -4,3 +4,4 @@ venv/
 models/
 actions/__pycache__/
 scripts/train/
+scripts/FineTunedDollyV2/

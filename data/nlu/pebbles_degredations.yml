@@ -12,12 +12,12 @@ nlu:
     
   - intent: inform_pebbles_with_sulfation
     examples: | 
-      - How to preserve pebbles with sulfation?
-      - How to maintain pebbles with sulfation?
+      - How to preserve pebbles with sulphation?
+      - How to maintain pebbles with sulphation?
       - How to preserve pebbles with sulfur dioxide?
-      - What to do for pebbles with sulfation?
-      - We have pebbles with sulfation, what to do?
-      - what about pebbles sulfation?
+      - What to do for pebbles with sulphation?
+      - We have pebbles with sulphation, what to do?
+      - what about pebbles sulphation?
 
   - intent: inform_pebbles_with_cavities
     examples: | 

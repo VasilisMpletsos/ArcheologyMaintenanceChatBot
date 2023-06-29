@@ -13,13 +13,13 @@ stories:
   - intent: inform_shale_with_cracks
   - action: utter_shale_with_cracks
 
-- story: told material shale and degradation sulfation
+- story: told material shale and degradation sulphation
   steps:
   - checkpoint: asked_degradation_for_shale
   - intent: inform_degradation_sulfation
   - action: utter_shale_with_sulfation
 
-- story: solution for shale with sulfation
+- story: solution for shale with sulphation
   steps:
   - intent: inform_shale_with_sulfation
   - action: utter_shale_with_sulfation

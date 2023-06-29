@@ -13,13 +13,13 @@ stories:
   - intent: inform_pebbles_with_cracks
   - action: utter_pebbles_with_cracks
 
-- story: told material pebbles and degradation sulfation
+- story: told material pebbles and degradation sulphation
   steps:
   - checkpoint: asked_degradation_for_pebbles
   - intent: inform_degradation_sulfation
   - action: utter_pebbles_with_sulfation
 
-- story: solution for pebbles with sulfation
+- story: solution for pebbles with sulphation
   steps:
   - intent: inform_pebbles_with_sulfation
   - action: utter_pebbles_with_sulfation

@@ -6,9 +6,9 @@ responses:
       - text: The use of special resins that secure the surface of the stone from crystallization damage is recommended.
 
       utter_shell_stone_with_sulfation:
-      - text: To protect the pebbles from sulfation it is recommended to use n-semiconductor material but also to first use potassium carbonate to reverse the sulfation.
-      - text: In order to protect the shell stone from sulfation you must use n-semiconductor material and potassium carbonate to reverse the sulfation.
-      - text: It could help to use apply a material made of n-semiconductor that helps protect against sulfation and UV radiation.
+      - text: To protect the pebbles from sulphation it is recommended to use n-semiconductor material but also to first use potassium carbonate to reverse the sulphation.
+      - text: In order to protect the shell stone from sulphation you must use n-semiconductor material and potassium carbonate to reverse the sulphation.
+      - text: It could help to use apply a material made of n-semiconductor that helps protect against sulphation and UV radiation.
 
       utter_shell_stone_with_cracks:
       - text: Once we have the cracked pebbles, it is recommended to fill them with grout. Attention, even the smallest cracks must be filled because they are a passage for the penetration of various corrosive agents. The material used to seal cracks is suggested to be some inert material.
