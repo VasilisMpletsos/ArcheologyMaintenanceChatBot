@@ -65,52 +65,84 @@ nlu:
   - intent: inform_material_shale
     examples: |
       - We are looking at a shale structure
+      - We are looking at a slate structure
       - We are looking at a shale building
+      - We are looking at a slate building
       - We are looking at a shale monument
+      - We are looking at a slate monument
       - These is a statue made of shale
+      - These is a statue made of slate
       - We are looking at a shale sculpture
+      - We are looking at a slate sculpture
       - There is a fountain made of shale
+      - There is a fountain made of slate
       - There is a wall made of shale
+      - There is a wall made of slate
       - There is a floor made of shale
+      - There is a floor made of slate
       - There is a shale structure
+      - There is a slate structure
       - There is a shale building
+      - There is a slate building
       - There is a shale monument
+      - There is a slate monument
       - There is a shale statue
+      - There is a slate statue
       - It is a sculpture from shale
+      - It is a sculpture from slate
       - It is a shale sculpture
+      - It is a slate sculpture
       - It is a shale fountain
+      - It is a slate fountain
       - It is a shale wall
+      - It is a slate wall
       - There is a shale structure that shows signs of degradation
+      - There is a slate structure that shows signs of degradation
       - There is a shale building that shows signs of degradation
+      - There is a slate building that shows signs of degradation
       - There is a shale monument that shows signs of degradation
+      - There is a slate monument that shows signs of degradation
       - There is a shale statue that shows signs of degradation
+      - There is a slate statue that shows signs of degradation
       - There is a shale sculpture that shows signs of degradation
+      - There is a slate sculpture that shows signs of degradation
       - There is a shale fountain that shows signs of degradation
+      - There is a slate fountain that shows signs of degradation
 
   - intent: inform_material_mortar
     examples: |
       - We have some mortar that has problems
+      - We have some grout that has problems
       - We have some mortar that is damaged
+      - We have some grout that is damaged
       - We have some mortar that is deteriorated
-      - We have some groot that is deteriorated
+      - We have some grout that is deteriorated
       - We have some mortar that is degraded
+      - We have some grout that is degraded
       - We have some mortar that is in bad condition
-      - We have some groot that is in bad condition
+      - We have some grout that is in bad condition
       - We have some mortar that is in poor condition
+      - We have some grout that is in poor condition
       - We have some mortar that is in terrible condition
+      - We have some grout that is in terrible condition
       - We have some mortar that is in awful condition
-      - We have some groot that is in awful condition
+      - We have some grout that is in awful condition
       - We have some mortar that is in horrible condition
+      - We have some grout that is in horrible condition
       - We have some mortar that is in terrible shape
+      - We have some grout that is in terrible shape
       - There is some mortar that has problems
-      - There is some groot that has problems
+      - There is some grout that has problems
       - There is some mortar that is damaged
+      - There is some grout that is damaged
       - There is some mortar that is deteriorated
-      - There is some groot that is deteriorated
+      - There is some grout that is deteriorated
       - There is some mortar that is degraded
+      - There is some grout that is degraded
       - There is some mortar that is in bad condition
+      - There is some grout that is in bad condition
       - There is some mortar that is in poor condition
-      - There is some groot that is in poor condition
+      - There is some grout that is in poor condition
 
   - intent: inform_material_shell_stone
     examples: |

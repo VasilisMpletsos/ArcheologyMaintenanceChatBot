@@ -5,179 +5,524 @@ nlu:
     examples: | 
       - How to preserve marble with crakcs?
       - How to preserve marmoreal with crakcs?
+      - How to preserve limestone with crakcs?
+      - How to preserve alabaster with crakcs?
       - How to maintain marble with cracks?
+      - How to maintain marmoreal with cracks?
+      - How to maintain limestone with cracks?
+      - How to maintain alabaster with cracks?
       - how should you care for marble cracks?
       - how should you care for marmoreal cracks?
+      - how should you care for limestone cracks?
+      - how should you care for alabaster cracks?
       - how to maintain marble cracks?
+      - how to maintain marmoreal cracks?
+      - how to maintain limestone cracks?
+      - how to maintain alabaster cracks?
       - how do you maintain marbles with cracks?
+      - how do you maintain marmoreals with cracks?
+      - how do you maintain limestones with cracks?
+      - how do you maintain alabasters with cracks?
       - how do you maintain marble with cracks?
       - how do you maintain marmoreal with cracks?
+      - how do you maintain limestone with cracks?
+      - how do you maintain alabaster with cracks?
       - What to do for marble with cracks?
+      - What to do for marmoreal with cracks?
+      - What to do for limestone with cracks?
+      - What to do for alabaster with cracks?
       - how do you repair cracked marble?
+      - how do you repair cracked marmoreal?
+      - how do you repair cracked limestone?
+      - how do you repair cracked alabaster?
       - how do you fix cracks on marble?
+      - how do you fix cracks on marmoreal?
+      - how do you fix cracks on limestone?
+      - how do you fix cracks on alabaster?
       - what can you do to fix cracks in marble?
-      - what should i do if my marble cracks?
-      - how do i fix marble cracks?
-      - We have marble with cracks, what to do?
-      - We have marmoreal with cracks, what to do?
-      - what should i do if i have cracked marble?
+      - what can you do to fix cracks in marmoreal?
+      - what can you do to fix cracks in limestone?
+      - what can you do to fix cracks in alabaster?
       - what should i do if my marble cracks?
       - what should i do if my marmoreal cracks?
+      - what should i do if my limestone cracks?
+      - what should i do if my alabaster cracks?
+      - how do i fix marble cracks?
+      - how do i fix marmoreal cracks?
+      - how do i fix limestone cracks?
+      - how do i fix alabaster cracks?
+      - We have marble with cracks, what to do?
+      - We have marmoreal with cracks, what to do?
+      - We have limestone with cracks, what to do?
+      - We have alabaster with cracks, what to do?
+      - what should i do if i have cracked marble?
+      - what should i do if i have cracked marmoreal?
+      - what should i do if i have cracked limestone?
+      - what should i do if i have cracked alabaster?
+      - what should i do if my marble cracks?
+      - what should i do if my marmoreal cracks?
+      - what should i do if my limestone cracks?
+      - what should i do if my alabaster cracks?
       - we have marble cracks what are we supposed to do?
       - we have marmoreal cracks what are we supposed to do?
+      - we have limestone cracks what are we supposed to do?
+      - we have alabaster cracks what are we supposed to do?
       - what about marble cracks?
       - what about marmoreal cracks?
+      - what about limestone cracks?
+      - what about alabaster cracks?
     
   - intent: inform_marble_with_sulfation
     examples: | 
       - How to preserve marble from sulphation?
+      - How to preserve marmoreal from sulphation?
+      - How to preserve limestone from sulphation?
+      - How to preserve alabaster from sulphation?
       - How to preserve marble with sulphation?
+      - How to preserve marmoreal with sulphation?
+      - How to preserve limestone with sulphation?
+      - How to preserve alabaster with sulphation?
       - How to maintain marble from sulphation?
-      - How to maintain marble with sulphation?
       - How to maintain marmoreal from sulphation?
+      - How to maintain limestone from sulphation?
+      - How to maintain alabaster from sulphation?
+      - How to maintain marble with sulphation?
+      - How to maintain marmoreal with sulphation?
+      - How to maintain limestone with sulphation?
+      - How to maintain alabaster with sulphation?
       - What to do for marble with sulphation?
+      - What to do for marmoreal with sulphation?
+      - What to do for limestone with sulphation?
+      - What to do for alabaster with sulphation?
       - We have marble with sulphation, what to do?
+      - We have marmoreal with sulphation, what to do?
+      - We have limestone with sulphation, what to do?
+      - We have alabaster with sulphation, what to do?
       - what do you do when you have a marble with sulphation?
       - what do you do when you have a marmoreal with sulphation?
+      - what do you do when you have a limestone with sulphation?
+      - what do you do when you have a alabaster with sulphation?
       - what should i do if my marble has sulphation?
+      - what should i do if my marmoreal has sulphation?
+      - what should i do if my limestone has sulphation?
+      - what should i do if my alabaster has sulphation?
       - how do i fix marble with sulphation?
+      - how do i fix marmoreal with sulphation?
+      - how do i fix limestone with sulphation?
+      - how do i fix alabaster with sulphation?
       - how to preserve marble that has evident sulphation?
       - how to preserve marmoreal that has evident sulphation?
+      - how to preserve limestone that has evident sulphation?
+      - how to preserve alabaster that has evident sulphation?
       - how do i preserve marble with sulphation?
+      - how do i preserve marmoreal with sulphation?
+      - how do i preserve limestone with sulphation?
+      - how do i preserve alabaster with sulphation?
       - what about marble sulphation?
       - what about marmoreal sulphation?
+      - what about limestone sulphation?
+      - what about alabaster sulphation?
 
   - intent: inform_marble_with_cavities
     examples: | 
       - How to preserve marble with cavities?
+      - How to preserve marmoreal with cavities?
+      - How to preserve limestone with cavities?
+      - How to preserve alabaster with cavities?
       - how can you preserve a marble cavity?
+      - how can you preserve a marmoreal cavity?
+      - how can you preserve a limestone cavity?
+      - how can you preserve a alabaster cavity?
       - how do you preserve marble cavities?
+      - how do you preserve marmoreal cavities?
+      - how do you preserve limestone cavities?
+      - how do you preserve alabaster cavities?
       - how can i preserve marbles in cavities?
+      - how can i preserve marmoreals in cavities?
+      - how can i preserve limestones in cavities?
+      - how can i preserve alabasters in cavities?
       - How to maintain marble with cavities?
       - How to maintain marmoreal with cavities?
+      - How to maintain limestone with cavities?
+      - How to maintain alabaster with cavities?
       - how do i maintain marble if it has holes in it?
+      - how do i maintain marmoreal if it has holes in it?
+      - how do i maintain limestone if it has holes in it?
+      - how do i maintain alabaster if it has holes in it?
       - How to maintain marble with holes?
+      - How to maintain marmoreal with holes?
+      - How to maintain limestone with holes?
+      - How to maintain alabaster with holes?
       - how do you maintain marble with holes?
+      - how do you maintain marmoreal with holes?
+      - how do you maintain limestone with holes?
+      - how do you maintain alabaster with holes?
       - How to preserve marble with cavities?
+      - How to preserve marmoreal with cavities?
+      - How to preserve limestone with cavities?
+      - How to preserve alabaster with cavities?
       - tell me the best way to preserve marble with cavities?
       - tell me the best way to preserve marmoreal with cavities?
+      - tell me the best way to preserve limestone with cavities?
+      - tell me the best way to preserve alabaster with cavities?
       - How to preserve marble with holes?
+      - How to preserve marmoreal with holes?
+      - How to preserve limestone with holes?
+      - How to preserve alabaster with holes?
       - tell me the best way to preserve marble that has holes?
+      - tell me the best way to preserve marmoreal that has holes?
+      - tell me the best way to preserve limestone that has holes?
+      - tell me the best way to preserve alabaster that has holes?
       - how do i preserve a marble that has holes?
+      - how do i preserve a marmoreal that has holes?
+      - how do i preserve a limestone that has holes?
+      - how do i preserve a alabaster that has holes?
       - how to conserve marble with holes?
+      - how to conserve marmoreal with holes?
+      - how to conserve limestone with holes?
+      - how to conserve alabaster with holes?
       - how can i preserve marble with holes?
       - how can i preserve marmoreal with holes?
+      - how can i preserve limestone with holes?
+      - how can i preserve alabaster with holes?
       - how do you preserve marble with holes?
       - how do you preserve marmoreal with holes?
+      - how do you preserve limestone with holes?
+      - how do you preserve alabaster with holes?
       - What to do for marble with cavities?
+      - What to do for marmoreal with cavities?
+      - What to do for limestone with cavities?
+      - What to do for alabaster with cavities?
       - what should i do with a marble with cavities?
+      - what should i do with a marmoreal with cavities?
+      - what should i do with a limestone with cavities?
+      - what should i do with a alabaster with cavities?
       - what should i do for marble cavities?
+      - what should i do for marmoreal cavities?
+      - what should i do for limestone cavities?
+      - what should i do for alabaster cavities?
       - what should we do for marbles with cavities?
+      - what should we do for marmoreals with cavities?
+      - what should we do for limestones with cavities?
+      - what should we do for alabasters with cavities?
       - what do you do for marbles with cavities?
+      - what do you do for marmoreals with cavities?
+      - what do you do for limestones with cavities?
+      - what do you do for alabasters with cavities?
       - We have marble with cavities, what to do?
+      - We have marmoreal with cavities, what to do?
+      - We have limestone with cavities, what to do?
+      - We have alabaster with cavities, what to do?
       - what do you do when you have a marble cavity?
+      - what do you do when you have a marmoreal cavity?
+      - what do you do when you have a limestone cavity?
+      - what do you do when you have a alabaster cavity?
       - what should be done to the marble?
       - what should be done to the marmoreal?
+      - what should be done to the limestone?
+      - what should be done to the alabaster?
       - what should we do with the marble?
+      - what should we do with the marmoreal?
+      - what should we do with the limestone?
+      - what should we do with the alabaster?
       - what to do if there are cavities in a marble?
       - what to do if there are cavities in a marmoreal?
+      - what to do if there are cavities in a limestone?
+      - what to do if there are cavities in a alabaster?
       - We have marble with holes, what to do?
+      - We have marmoreal with holes, what to do?
+      - We have limestone with holes, what to do?
+      - We have alabaster with holes, what to do?
       - what would you do if you had a marble with holes?
+      - what would you do if you had a marmoreal with holes?
+      - what would you do if you had a limestone with holes?
+      - what would you do if you had a alabaster with holes?
       - what should i do with marble that has holes?
+      - what should i do with marmoreal that has holes?
+      - what should i do with limestone that has holes?
+      - what should i do with alabaster that has holes?
       - what should we do with a marble with holes?
+      - what should we do with a marmoreal with holes?
+      - what should we do with a limestone with holes?
+      - what should we do with a alabaster with holes?
       - what should we do with marble with holes?
+      - what should we do with marmoreal with holes?
+      - what should we do with limestone with holes?
+      - what should we do with alabaster with holes?
       - what about marble cavities?
       - what about marmoreal cavities?
+      - what about limestone cavities?
+      - what about alabaster cavities?
       - what about marble holes?
       - what about marmoreal holes?
+      - what about limestone holes?
+      - what about alabaster holes?
 
   - intent: inform_marble_with_crystal_decomposition
     examples: | 
       - How to preserve marble with crystallization?
+      - How to preserve marmoreal with crystallization?
+      - How to preserve limestone with crystallization?
+      - How to preserve alabaster with crystallization?
       - how do i preserve marble with crystallization?
+      - how do i preserve marmoreal with crystallization?
+      - how do i preserve limestone with crystallization?
+      - how do i preserve alabaster with crystallization?
       - How to preserve marble with crystal decomposition?
+      - How to preserve marmoreal with crystal decomposition?
+      - How to preserve limestone with crystal decomposition?
+      - How to preserve alabaster with crystal decomposition?
       - what is a good method to preserve marble from crystal decomposition?
+      - what is a good method to preserve marmoreal from crystal decomposition?
+      - what is a good method to preserve limestone from crystal decomposition?
+      - what is a good method to preserve alabaster from crystal decomposition?
       - how can i preserve marble with crystal decomposition?
       - how can i preserve marmoreal with crystal decomposition?
+      - how can i preserve limestone with crystal decomposition?
+      - how can i preserve alabaster with crystal decomposition?
       - How to maintain marble with crystallization?
+      - How to maintain marmoreal with crystallization?
+      - How to maintain limestone with crystallization?
+      - How to maintain alabaster with crystallization?
       - tell me the best way to keep marble from being crystallized?
+      - tell me the best way to keep marmoreal from being crystallized?
+      - tell me the best way to keep limestone from being crystallized?
+      - tell me the best way to keep alabaster from being crystallized?
       - how do you maintain marble crystallization?
+      - how do you maintain marmoreal crystallization?
+      - how do you maintain limestone crystallization?
+      - how do you maintain alabaster crystallization?
       - How to maintain marble with crystal decomposition?
       - How to maintain marmoreal with crystal decomposition?
+      - How to maintain limestone with crystal decomposition?
+      - How to maintain alabaster with crystal decomposition?
       - how do you maintain marble from crystal decomposition?
+      - how do you maintain marmoreal from crystal decomposition?
+      - how do you maintain limestone from crystal decomposition?
+      - how do you maintain alabaster from crystal decomposition?
       - What to do for marble with crystallization?
       - What to do for marmoreal with crystallization?
+      - What to do for limestone with crystallization?
+      - What to do for alabaster with crystallization?
       - what can i do for marble crystallization?
+      - what can i do for marmoreal crystallization?
+      - what can i do for limestone crystallization?
+      - what can i do for alabaster crystallization?
       - We have marble with crystallization, what to do?
+      - We have marmoreal with crystallization, what to do?
+      - We have limestone with crystallization, what to do?
+      - We have alabaster with crystallization, what to do?
       - what to do if marble is under crystal decomposition?
+      - what to do if marmoreal is under crystal decomposition?
+      - what to do if limestone is under crystal decomposition?
+      - what to do if alabaster is under crystal decomposition?
       - We have marble with crystal decomposition, what to do?
+      - We have marmoreal with crystal decomposition, what to do?
+      - We have limestone with crystal decomposition, what to do?
+      - We have alabaster with crystal decomposition, what to do?
       - what do you do when you have a marble that has been stripped by crystal decomposition?
+      - what do you do when you have a marmoreal that has been stripped by crystal decomposition?
+      - what do you do when you have a limestone that has been stripped by crystal decomposition?
+      - what do you do when you have a alabaster that has been stripped by crystal decomposition?
       - what should we do when marble is decomposed by crystal decomposition?
       - what should we do when marmoreal is decomposed by crystal decomposition?
+      - what should we do when limestone is decomposed by crystal decomposition?
+      - what should we do when alabaster is decomposed by crystal decomposition?
       - what about marble crystallization?
       - what about marmoreal crystallization?
+      - what about limestone crystallization?
+      - what about alabaster crystallization?
 
   - intent: inform_marble_with_disintegration
     examples: | 
       - How to preserve marble with disintegration?
+      - How to preserve marmoreal with disintegration?
+      - How to preserve limestone with disintegration?
+      - How to preserve alabaster with disintegration?
       - how can i protect marble from disintegration?
+      - how can i protect marmoreal from disintegration?
+      - how can i protect limestone from disintegration?
+      - how can i protect alabaster from disintegration?
       - how can i protect marble from exfoliation?
+      - how can i protect marmoreal from exfoliation?
+      - how can i protect limestone from exfoliation?
+      - how can i protect alabaster from exfoliation?
       - How to maintain marble with disintegration?
+      - How to maintain marmoreal with disintegration?
+      - How to maintain limestone with disintegration?
+      - How to maintain alabaster with disintegration?
       - what could be done to stop the marble f disintegration?
+      - what could be done to stop the marmoreal f disintegration?
+      - what could be done to stop the limestone f disintegration?
+      - what could be done to stop the alabaster f disintegration?
       - how can marble be preserved after disintegration?
       - how can marmoreal be preserved after disintegration?
+      - how can limestone be preserved after disintegration?
+      - how can alabaster be preserved after disintegration?
       - how do i prevent marble disintegration?
-      - how do i prevent marmoreal exfoliation?
+      - how do i prevent marmoreal disintegration?
+      - how do i prevent limestone disintegration?
+      - how do i prevent alabaster disintegration?
       - how do i prevent marble exfoliation?
       - how do i prevent marmoreal exfoliation?
+      - how do i prevent limestone exfoliation?
+      - how do i prevent alabaster exfoliation?
       - What to do for marble with disintegration?
+      - What to do for marmoreal with disintegration?
+      - What to do for limestone with disintegration?
+      - What to do for alabaster with disintegration?
       - What to do for marble with exfoliation?
+      - What to do for marmoreal with exfoliation?
+      - What to do for limestone with exfoliation?
+      - What to do for alabaster with exfoliation?
       - what should i do if my marble wi disintegration?
       - what should i do if my marmoreal wi disintegration?
+      - what should i do if my limestone wi disintegration?
+      - what should i do if my alabaster wi disintegration?
       - how can a marble with disintegration be treated?
+      - how can a marmoreal with disintegration be treated?
+      - how can a limestone with disintegration be treated?
+      - how can a alabaster with disintegration be treated?
       - how do you treat a marble with disintegration?
       - how do you treat a marmoreal with disintegration?
+      - how do you treat a limestone with disintegration?
+      - how do you treat a alabaster with disintegration?
       - how do you treat a marble with exfoliation?
+      - how do you treat a marmoreal with exfoliation?
+      - how do you treat a limestone with exfoliation?
+      - how do you treat a alabaster with exfoliation?
       - We have marble with disintegration, what to do?
+      - We have marmoreal with disintegration, what to do?
+      - We have limestone with disintegration, what to do?
+      - We have alabaster with disintegration, what to do?
       - what do you do when a marble breaks up?
       - what do you do when a marmoreal breaks up?
+      - what do you do when a limestone breaks up?
+      - what do you do when a alabaster breaks up?
       - what do you do when a marble exfoliats?
+      - what do you do when a marmoreal exfoliats?
+      - what do you do when a limestone exfoliats?
+      - what do you do when a alabaster exfoliats?
       - what about marble disintegration?
       - what about marmoreal disintegration?
+      - what about limestone disintegration?
+      - what about alabaster disintegration?
 
   - intent: inform_marble_with_infection
     examples: | 
       - how can marble be preserved from infection?
+      - how can marmoreal be preserved from infection?
+      - how can limestone be preserved from infection?
+      - how can alabaster be preserved from infection?
       - what to do if Stachybotrys was found in marble?
+      - what to do if Stachybotrys was found in marmoreal?
+      - what to do if Stachybotrys was found in limestone?
+      - what to do if Stachybotrys was found in alabaster?
       - what to do if Aspergillus was found in marble?
+      - what to do if Aspergillus was found in marmoreal?
+      - what to do if Aspergillus was found in limestone?
+      - what to do if Aspergillus was found in alabaster?
       - what to do if Rhizopus was found in marble?
+      - what to do if Rhizopus was found in marmoreal?
+      - what to do if Rhizopus was found in limestone?
+      - what to do if Rhizopus was found in alabaster?
       - what to do if Penicillium was found in marble?
+      - what to do if Penicillium was found in marmoreal?
+      - what to do if Penicillium was found in limestone?
+      - what to do if Penicillium was found in alabaster?
       - what to do if Acremonium was found in marble?
+      - what to do if Acremonium was found in marmoreal?
+      - what to do if Acremonium was found in limestone?
+      - what to do if Acremonium was found in alabaster?
       - what to do if Cladosporium was found in marble?
+      - what to do if Cladosporium was found in marmoreal?
+      - what to do if Cladosporium was found in limestone?
+      - what to do if Cladosporium was found in alabaster?
       - what to do if Fusarium was found in marble?
+      - what to do if Fusarium was found in marmoreal?
+      - what to do if Fusarium was found in limestone?
+      - what to do if Fusarium was found in alabaster?
       - tell me the best way to protect marble from infection?
+      - tell me the best way to protect marmoreal from infection?
+      - tell me the best way to protect limestone from infection?
+      - tell me the best way to protect alabaster from infection?
       - how should i protect marble from infection?
       - how should i protect marmoreal from infection?
+      - how should i protect limestone from infection?
+      - how should i protect alabaster from infection?
       - How to maintain marble with infection?
+      - How to maintain marmoreal with infection?
+      - How to maintain limestone with infection?
+      - How to maintain alabaster with infection?
       - What to do for marble with infection?
       - What to do for marmoreal with infection?
+      - What to do for limestone with infection?
+      - What to do for alabaster with infection?
       - what do you do when you have a infection on your marble?
       - what do you do when you have a infection on your marmoreal?
+      - what do you do when you have a infection on your limestone?
+      - what do you do when you have a infection on your alabaster?
       - what do i do to protect my marbles from infection?
+      - what do i do to protect my marmoreals from infection?
+      - what do i do to protect my limestones from infection?
+      - what do i do to protect my alabasters from infection?
       - We have marble with infection, what to do?
       - We have marmoreal with infection, what to do?
+      - We have limestone with infection, what to do?
+      - We have alabaster with infection, what to do?
       - what should i do if i have an infection on my marble?
+      - what should i do if i have an infection on my marmoreal?
+      - what should i do if i have an infection on my limestone?
+      - what should i do if i have an infection on my alabaster?
       - what to do if Streptococcus thermophilus was found in marble?
+      - what to do if Streptococcus thermophilus was found in marmoreal?
+      - what to do if Streptococcus thermophilus was found in limestone?
+      - what to do if Streptococcus thermophilus was found in alabaster?
       - how to preserve marble if Streptococcus thermophilus was found?
+      - how to preserve marmoreal if Streptococcus thermophilus was found?
+      - how to preserve limestone if Streptococcus thermophilus was found?
+      - how to preserve alabaster if Streptococcus thermophilus was found?
       - what to do if Bacillus coagulans was found in marble?
+      - what to do if Bacillus coagulans was found in marmoreal?
+      - what to do if Bacillus coagulans was found in limestone?
+      - what to do if Bacillus coagulans was found in alabaster?
       - how to preserve marble if Bacillus coagulans was found?
+      - how to preserve marmoreal if Bacillus coagulans was found?
+      - how to preserve limestone if Bacillus coagulans was found?
+      - how to preserve alabaster if Bacillus coagulans was found?
       - what to do if Brevibacillus brevis was found in marble?
+      - what to do if Brevibacillus brevis was found in marmoreal?
+      - what to do if Brevibacillus brevis was found in limestone?
+      - what to do if Brevibacillus brevis was found in alabaster?
       - how to preserve marble if Brevibacillus brevis was found?
+      - how to preserve marmoreal if Brevibacillus brevis was found?
+      - how to preserve limestone if Brevibacillus brevis was found?
+      - how to preserve alabaster if Brevibacillus brevis was found?
       - what to do if Chlamydomonas was found in marble?
+      - what to do if Chlamydomonas was found in marmoreal?
+      - what to do if Chlamydomonas was found in limestone?
+      - what to do if Chlamydomonas was found in alabaster?
       - how to preserve marble if Chlamydomonas was found?
+      - how to preserve marmoreal if Chlamydomonas was found?
+      - how to preserve limestone if Chlamydomonas was found?
+      - how to preserve alabaster if Chlamydomonas was found?
       - what to do if Volvox brevis was found in marble?
+      - what to do if Volvox brevis was found in marmoreal?
+      - what to do if Volvox brevis was found in limestone?
+      - what to do if Volvox brevis was found in alabaster?
       - how to preserve marble if Volvox brevis was found?
+      - how to preserve marmoreal if Volvox brevis was found?
+      - how to preserve limestone if Volvox brevis was found?
+      - how to preserve alabaster if Volvox brevis was found?
       - what to do if Chlorococcum brevis was found in marble?
+      - what to do if Chlorococcum brevis was found in marmoreal?
+      - what to do if Chlorococcum brevis was found in limestone?
+      - what to do if Chlorococcum brevis was found in alabaster?
       - how to preserve marble if Chlorococcum brevis was found?
+      - how to preserve marmoreal if Chlorococcum brevis was found?
+      - how to preserve limestone if Chlorococcum brevis was found?
+      - how to preserve alabaster if Chlorococcum brevis was found?
       - what about marble infection?
       - what about marmoreal infection?
+      - what about limestone infection?
+      - what about alabaster infection?

@@ -9,7 +9,7 @@ responses:
       - text: We don't know something yet for pebble with this problem.
 
       utter_pebbles_with_cracks:
-      - text: First clean the cracked area, then remove the loose pebbles and the cracked area carefully. When finished place new groot and pebbles in the area under reconstruction. Also a coating of the pebble surface would be advised to protect later deteriorations.
+      - text: First clean the cracked area, then remove the loose pebbles and the cracked area carefully. When finished place new mortar and pebbles in the area under reconstruction. Also a coating of the pebble surface would be advised to protect later deteriorations.
 
       utter_pebbles_with_disintegration:
       - text: Filling with grout is recommended. After that it would be good to apply a nanoparticle polymer film coating with superhydrophobic properties to protect the surface.

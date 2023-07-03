@@ -4,178 +4,338 @@ nlu:
   - intent: inform_shale_with_cracks
     examples: | 
       - How to preserve shale with cracks?
+      - How to preserve slate with cracks?
       - tell me the best way to preserve shale with cracks?
+      - tell me the best way to preserve slate with cracks?
       - how do you preserve shale with cracks?
+      - how do you preserve slate with cracks?
       - How to maintain shale with cracks?
+      - How to maintain slate with cracks?
       - how do i maintain a shale that has cracks?
+      - how do i maintain a slate that has cracks?
       - tell me the best way to maintain shale with cracks?
+      - tell me the best way to maintain slate with cracks?
       - how do you maintain shale with cracks?
+      - how do you maintain slate with cracks?
       - How to maintain shale with cracks?
+      - How to maintain slate with cracks?
       - how do i keep shale out of creating cracks?
+      - how do i keep slate out of creating cracks?
       - what is the best way to preserve shale with cracks?
+      - what is the best way to preserve slate with cracks?
       - how can i maintain shale with cracks?
+      - how can i maintain slate with cracks?
       - how do you maintain shale with cracks?
+      - how do you maintain slate with cracks?
       - how does it work to maintain shale with cracks?
+      - how does it work to maintain slate with cracks?
       - How to preserve shale with cracks?
+      - How to preserve slate with cracks?
       - what should i do to preserve shale with cracks?
+      - what should i do to preserve slate with cracks?
       - how do you preserve shale in cracks?
+      - how do you preserve slate in cracks?
       - how can you preserve shale with cracks?
+      - how can you preserve slate with cracks?
       - How to preserve shale with cracks?
+      - How to preserve slate with cracks?
       - how can i preserve shale with cracks?
+      - how can i preserve slate with cracks?
       - What to do for shale with cracks?
+      - What to do for slate with cracks?
       - how can i fix a shale with cracks?
+      - how can i fix a slate with cracks?
       - how do we treat shale with cracks?
+      - how do we treat slate with cracks?
       - We have shale with cracks, what to do?
+      - We have slate with cracks, what to do?
       - what should you do if you have shale with cracks?
+      - what should you do if you have slate with cracks?
       - what should we do when we have shale with cracks?
+      - what should we do when we have slate with cracks?
       - We have shale with cracks, what to do?
+      - We have slate with cracks, what to do?
       - what do i do when i see cracks in the shale?
+      - what do i do when i see cracks in the slate?
       - what about shale cracks?
+      - what about slate cracks?
     
   - intent: inform_shale_with_sulfation
     examples: | 
       - How to preserve shale with sulphation?
+      - How to preserve slate with sulphation?
       - how does sulphation is preserved if found in shale?
+      - how does sulphation is preserved if found in slate?
       - how can you maintain shale from sulphation?
+      - how can you maintain slate from sulphation?
       - how can shale be preserved from sulphation?
+      - how can slate be preserved from sulphation?
       - how do i preserve shale from sulphation?
+      - how do i preserve slate from sulphation?
       - How to maintain shale with sulphation?
+      - How to maintain slate with sulphation?
       - how can we sustain shale with sulphation?
+      - how can we sustain slate with sulphation?
       - how can you maintain shale with sulphation?
+      - how can you maintain slate with sulphation?
       - how can we maintain shale with sulphation?
+      - how can we maintain slate with sulphation?
       - How to preserve shale with sulfur dioxide?
+      - How to preserve slate with sulfur dioxide?
       - how can i maintain shale with sulfur dioxide?
+      - how can i maintain slate with sulfur dioxide?
       - how can you preserve shale with sulfur dioxide?
+      - how can you preserve slate with sulfur dioxide?
       - how do you preserve shale with sulfur dioxide?
+      - how do you preserve slate with sulfur dioxide?
       - What to do for shale with sulphation?
+      - What to do for slate with sulphation?
       - what do you do for shale with sulphation?
+      - what do you do for slate with sulphation?
       - We have shale with sulphation, what to do?
+      - We have slate with sulphation, what to do?
       - what can we do with shale?
+      - what can we do with slate?
       - what is going on with shale sulphation? what should we do?
+      - what is going on with slate sulphation? what should we do?
       - what can we do with shale with sulphation?
+      - what can we do with slate with sulphation?
       - what about shale with sulphation?
+      - what about slate with sulphation?
 
   - intent: inform_shale_with_cavities
     examples: | 
       - How to preserve shale with cavities?
+      - How to preserve slate with cavities?
       - tell me the best way to preserve shale with cavities?
+      - tell me the best way to preserve slate with cavities?
       - how do you preserve shale with cavities?
+      - how do you preserve slate with cavities?
       - How to maintain shale with cavities?
+      - How to maintain slate with cavities?
       - how do i maintain a shale that has cavities?
+      - how do i maintain a slate that has cavities?
       - tell me the best way to maintain shale with cavities?
+      - tell me the best way to maintain slate with cavities?
       - how do you maintain shale with cavities?
+      - how do you maintain slate with cavities?
       - How to maintain shale with holes?
+      - How to maintain slate with holes?
       - how do i keep shale out of deterioration?
+      - how do i keep slate out of deterioration?
       - what is the best way to keep shale with holes?
+      - what is the best way to keep slate with holes?
       - how can i maintain shale with holes?
+      - how can i maintain slate with holes?
       - how do you maintain shale with holes?
+      - how do you maintain slate with holes?
       - how does it work to maintain shale with holes?
+      - how does it work to maintain slate with holes?
       - How to preserve shale with cavities?
+      - How to preserve slate with cavities?
       - what should i do to preserve shale by cavities?
+      - what should i do to preserve slate by cavities?
       - how do you preserve shale in cavities?
+      - how do you preserve slate in cavities?
       - how can you preserve shale with cavities?
+      - how can you preserve slate with cavities?
       - How to preserve shale with holes?
+      - How to preserve slate with holes?
       - how do i avoid damaging shale?
+      - how do i avoid damaging slate?
       - how can i preserve shale with holes?
+      - how can i preserve slate with holes?
       - What to do for shale with cavities?
+      - What to do for slate with cavities?
       - how can i fix a shale with cavities?
+      - how can i fix a slate with cavities?
       - how do we treat shale with cavities?
+      - how do we treat slate with cavities?
       - We have shale with cavities, what to do?
+      - We have slate with cavities, what to do?
       - what should you do if you get shale with cavities?
+      - what should you do if you get slate with cavities?
       - are there cavities in the shale?
+      - are there cavities in the slate?
       - what should we do when we have shale with cavities?
+      - what should we do when we have slate with cavities?
       - We have shale with holes, what to do?
+      - We have slate with holes, what to do?
       - what do i do when i see holes in the shale?
+      - what do i do when i see holes in the slate?
       - what do we do when we have shale containing holes in it?
+      - what do we do when we have slate containing holes in it?
       - what about shale cavities?
+      - what about slate cavities?
       - what about shale holes?
+      - what about slate holes?
 
   - intent: inform_shale_with_crystal_decomposition
     examples: | 
       - How to preserve shale with crystallization?
+      - How to preserve slate with crystallization?
       - how can i preserve the shale from crystallization?
+      - how can i preserve the slate from crystallization?
       - tell me the best way to preserve shale if it has crystallization?
+      - tell me the best way to preserve slate if it has crystallization?
       - how do i preserve shale from crystallization?
+      - how do i preserve slate from crystallization?
       - tell me the best way to preserve shale with crystallization?
+      - tell me the best way to preserve slate with crystallization?
       - how can i preserve shale with crystallization?
+      - how can i preserve slate with crystallization?
       - how can i preserve shale from crystallization?
+      - how can i preserve slate from crystallization?
       - how do you preserve shale with crystallization?
+      - how do you preserve slate with crystallization?
       - How to preserve shale with crystal decomposition?
+      - How to preserve slate with crystal decomposition?
       - how does crystal decomposition is treated in shale?
+      - how does crystal decomposition is treated in slate?
       - how can a shale be preserved after crystallization?
+      - how can a slate be preserved after crystallization?
       - can shale be preserved from a crystal decomposition?
+      - can slate be preserved from a crystal decomposition?
       - how can you preserve shale with crystal decomposition?
+      - how can you preserve slate with crystal decomposition?
       - How to maintain shale with crystallization?
+      - How to maintain slate with crystallization?
       - tell me the best way to maintain shale crystallization?
+      - tell me the best way to maintain slate crystallization?
       - how can you maintain shale crystallization?
+      - how can you maintain slate crystallization?
       - how can one maintain shale with crystallization?
+      - how can one maintain slate with crystallization?
       - how can we maintain shale with crystallization?
+      - how can we maintain slate with crystallization?
       - what should i do to maintain shale with crystallization?
+      - what should i do to maintain slate with crystallization?
       - How to maintain shale with crystal decomposition?
+      - How to maintain slate with crystal decomposition?
       - how can we retain shale with crystal decomposition?
+      - how can we retain slate with crystal decomposition?
       - how do you maintain shale with crystal decomposition?
+      - how do you maintain slate with crystal decomposition?
       - What to do for shale with crystallization?
+      - What to do for slate with crystallization?
       - what can i do for shale crystallization?
+      - what can i do for slate crystallization?
       - what should i do to the shale with crystallization?
+      - what should i do to the slate with crystallization?
       - We have shale with crystallization, what to do?
+      - We have slate with crystallization, what to do?
       - what should we do if we have shale with crystallization?
+      - what should we do if we have slate with crystallization?
       - if we have shale crystallization what should we do?
+      - if we have slate crystallization what should we do?
       - We have shale with crystal decomposition, what to do?
+      - We have slate with crystal decomposition, what to do?
       - what do you do when you get shale with a crystal decomposition?
+      - what do you do when you get slate with a crystal decomposition?
       - what is going on in shale with crystal decomposition?
+      - what is going on in slate with crystal decomposition?
       - what should we do if we have shale with crystal decomposition?
+      - what should we do if we have slate with crystal decomposition?
       - if we have shale with crystal decomposition what will we do?
+      - if we have slate with crystal decomposition what will we do?
       - what about shale with crystallization?
+      - what about slate with crystallization?
       - what about shale with crystal decomposition?
+      - what about slate with crystal decomposition?
 
   - intent: inform_shale_with_disintegration
     examples: | 
       - How to preserve shale from disintegration?
+      - How to preserve slate from disintegration?
       - How to maintain shale with exfoliation?
+      - How to maintain slate with exfoliation?
       - How to maintain shale with disintegration?
+      - How to maintain slate with disintegration?
       - What to do for shale with disintegration?
+      - What to do for slate with disintegration?
       - We have shale with disintegration, what to do?
+      - We have slate with disintegration, what to do?
       - We have shale with exfoliation, what to do?
+      - We have slate with exfoliation, what to do?
       - how do i maintain a shale that has disintegration?
+      - how do i maintain a slate that has disintegration?
       - how do you maintain shale with disintegration?
+      - how do you maintain slate with disintegration?
       - how do i keep shale out of disintegration?
+      - how do i keep slate out of disintegration?
       - how do i preserve shale from disintegration?
+      - how do i preserve slate from disintegration?
       - how do you preserve shale with disintegration?
+      - how do you preserve slate with disintegration?
       - how does it work to preserve shale with disintegration?
+      - how does it work to preserve slate with disintegration?
       - how can i preserve shale with disintegration?
+      - how can i preserve slate with disintegration?
       - how can you preserve shale with disintegration?
+      - how can you preserve slate with disintegration?
       - how can you preserve shale with exfoliation?
+      - how can you preserve slate with exfoliation?
       - how can i maintain shale with disintegration?
+      - how can i maintain slate with disintegration?
       - how can you maintain shale with disintegration?
+      - how can you maintain slate with disintegration?
       - how can you maintain shale with exfoliation?
+      - how can you maintain slate with exfoliation?
       - how can we maintain shale with disintegration?
+      - how can we maintain slate with disintegration?
       - how can i fix a shale with disintegration?
+      - how can i fix a slate with disintegration?
       - how can i fix a shale with exfoliation?
+      - how can i fix a slate with exfoliation?
       - how do we treat shale with disintegration?
+      - how do we treat slate with disintegration?
       - what about shale disintegration?
+      - what about slate disintegration?
 
   - intent: inform_shale_with_infection
     examples: | 
       - How to preserve shale from infection?
+      - How to preserve slate from infection?
       - How to maintain shale with infection?
+      - How to maintain slate with infection?
       - What to do for shale with infection?
+      - What to do for slate with infection?
       - We have shale with infection, what to do?
+      - We have slate with infection, what to do?
       - how do i maintain a shale that has infection?
+      - how do i maintain a slate that has infection?
       - how do you maintain shale with infection?
+      - how do you maintain slate with infection?
       - how do i keep shale out of infection?
+      - how do i keep slate out of infection?
       - how do i preserve shale from infection?
+      - how do i preserve slate from infection?
       - what to do if Stachybotrys was found in shale?
+      - what to do if Stachybotrys was found in slate?
       - what to do if Aspergillus was found in shale?
+      - what to do if Aspergillus was found in slate?
       - what to do if Rhizopus was found in shale?
+      - what to do if Rhizopus was found in slate?
       - what to do if Penicillium was found in shale?
+      - what to do if Penicillium was found in slate?
       - what to do if Acremonium was found in shale?
+      - what to do if Acremonium was found in slate?
       - what to do if Cladosporium was found in shale?
+      - what to do if Cladosporium was found in slate?
       - what to do if Fusarium was found in shale?
+      - what to do if Fusarium was found in slate?
       - what to do if Streptococcus thermophilus was found in shale?
+      - what to do if Streptococcus thermophilus was found in slate?
       - what to do if Bacillus coagulans was found in shale?
+      - what to do if Bacillus coagulans was found in slate?
       - what to do if Brevibacillus brevis was found in shale?
+      - what to do if Brevibacillus brevis was found in slate?
       - what to do if Chlamydomonas was found in shale?
+      - what to do if Chlamydomonas was found in slate?
       - what to do if Volvox brevis was found in shale?
+      - what to do if Volvox brevis was found in slate?
       - what to do if Chlorococcum brevis was found in shale?
+      - what to do if Chlorococcum brevis was found in slate?
       - what about shale infection?
+      - what about slate infection?
       

@@ -172,7 +172,7 @@ def postprocess(tokenizer, model_outputs):
     return records
 
 def get_model_tokenizer(pretrained_model_name_or_path):
-    tokenizer = tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path)
+    tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name_or_path);
     model = model = AutoModelForCausalLM.from_pretrained(
         pretrained_model_name_or_path, 
         torch_dtype = torch.bfloat16,
@@ -329,8 +329,8 @@ class ActionSaveUnkownIntent(Action):
             answer_qa = res['answer']
 
             query = 'Answer the following question only with the provided input. ' + query;
-            if max_score > 0.2:
-                if res['score'] > 0.5:
+            if max_score > 0.3:
+                if res['score'] > 0.4:
                     # If QA model is confident then return its answer
                     dispatcher.utter_message(answer_qa);
                 else:

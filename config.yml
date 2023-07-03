@@ -16,8 +16,6 @@ pipeline:
   # See https://rasa.com/docs/rasa/tuning-your-model for more information.
   - name: WhitespaceTokenizer
     # case_sensitive: False
-  - name: RegexFeaturizer
-    # case_sensitive: False
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
