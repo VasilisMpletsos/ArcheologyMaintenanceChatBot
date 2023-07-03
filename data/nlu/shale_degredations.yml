@@ -295,21 +295,37 @@ nlu:
   - intent: inform_shale_with_infection
     examples: | 
       - How to preserve shale from infection?
+      - How to preserve shale from lichens or fungus or microbial?
       - How to preserve slate from infection?
+      - How to preserve slate from lichens or fungus or microbial?
       - How to maintain shale with infection?
+      - How to maintain shale with lichens or fungus or microbial?
       - How to maintain slate with infection?
+      - How to maintain slate with lichens or fungus or microbial?
       - What to do for shale with infection?
+      - What to do for shale with lichens or fungus or microbial?
       - What to do for slate with infection?
+      - What to do for slate with lichens or fungus or microbial?
       - We have shale with infection, what to do?
+      - We have shale with lichens or fungus or microbial, what to do?
       - We have slate with infection, what to do?
+      - We have slate with lichens or fungus or microbial, what to do?
       - how do i maintain a shale that has infection?
+      - how do i maintain a shale that has lichens or fungus or microbial?
       - how do i maintain a slate that has infection?
+      - how do i maintain a slate that has lichens or fungus or microbial?
       - how do you maintain shale with infection?
+      - how do you maintain shale with lichens or fungus or microbial?
       - how do you maintain slate with infection?
+      - how do you maintain slate with lichens or fungus or microbial?
       - how do i keep shale out of infection?
+      - how do i keep shale out of lichens or fungus or microbial?
       - how do i keep slate out of infection?
+      - how do i keep slate out of lichens or fungus or microbial?
       - how do i preserve shale from infection?
+      - how do i preserve shale from lichens or fungus or microbial?
       - how do i preserve slate from infection?
+      - how do i preserve slate from lichens or fungus or microbial?
       - what to do if Stachybotrys was found in shale?
       - what to do if Stachybotrys was found in slate?
       - what to do if Aspergillus was found in shale?
@@ -337,5 +353,7 @@ nlu:
       - what to do if Chlorococcum brevis was found in shale?
       - what to do if Chlorococcum brevis was found in slate?
       - what about shale infection?
+      - what about shale lichens or fungus or microbial?
       - what about slate infection?
+      - what about slate lichens or fungus or microbial?
       

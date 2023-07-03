@@ -138,6 +138,17 @@ nlu:
     - thanks a million
     - thank you very much for that
     - cool story bro
+    - wow you know so much
+    - you are so cool
+    - you are so smart
+    - you are so clever
+    - you are so intelligent
+    - you are so helpful
+    - you are so nice
+    - you are so kind
+    - you are so sweet
+    - you are so awesome
+    - you are so amazing
 
 - intent: bot_challenge
   examples: |

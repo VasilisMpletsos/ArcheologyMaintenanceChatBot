@@ -53,9 +53,13 @@ nlu:
   - intent: inform_shell_stone_with_infection
     examples: | 
       - How to preserve shell stone with infection?
+      - How to preserve shell stone with lichens or fungus?
       - How to maintain shell stone with infection?
+      - How to maintain shell stone with lichens or fungus?
       - What to do for shell stone with infection?
+      - What to do for shell stone with lichens or fungus?
       - We have shell stone with infection, what to do?
+      - We have shell stone with lichens or fungus, what to do?
       - what to do if Stachybotrys was found in shell stone?
       - what to do if Aspergillus was found in shell stone?
       - what to do if Rhizopus was found in shell stone?
@@ -70,3 +74,4 @@ nlu:
       - what to do if Volvox brevis was found in shell stone?
       - what to do if Chlorococcum brevis was found in shell stone?
       - what about shell stone with infection?
+      - what about shell stone with lichens or fungus?

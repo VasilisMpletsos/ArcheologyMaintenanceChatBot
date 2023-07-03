@@ -8,6 +8,7 @@
 # Imports for similarity search and LLM
 import os
 import re
+import random
 import torch
 import pandas as pd
 import numpy as np
@@ -230,7 +231,18 @@ sentence_embeddings = mean_pooling(model_output, encoded_input['attention_mask']
 sentence_embeddings = sentence_embeddings.detach().numpy()
 print("INFO:     Loaded knowledge base!")
 
-
+unanswerable_questions = [
+    "I do not know the answer to this question.",
+    "Sorry i cannot answer this question.",
+    "Sadly i can't answer this question.",
+    "I don't know the answer to this question.",
+    "I don't know the answer to this question, sorry.",
+    "I do not have the answer to this question.",
+    "I don't possess the answer to this question.",
+    "Sorry i am not capable of answering this question.",
+    "Sorry i cannot answer",
+    "It appears that i cannot answer this question.",
+]
 # ------------------------ CLASSES FOR RASA ------------------------
     
 class ActionEvaluateSlowDegradationRate(Action):
@@ -329,7 +341,7 @@ class ActionSaveUnkownIntent(Action):
             answer_qa = res['answer']
 
             query = 'Answer the following question only with the provided input. ' + query;
-            if max_score > 0.3:
+            if max_score > 0.4:
                 if res['score'] > 0.4:
                     # If QA model is confident then return its answer
                     dispatcher.utter_message(answer_qa);
@@ -343,7 +355,7 @@ class ActionSaveUnkownIntent(Action):
                         response += '.'
                     dispatcher.utter_message(response);
             else:
-                dispatcher.utter_message("Sorry i don't know the answer to that question.");
+                dispatcher.utter_message(random.choice(unanswerable_questions));
         else:
             dispatcher.utter_message("Please write complete questions to get an answer.");
             return

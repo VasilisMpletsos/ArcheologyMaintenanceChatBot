@@ -55,9 +55,13 @@ nlu:
   - intent: inform_pebbles_with_infection
     examples: | 
       - How to preserve pebbles with infection?
+      - How to preserve pebbles with lichens or fungus?
       - How to maintain pebbles with infection?
+      - How to maintain pebbles with lichens or fungus?
       - What to do for pebbles with infection?
+      - What to do for pebbles with lichens or fungus?
       - We have pebbles with infection, what to do?
+      - We have pebbles with lichens or fungus, what to do?
       - what to do if Stachybotrys was found in pebbles?
       - what to do if Aspergillus was found in pebbles?
       - what to do if Rhizopus was found in pebbles?
@@ -72,3 +76,4 @@ nlu:
       - what to do if Volvox brevis was found in pebbles?
       - what to do if Chlorococcum brevis was found in pebbles?
       - what about pebbles infection?
+      - what about pebbles lichens or fungus?

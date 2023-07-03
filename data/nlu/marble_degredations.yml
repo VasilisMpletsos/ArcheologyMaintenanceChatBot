@@ -411,9 +411,13 @@ nlu:
   - intent: inform_marble_with_infection
     examples: | 
       - how can marble be preserved from infection?
+      - how can marble be preserved from lichens fungus?
       - how can marmoreal be preserved from infection?
+      - how can marmoreal be preserved from lichens fungus?
       - how can limestone be preserved from infection?
+      - how can limestone be preserved from lichens fungus?
       - how can alabaster be preserved from infection?
+      - how can alabaster be preserved from lichens fungus?
       - what to do if Stachybotrys was found in marble?
       - what to do if Stachybotrys was found in marmoreal?
       - what to do if Stachybotrys was found in limestone?
