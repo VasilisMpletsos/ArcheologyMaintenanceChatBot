@@ -14,8 +14,7 @@ import pandas as pd
 import numpy as np
 from transformers import AutoTokenizer, AutoModel, pipeline, PreTrainedTokenizer, AutoModelForCausalLM
 from sklearn.metrics.pairwise import cosine_similarity
-from langchain import PromptTemplate, LLMChain
-from langchain.llms import HuggingFacePipeline
+from sentence_transformers.util import semantic_search
 
 # Imports for date recommendation
 import datetime
@@ -190,12 +189,6 @@ def clean_text(text):
     text = text.replace('\n', '')
     return text
 
-# Mean Pooling - Take attention mask into account for correct averaging
-def mean_pooling(model_output, attention_mask):
-    token_embeddings = model_output[0] #First element of model_output contains all token embeddings
-    input_mask_expanded = attention_mask.unsqueeze(-1).expand(token_embeddings.size()).float()
-    return torch.sum(token_embeddings * input_mask_expanded, 1) / torch.clamp(input_mask_expanded.sum(1), min=1e-9)
-
 # ------------------------ INITIALLIZATION SECTION ------------------------
 
 
@@ -209,8 +202,8 @@ qa = pipeline('question-answering', model=model_name, tokenizer=model_name)
 print('INFO:     Loaded QA Model')
 
 # Load similarity model
-similarity_tokenizer = AutoTokenizer.from_pretrained('sentence-transformers/all-MiniLM-L6-v2')
-similarity_model = AutoModel.from_pretrained('sentence-transformers/all-MiniLM-L6-v2')
+similarity_tokenizer = AutoTokenizer.from_pretrained('sentence-transformers/all-MiniLM-L12-v2')
+similarity_model = AutoModel.from_pretrained('sentence-transformers/all-MiniLM-L12-v2')
 print("INFO:     Loaded similarity model!")
 
 # Mean Pooling - Take attention mask into account for correct averaging
@@ -323,14 +316,15 @@ class ActionSaveUnkownIntent(Action):
             #     f.write(query)
             #     f.write("\n")
             #     f.close()
-            tokenized_query = similarity_tokenizer(query, padding=True, truncation=True, return_tensors='pt')
-            embedded_query = similarity_model(**tokenized_query)
-            question_embeddings = mean_pooling(embedded_query, tokenized_query['attention_mask'])
-            question_embeddings = question_embeddings.detach().numpy()
-            scores = cosine_similarity([question_embeddings[0]], sentence_embeddings)[0]
-            max_pos = np.argmax(scores[1:])
-            max_score = scores[max_pos+1]
-            context = passages[max_pos+1]
+            tokenized_query = similarity_tokenizer(query, padding=True, truncation=True, return_tensors='pt');
+            embedded_query = similarity_model(**tokenized_query);
+            question_embeddings = mean_pooling(embedded_query, tokenized_query['attention_mask']);
+            question_embeddings = question_embeddings.detach().numpy();
+            retrieved = semantic_search(question_embeddings, sentence_embeddings, top_k=1);
+            retrieved = retrieved[0][0];
+            max_pos = retrieved['corpus_id'];
+            max_score = retrieved['score'];
+            context = passages[max_pos];
             
             # Calculate the answer of the QA model
             QA_input = {
