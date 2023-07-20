@@ -16,13 +16,13 @@ stories:
 - story: told material mortar and degradation sulphation
   steps:
   - checkpoint: asked_degradation_for_mortar
-  - intent: inform_degradation_sulfation
-  - action: utter_mortar_with_sulfation
+  - intent: inform_degradation_sulphation
+  - action: utter_mortar_with_sulphation
 
 - story: solution for mortar with sulphation
   steps:
-  - intent: inform_mortar_with_sulfation
-  - action: utter_mortar_with_sulfation
+  - intent: inform_mortar_with_sulphation
+  - action: utter_mortar_with_sulphation
 
 - story: told material mortar and degradation cavities
   steps:

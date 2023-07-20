@@ -16,13 +16,13 @@ stories:
 - story: told material shale and degradation sulphation
   steps:
   - checkpoint: asked_degradation_for_shale
-  - intent: inform_degradation_sulfation
-  - action: utter_shale_with_sulfation
+  - intent: inform_degradation_sulphation
+  - action: utter_shale_with_sulphation
 
 - story: solution for shale with sulphation
   steps:
-  - intent: inform_shale_with_sulfation
-  - action: utter_shale_with_sulfation
+  - intent: inform_shale_with_sulphation
+  - action: utter_shale_with_sulphation
 
 - story: told material shale and degradation cavities
   steps:

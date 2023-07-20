@@ -40,6 +40,52 @@ responses:
       - Shale (Sxistolithos)\n
       - Shell Stone (Kogxyliatis)\n
       - Pebbles (Votsaloto)\n"
+      - text: "Hi, welcome to the chat! I'm an assistant chatbot here to help preserve cultural heritage. Ask me questions like:\n
+      How to maintain marble with cracks?\n
+      How to preserve stone with cavities?\n
+      We found mortar with cracks, what should we do?\n
+      Remember to specify the material and type of degradation. Or inquire about the root causes of cracks, cavities, sulphation, crystal decomposition, and disintegration."
+      - text: "Hello! I'm a chatbot assisting with maintenance questions. Let me know the material and issue you're facing, like:\n
+      How to maintain marble with cracks?\n
+      How to preserve stone with cavities?\n
+      There are some cracks in the stone, what shall we do?\n
+      I can also answer general questions for materials like marble, stone, mortar, shale, shell stone, and pebbles."
+      - text: "Welcome to the chat! I'm a chatbot here to help with preservation. Ask me questions for maintenance or general queries like:\n
+      How to maintain marble with cracks?\n
+      How to preserve stone with cavities?\n
+      What can I do to prevent mortar decomposition?\n
+      Is marble strong?\n
+      I can assist with materials such as marble, stone, mortar, shale, shell stone, and pebbles."
+      - text: "Greetings! I'm an assistant chatbot, ready to guide you on preserving various materials. Feel free to ask maintenance or general questions:\n
+      How to maintain marble with cracks?\n
+      How to preserve stone with cavities?\n
+      What steps to take for stopping mortar decomposition?\n
+      Is marble a durable material?\n
+      I'm here to help with marble, stone, mortar, shale, shell stone, and pebbles."
+      - text: "Hello there! I'm a chatbot dedicated to assisting with material preservation. Ask me about maintenance or anything else:\n
+      How to maintain marble with cracks?\n
+      How to preserve stone with cavities?\n
+      How can we prevent mortar from deteriorating?\n
+      What are the properties of marble?\n
+      Feel free to inquire about marble, stone, mortar, shale, shell stone, or pebbles."
+      - text: "Welcome! I'm a chatbot specializing in preserving different materials. Ask me questions on maintenance or other topics:\n
+      How to maintain marble with cracks?\n
+      How to preserve stone with cavities?\n
+      What solutions can be used for mortar protection?\n
+      Can you tell me about the strength of marble?\n
+      I can help with marble, stone, mortar, shale, shell stone, and pebbles."
+      - text: "Greetings, I'm an assistant chatbot eager to aid in material preservation. Share maintenance queries or general questions like:\n
+      How to maintain marble with cracks?\n
+      How to preserve stone with cavities?\n
+      Any suggestions to address mortar issues?\n
+      Tell me about the durability of marble.\n
+      Feel free to discuss marble, stone, mortar, shale, shell stone, or pebbles with me."
+      - text: "Hello! I'm here to assist with preserving various materials. Let me know about maintenance or general inquiries:\n
+      How to maintain marble with cracks?\n
+      How to preserve stone with cavities?\n
+      What can be done to protect mortar from degradation?\n
+      What are the unique characteristics of marble?\n
+      Feel free to ask about marble, stone, mortar, shale, shell stone, or pebbles."
 
       utter_goodbye:
       - text: "Bye"
@@ -51,6 +97,24 @@ responses:
       - text: "Have a nice day!"
       - text: "See you later!"
       - text: "See you soon!"
+      - text: Farewell!
+      - text: Take care!
+      - text: Goodbye and stay safe.
+      - text: Catch you later!
+      - text: See you next time!
+      - text: Until we meet again.
+      - text: Bye for now.
+      - text: Have a great day!
+      - text: So long!
+      - text: Have a wonderful week!
+      - text: Until next time!
+      - text: Goodbye and have a fantastic weekend!
+      - text: Take care and be well.
+      - text: Until our paths cross again.
+      - text: Have a pleasant evening!
+      - text: Adios!
+      - text: Looking forward to talking again soon.
+      - text: Take it easy!
 
       utter_bad_answer:
       - text: So sorry, please try to ask me again.
@@ -60,6 +124,26 @@ responses:
       - text: I am sorry, please state your question again clearly, i am just a bot.
       - text: So sorry, don't be mad at me, i am just a bot. Please try to ask me again.
       - text: I am sorry, try to ask me again
+      - text: My apologies, I didn't quite catch that. Could you please repeat your question?
+      - text: I'm sorry, it seems I didn't understand your inquiry. Could you kindly ask again?
+      - text: Apologies, I'm just a bot and might need more clarity. Please rephrase your question.
+      - text: Sorry, I didn't get that. Can you please ask me again in a different way?
+      - text: I apologize for any confusion. Could you try asking your question once more?
+      - text: I'm sorry, my understanding might be limited. Please try asking your question again.
+      - text: Sorry about that, I might need further clarification. Could you ask me again?
+      - text: My apologies, it seems I didn't comprehend your message. Please try asking once more.
+      - text: I'm sorry, I didn't grasp the meaning of your question. Could you please try rephrasing it?
+      - text: I apologize, but I didn't quite understand what you meant. Can you ask me again?
+      - text: My apologies, I couldn't process your request. Could you repeat it, please?
+      - text: Sorry, I didn't get that. Can you try asking your question again?
+      - text: I'm sorry, it appears I didn't catch your question correctly. Could you ask me again?
+      - text: My apologies, I might have misunderstood your inquiry. Please try asking once more.
+      - text: I'm sorry, I didn't quite comprehend your message. Could you please restate it?
+      - text: Sorry about that, it seems I need more information to provide a proper response. Please try asking again.
+      - text: I apologize, I didn't fully grasp what you're asking. Can you try phrasing it differently?
+      - text: My apologies, it seems I didn't interpret your question correctly. Can you please ask again?
+      - text: I'm sorry, I didn't get that. Could you try asking your question in a different way?
+      - text: Sorry for any confusion, I'm still learning. Please try asking your question again.
 
       utter_iamabot:
       - text: I am a bot
@@ -69,6 +153,16 @@ responses:
       - text: I am not a human i am a chatbot
       - text: You are speeking with a chatbot
       - text: I am a chatbot and i am here to help you
+      - text: Just to clarify, I am an AI chatbot here to assist you.
+      - text: I want to let you know that I am a chatbot designed to help you.
+      - text: Allow me to introduce myself! I am a chatbot programmed to assist with your queries.
+      - text: I am not a human! I'm actually an AI chatbot designed to provide support.
+      - text: It's important to note that I am a chatbot here to assist and answer your questions.
+      - text: I'm not a real person! I'm an AI chatbot specifically programmed to help you.
+      - text: You are currently interacting with a chatbot designed to offer assistance.
+      - text: Just a friendly reminder that I am an AI chatbot here to provide you with answers.
+      - text: I am not a human! I am a virtual assistant, also known as a chatbot.
+      - text: It's essential to understand that I am a chatbot designed to provide you with support.
 
       utter_you_are_welcome:
       - text: I am happy that i helped you. If you have any further questions, please feel free to ask me again.
@@ -77,6 +171,16 @@ responses:
       - text: I am glad i was able to help you. If you have any further questions, please feel free to ask me again.
       - text: Super! Hope everything goes well with the restoration.
       - text: I am always happy to help you. If you have any further questions, please feel free to ask me again.
+      - text: I'm delighted that I could assist you. If you have any more questions, don't hesitate to ask.
+      - text: I'm glad I could be of help. Should you require further assistance, feel free to reach out to me again.
+      - text: Happy to have been of assistance. If you have any other questions, feel free to ask anytime.
+      - text: I hope my help was valuable to you. Don't hesitate to come back if you need more information.
+      - text: It's a pleasure to assist you. Should you have any more questions, feel free to ask anytime.
+      - text: I'm happy I could provide support. If there's anything else you need, don't hesitate to ask.
+      - text: I'm glad to have been of service. If there are any more questions on your mind, feel free to ask.
+      - text: I'm thrilled that I could help. Should you require further assistance, don't hesitate to reach out.
+      - text: Happy to be of assistance. If there's anything else you'd like to know, feel free to ask.
+      - text: It's great to have been able to help you. If you need any more information, feel free to ask anytime.
 
       utter_ask_degradation_rate:
       - text: "\nWhat degradation rate do you have?"
@@ -99,6 +203,13 @@ responses:
       - text: Please tell me what degradation it has? For example cracks, cavities, sulphation, crystal decomposition or disintegration?
       - text: Ok and what about the type of degradation? For example cracks, cavities, sulphation, crystal decomposition or disintegration?
       - text: What type of degradation it has? For example cracks, cavities, sulphation, crystal decomposition or disintegration?
+      - text: Kindly provide information on the type of degradation it exhibits, such as cracks, cavities, sulphation, crystal decomposition, or disintegration.
+      - text: I would appreciate it if you could let me know the specific degradation it has, such as cracks, cavities, sulphation, crystal decomposition, or disintegration.
+      - text: Could you kindly specify the type of degradation it is experiencing, like cracks, cavities, sulphation, crystal decomposition, or disintegration?
+      - text: If you could share details about the degradation it has, including cracks, cavities, sulphation, crystal decomposition, or disintegration, that would be helpful.
+      - text: Please describe the type of degradation it has, such as cracks, cavities, sulphation, crystal decomposition, or disintegration, to aid in addressing the issue.
+      - text: It would be helpful if you could identify the specific degradation it exhibits, like cracks, cavities, sulphation, crystal decomposition, or disintegration.
+      - text: To better understand the situation, please provide information on the type of degradation it has, such as cracks, cavities, sulphation, crystal decomposition, or disintegration.
 
       utter_ok_ask_question:
       - text: Yeah sure, you can ask me a question.

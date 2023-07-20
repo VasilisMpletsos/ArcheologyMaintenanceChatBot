@@ -6,8 +6,18 @@ responses:
       - text: It is recommended to inject additional mortar if the stability of the structure is threatened.
       - text: It is recommended to remove the old mortar that seems not to withstand the weather conditions and to add a new stronger one such as Theraic lime mortar.
       - text: You can carefully remove the old mortar and install a new one of higher strength such as theraica lime mortar.
+      - text: To ensure the stability of the structure, it is suggested to inject extra mortar.
+      - text: If the structural stability is in jeopardy, it is best to introduce additional mortar.
+      - text: In situations where the structure's stability is compromised, it is recommended to use supplementary mortar.
+      - text: Adding more mortar is a recommended measure when the stability of the structure is under threat.
+      - text: When the stability of the structure is at stake, it is wise to inject additional mortar.
+      - text: For preserving the structure's stability, the injection of extra mortar is advised.
+      - text: In cases of potential structural instability, the application of more mortar is highly recommended.
+      - text: To safeguard the structure's stability, it is advisable to introduce additional mortar.
+      - text: When facing potential stability issues, it is suggested to reinforce with extra mortar.
+      - text: The introduction of additional mortar is the recommended approach if the structure's stability is compromised.
 
-      utter_mortar_with_sulfation:
+      utter_mortar_with_sulphation:
       - text: The sulphation in the mortar can be removed using suitable chemical solvents such as ethanol or ether. You can use a soft brush to clean the mortar gently.
       - text: The sulphation in the mortar can be removed using suitable chemical solvents such as ethanol or ether you can gently clean the mortar with a soft brush
       - text: The sulphation in the mortar can be removed using suitable chemical solvents such as ethanol or ether or you can use a soft brush to gently clean the mortar
@@ -63,9 +73,29 @@ responses:
       - text: If there are cavities in the mortar, it is recommended to fill them with a corresponding mortar composition of the time, while if you wish to install something stronger, it should be made of inert materials.
       - text: It is recommended to fill it with a corresponding mortar if it is durable or if the use of new mortar has failed
       - text: if it is durable or when the use of new mortar has failed it is recommended to fill it with a corresponding mortar
+      - text: When durability is a consideration, or if new mortar has not worked, it is recommended to fill the space with a compatible mortar.
+      - text: If there are doubts about the durability, or when attempts with new mortar have been unsuccessful, it is best to use a corresponding mortar to fill the void.
+      - text: In cases where durability is uncertain, or if new mortar has not yielded desired results, filling the void with a suitable mortar is recommended.
+      - text: For situations where durability is a priority, or if the use of new mortar has not been successful, it is wise to opt for a corresponding mortar to fill the void.
+      - text: When questioning the durability or facing failures with new mortar, it is advisable to fill the void using a matching mortar.
+      - text: If you are unsure about its durability or if the new mortar has proven inadequate, the recommended course of action is to fill it with a corresponding mortar.
+      - text: Considering concerns about durability or the inefficacy of new mortar, it is suggested to fill the void with a compatible mortar.
+      - text: In instances where the durability is in question or if the new mortar application has been unsuccessful, filling it with a matching mortar is the recommended approach.
+      - text: If doubts arise about its durability or if the new mortar application has not worked, it is best to address the issue by filling the void with a suitable mortar.
+      - text: When evaluating the durability or experiencing difficulties with new mortar, it is recommended to fill the void with a corresponding mortar as an alternative solution.
 
       utter_mortar_with_infection:
       - text: "Apply a cleaning solution containing alcohol or hydrocarbon to a small area of the item using a cotton swab or cotton swab.\nDo a test on a small section of the item before applying the solution to the entire item to ensure that does not cause damage to the surface. Leave the solution on for a few minutes. \nRinse the surface thoroughly with water and let it dry naturally."
       - text: Clean the surface with alcohol or hydrocarbon.
       - text: You need to clean the surface with alcohol or hydrocarbon.
       - text: You habe to follow a cleaning proccess and clean the surface with alcohol or hydrocarbon.
+      - text: To achieve a thorough cleaning, it is essential to follow a specific cleaning process and use alcohol or hydrocarbon on the surface.
+      - text: For effective cleaning, adhere to a designated cleaning process and utilize either alcohol or hydrocarbon to clean the surface.
+      - text: Properly clean the surface by following a prescribed cleaning process and using alcohol or hydrocarbon.
+      - text: Ensure a comprehensive cleaning by adhering to the designated process and employing alcohol or hydrocarbon on the surface.
+      - text: To obtain optimal cleaning results, it is crucial to follow the prescribed cleaning process and use either alcohol or hydrocarbon on the surface.
+      - text: Follow the recommended cleaning process and use alcohol or hydrocarbon to thoroughly clean the surface.
+      - text: The surface cleaning requires following a specific process and using either alcohol or hydrocarbon.
+      - text: For a successful cleaning outcome, it is necessary to follow the designated cleaning process and apply alcohol or hydrocarbon on the surface.
+      - text: To properly clean the surface, make sure to follow the specific cleaning process and use alcohol or hydrocarbon.
+      - text: Achieve effective surface cleaning by adhering to the prescribed cleaning process and utilizing alcohol or hydrocarbon.

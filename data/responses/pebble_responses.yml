@@ -4,22 +4,80 @@ responses:
 
       utter_pebbles_with_crystal_decomposition:
       - text: We don't know something yet for pebble with this problem.
+      - text: Currently, we have limited information regarding the problem.
+      - text: The problem concerning this remains unknown to us at this time.
+      - text: There is still uncertainty surrounding the issue faced by this specific problem for pebbles.
 
-      utter_pebbles_with_sulfation:
+      utter_pebbles_with_sulphation:
       - text: We don't know something yet for pebble with this problem.
+      - text: Currently, we have limited information regarding the problem.
+      - text: The problem concerning this remains unknown to us at this time.
+      - text: There is still uncertainty surrounding the issue faced by this specific problem for pebbles.
 
       utter_pebbles_with_cracks:
       - text: First clean the cracked area, then remove the loose pebbles and the cracked area carefully. When finished place new mortar and pebbles in the area under reconstruction. Also a coating of the pebble surface would be advised to protect later deteriorations.
+      - text: It is recommended firstly to clean the area and then place mortar between the cracks. Finally you can coat the surface for protection in the future.
+      - text: For the best results, begin by clearing the area, then proceed to fill the gaps with mortar, and finally, apply a surface coating for future protection.
+      - text: The recommended course of action starts with cleaning the area, then inserting mortar into the cracks, and, lastly, applying a protective surface coating.
+      - text: To address the issue, start by cleaning the area, proceed with filling the cracks using mortar, and finish by coating the surface for future protection.
+      - text: Initiate the process by cleaning the area, then use mortar to fill the cracks, and conclude by applying a surface coating to protect it in the future.
+      - text: For optimal results, it is advised to begin by clearing the area, followed by using mortar to fill the cracks, and finally, apply a surface coating for future protection.
+      - text: To effectively address the matter, start with cleaning the area, proceed to fill the cracks with mortar, and conclude with a protective surface coating.
+      - text: The suggested approach is to first clean the area, then fill the cracks with mortar, and, lastly, apply a surface coating for protection in the future.
+      - text: Commence the process by cleaning the area, then use mortar to fill the cracks, and finish by applying a surface coating to safeguard it in the future.
+      - text: To tackle the issue, it is recommended to begin by clearing the area, then filling the cracks with mortar, and finally, applying a surface coating for future protection.
+      - text: Initiate the procedure with area cleaning, followed by inserting mortar into the cracks, and conclude by applying a protective surface coating.
 
       utter_pebbles_with_disintegration:
       - text: Filling with grout is recommended. After that it would be good to apply a nanoparticle polymer film coating with superhydrophobic properties to protect the surface.
       - text: You must protect the surface from deterioration factors. Coating with the proper material is recommended.
+      - text: The suggested course of action involves filling with grout first, and then applying a nanoparticle polymer film coating with superhydrophobic properties to safeguard the surface.
+      - text: It is advisable to fill with grout initially, followed by the application of a nanoparticle polymer film coating that exhibits superhydrophobic properties for surface protection.
+      - text: The recommended approach includes filling with grout as a first step, and then using a nanoparticle polymer film coating with superhydrophobic properties to preserve the surface.
+      - text: Start by filling with grout, and then consider applying a nanoparticle polymer film coating featuring superhydrophobic properties to ensure surface protection.
+      - text: To address the matter, begin with filling using grout, and then proceed to apply a nanoparticle polymer film coating with superhydrophobic properties for surface protection.
+      - text: The suggested method entails filling with grout as the primary step, followed by the application of a nanoparticle polymer film coating with superhydrophobic properties to safeguard the surface.
+      - text: Commence by filling with grout, and then it would be beneficial to apply a nanoparticle polymer film coating with superhydrophobic properties for surface protection.
+      - text: It is advised to start with filling using grout, and subsequently, apply a nanoparticle polymer film coating with superhydrophobic properties to protect the surface.
+      - text: To achieve the best results, consider filling with grout initially, and then apply a nanoparticle polymer film coating with superhydrophobic properties to ensure surface protection.
+      - text: Fill with grout as a recommended measure, and afterward, opt for the application of a nanoparticle polymer film coating with superhydrophobic properties to preserve the surface.
 
       utter_pebbles_with_cavities:
-      - text: One option would be to fill the cavities with a compatible material. This could be done using mortar mix, grout, or another substance that closely matches the color and texture of the existing floor. Filling the cavities can provide structural stability to the area and prevent further deterioration of the surrounding pebbles.
+      - text: One option would be to fill the cavities with a compatible material. This could be done using mortar mix, grout, or another substance that closely matches the color and texture of the existing pebble structure. Filling the cavities can provide structural stability to the area and prevent further deterioration of the surrounding pebbles.
       - text: Like other materials, also for pebble structure the filling of cavities with mortar mix is recommended.
       - text: Fill the cavities with mortar mix. It will help with the stability of the pebble structure.
-      - text: An approach would be to seal the surface of the floor to protect against moisture intrusion and other damaging factors. Care should be taken to ensure that the chosen sealer is compatible with the materials used in the construction of the pebbled floor.
+      - text: An approach would be to seal the surface of the pebble structure to protect against moisture intrusion and other damaging factors. Care should be taken to ensure that the chosen sealer is compatible with the materials used in the construction of the pebbled pebble structure. You can always use o proper mortar mix to fix the problem.
+      - text: An alternative approach is to fill the voids with a suitable material. This can be achieved by employing mortar mix, grout, or a comparable substance that closely resembles the color and texture of the current pebble structure. Filling the voids will enhance the structural stability of the area and safeguard the surrounding pebbles from additional degradation.
+      - text: One possibility is to fill the gaps with a compatible material. This could involve using mortar mix, grout, or another substance that closely matches the color and texture of the existing pebble structure. The process of filling the voids will not only improve the structural stability of the area but also protect the neighboring pebbles from further deterioration.
+      - text: A potential solution is to fill the cavities with a material that is compatible with the pebble structure. This can be achieved by utilizing mortar mix, grout, or a similar substance that closely resembles the color and texture of the current pebble structure. By filling the voids, you can fortify the area's structural integrity and prevent the surrounding pebbles from experiencing additional wear and tear.
+      - text: One option worth considering is to fill the cavities with a material that complements the existing pebble structure. This can be accomplished by using mortar mix, grout, or another substance that closely mimics the color and texture of the pebble structure. Through this process, you can bolster the structural stability of the area while protecting the surrounding pebbles from further deterioration.
+      - text: To address the issue, one approach is to fill the voids with a material that is compatible with the pebble structure. This may involve employing mortar mix, grout, or an alternative substance that closely matches the color and texture of the existing pebble structure. The act of filling the voids can enhance the structural stability of the area and prevent the surrounding pebbles from undergoing additional deterioration.
+      - text: An effective solution is to fill the gaps with a material that harmonizes with the pebble structure's characteristics. This can be accomplished using mortar mix, grout, or another substance that closely resembles the color and texture of the existing pebble structure. Filling the gaps will not only improve the structural stability of the area but also safeguard the surrounding pebbles from further degradation.
+      - text: Consider filling the cavities with a compatible material as a potential option. This may involve utilizing mortar mix, grout, or another substance that closely matches the color and texture of the current pebble structure. By filling the voids, you can reinforce the area's structural stability and protect the neighboring pebbles from experiencing additional wear and tear.
+      - text: Another viable approach is to fill the gaps with a suitable material. This can be achieved by using mortar mix, grout, or a comparable substance that closely resembles the color and texture of the existing pebble structure. By filling the voids, you can enhance the structural integrity of the area while preventing further deterioration of the surrounding pebbles.
+      - text: An effective method is to fill the cavities with a compatible material. This may involve employing mortar mix, grout, or another substance that closely mimics the color and texture of the pebble structure. Filling the cavities can provide structural stability to the area and safeguard the surrounding pebbles from additional degradation.
+      - text: You can opt for filling the voids with a material that complements the pebble structure. This can be achieved by using mortar mix, grout, or an alternative substance that closely matches the color and texture of the existing pebble structure. The process of filling the gaps will not only bolster the structural stability of the area but also protect the neighboring pebbles from further deterioration.
 
       utter_pebbles_with_infection:
-      - text: We don't know something yet for pebble with this problem. 
+      - text: "To preserve a pebbled pebble structure with a biological infection, such as lichens or fungus, follow these steps:\n
+      Identify the Infection: First, identify the type of biological infection affecting the pebbled pebble structure. Lichens and fungi can have different treatments, so proper identification is crucial.\n
+      Clean the Surface: Thoroughly clean the pebbled pebble structure using a gentle cleaning solution to remove any loose debris, dirt, or organic matter that may be supporting the growth of the infection.\n
+      Use Natural Remedies: For mild infections, consider using natural remedies like hydrogen peroxide solutions to treat the affected areas. These substances have antifungal properties and can help eliminate the infection.\n
+      Apply Antifungal Solutions: In more severe cases, apply specialized antifungal solutions designed for the type of infection present. Follow the manufacturer's instructions and wear appropriate protective gear during application.\n
+      Scrubbing: Gently scrub the infected areas with a soft brush to remove the biological growth, being careful not to damage the pebbles.\n
+      Ensure Adequate Drainage: Check for any areas where water may be pooling and ensure proper drainage to prevent moisture retention, which can promote the growth of biological infections.\n
+      Improve Ventilation: If the pebbled pebble structure is indoors, ensure proper ventilation and airflow to reduce humidity, as high humidity levels can encourage the growth of fungi and other biological agents.\n
+      Sealing the Surface: Consider applying a sealer or coating specifically designed to protect against biological infections. These coatings can create a barrier that makes it harder for lichens and fungi to establish on the surface.\n
+      Regular Maintenance: Implement a regular cleaning and maintenance schedule to keep the pebbled pebble structure free from debris and prevent the reoccurrence of biological infections.
+      "
+      - text: "Identify the specific biological infection affecting the pebbled structure.\n
+      Clean the pebbled structure thoroughly to remove any loose debris and organic matter.\n
+      Consider using natural remedies like hydrogen peroxide for mild infections.\n
+      Apply specialized antifungal solutions for more severe infections as per the manufacturer's instructions.\n
+      Gently scrub the infected areas with a soft brush to eliminate the biological growth.\n
+      Ensure proper drainage to prevent water pooling and reduce moisture retention.\n
+      Improve ventilation to lower humidity levels indoors and discourage biological growth.\n
+      Apply a suitable sealer or coating designed to protect against biological infections.\n
+      Maintain a regular cleaning schedule to prevent the reoccurrence of infections.\n
+      If needed, seek professional assistance for extensive or challenging infections.
+      "

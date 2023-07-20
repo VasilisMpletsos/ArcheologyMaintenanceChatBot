@@ -16,13 +16,13 @@ stories:
 - story: told material shell stone and degradation sulphation
   steps:
   - checkpoint: asked_degradation_for_shell_stone
-  - intent: inform_degradation_sulfation
-  - action: utter_shell_stone_with_sulfation
+  - intent: inform_degradation_sulphation
+  - action: utter_shell_stone_with_sulphation
 
 - story: solution for shell stone with sulphation
   steps:
-  - intent: inform_shell_stone_with_sulfation
-  - action: utter_shell_stone_with_sulfation
+  - intent: inform_shell_stone_with_sulphation
+  - action: utter_shell_stone_with_sulphation
 
 - story: told material shell stone and degradation cavities
   steps:

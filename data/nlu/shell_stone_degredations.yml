@@ -9,7 +9,7 @@ nlu:
       - We have shell stone with cracks, what to do?
       - what about shell stone cracks?
     
-  - intent: inform_shell_stone_with_sulfation
+  - intent: inform_shell_stone_with_sulphation
     examples: | 
       - How to preserve shell stone with sulphation?
       - How to maintain shell stone with sulphation?

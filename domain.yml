@@ -20,43 +20,43 @@ intents:
   - inform_material_shell_stone
   - inform_material_pebbles
   - inform_degradation_cracks
-  - inform_degradation_sulfation
+  - inform_degradation_sulphation
   - inform_degradation_cavities
   - inform_degradation_crystal_decomposition
   - inform_degradation_disintegration
   - inform_degradation_infection
   - inform_marble_with_cracks
-  - inform_marble_with_sulfation
+  - inform_marble_with_sulphation
   - inform_marble_with_cavities
   - inform_marble_with_crystal_decomposition
   - inform_marble_with_disintegration
   - inform_marble_with_infection
   - inform_stone_with_cracks
-  - inform_stone_with_sulfation
+  - inform_stone_with_sulphation
   - inform_stone_with_cavities
   - inform_stone_with_crystal_decomposition
   - inform_stone_with_disintegration
   - inform_stone_with_infection
   - inform_shale_with_cracks
-  - inform_shale_with_sulfation
+  - inform_shale_with_sulphation
   - inform_shale_with_cavities
   - inform_shale_with_crystal_decomposition
   - inform_shale_with_disintegration
   - inform_shale_with_infection
   - inform_mortar_with_cracks
-  - inform_mortar_with_sulfation
+  - inform_mortar_with_sulphation
   - inform_mortar_with_cavities
   - inform_mortar_with_crystal_decomposition
   - inform_mortar_with_disintegration
   - inform_mortar_with_infection
   - inform_shell_stone_with_cracks
-  - inform_shell_stone_with_sulfation
+  - inform_shell_stone_with_sulphation
   - inform_shell_stone_with_cavities
   - inform_shell_stone_with_crystal_decomposition
   - inform_shell_stone_with_disintegration
   - inform_shell_stone_with_infection
   - inform_pebbles_with_cracks
-  - inform_pebbles_with_sulfation
+  - inform_pebbles_with_sulphation
   - inform_pebbles_with_cavities
   - inform_pebbles_with_crystal_decomposition
   - inform_pebbles_with_disintegration
@@ -76,14 +76,43 @@ actions:
 responses:
 
   utter_out_of_scope:
-  - text: "This questions is out of scope.\n"
-  - text: "I will try to answer this question but keep the context only for archeological restoration.\n"
-  - text: "This questions seems to be quite irrelevant with archeological restoration.\n"
-  - text: "Please keep the conversation only for archeological restoration.\n"
-  - text: "Keep the context only for archeological restoration.\n"
-  - text: "This sentence is not related to archeological restoration. I am a bot for archeological restoration.\n"
-  - text: "Please i am an archeological restoration bot, ask me only questions based on this topic.\n"
-  - text: "Well this is an irrelevant question for archeological restoration. Please stay on the topic.\n"
+  - text: This questions is out of scope.
+  - text: This questions seems to be quite irrelevant with archeological restoration.
+  - text: Please keep the conversation only for archeological restoration.
+  - text: Keep the context only for archeological restoration.
+  - text: This sentence is not related to archeological restoration. I am a bot for archeological restoration.
+  - text: Please i am an archeological restoration bot, ask me only questions based on this topic.
+  - text: Well this is an irrelevant question for archeological restoration. Please stay on the topic.
+  - text: This query is outside the scope of archeological preservation.
+  - text: My focus is on archeological restoration, so I'll attempt to answer this question within that context.
+  - text: It appears that this question is not related to archeological preservation.
+  - text: Let's maintain the conversation focused on archeological restoration.
+  - text: Restrict the context to archeological preservation, please.
+  - text: This statement doesn't pertain to archeological restoration; my expertise lies there.
+  - text: As an archeological restoration bot, kindly limit your inquiries to this topic.
+  - text: It seems like this question is not relevant to archeological restoration. Let's stick to the topic.
+  - text: The subject matter of this query is not within the scope of archeological preservation.
+  - text: I'm here to discuss archeological restoration only; please keep your questions related to that.
+  - text: This question falls outside the realm of archeological preservation.
+  - text: I'll do my best to answer, but remember, we're focused on archeological restoration.
+  - text: The context of this question doesn't align with archeological preservation.
+  - text: Please keep the conversation on track, discussing archeological restoration.
+  - text: As an archeological restoration bot, I'm here to address questions within that domain.
+  - text: It appears this inquiry is unrelated to archeological preservation.
+  - text: My expertise lies in archeological restoration; let's stick to that topic.
+  - text: This query does not fit within the boundaries of archeological preservation.
+  - text: I'm specialized in archeological restoration, so let's stay on that topic.
+  - text: This question doesn't seem relevant to archeological preservation.
+  - text: Please, only ask questions related to archeological restoration.
+  - text: The context of this statement does not pertain to archeological preservation.
+  - text: Let's keep the focus on archeological restoration for this conversation.
+  - text: This question falls outside of the scope of archeological preservation.
+  - text: I'm here to assist with archeological restoration inquiries; please keep it within that context.
+  - text: It seems this question is not applicable to archeological preservation.
+  - text: Please stay on the topic of archeological restoration for this discussion.
+  - text: The subject matter of this question does not align with archeological preservation.
+  - text: As an archeological restoration bot, I'll need questions related to that field.
+  - text: This query is not related to archeological preservation; kindly ask relevant questions.
 
 
   # This one is used in two stage fallback 

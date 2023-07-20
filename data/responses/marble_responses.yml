@@ -7,12 +7,32 @@ responses:
       - text: The use of n-semiconductors is recommended for the future protection of the marble from crystal decomposition.
       - text: Surface fixing by spraying or impregnation is recommended.
       - text: Spraying with ammonium oxalate is recommended in order the surface to be stabilized.
+      - text: It is advisable to utilize n-semiconductors in order to safeguard the marble from crystal decomposition in the future. Additional alternatives include surface fixing through spraying or impregnation.
+      - text: The future protection of marble from crystal decomposition can be enhanced by opting for n-semiconductors. Alternatively, surface fixing through spraying or impregnation is another viable option.
+      - text: For the future preservation of marble and prevention of crystal decomposition, employing n-semiconductors is highly recommended. Alternatively, one can consider surface fixing techniques such as spraying or impregnation.
+      - text: To ensure the future protection of marble against crystal decomposition, it is suggested to make use of n-semiconductors. Surface fixing methods, such as spraying or impregnation, are also worth considering.
+      - text: Incorporating n-semiconductors is a recommended measure for safeguarding marble from crystal decomposition in the long term. Additionally, surface fixing through spraying or impregnation can be explored as an alternative solution.
+      - text: For future-proofing marble and preventing crystal decomposition, the use of n-semiconductors is a wise choice. Another feasible option is surface fixing, which can be achieved through spraying or impregnation.
+      - text: When considering the future protection of marble against crystal decomposition, utilizing n-semiconductors is highly recommended. Another possibility is to opt for surface fixing methods, such as spraying or impregnation.
+      - text: To preserve marble from crystal decomposition in the future, it is advisable to employ n-semiconductors. Additionally, surface fixing techniques like spraying or impregnation can be taken into account.
+      - text: The recommended approach for future protection against crystal decomposition involves the use of n-semiconductors on marble. Surface fixing methods, including spraying or impregnation, can also be considered as alternatives.
+      - text: N-semiconductors are a recommended solution for safeguarding marble from crystal decomposition in the future. Moreover, surface fixing can be achieved through either spraying or impregnation for added protection.
 
-      utter_marble_with_sulfation:
+      utter_marble_with_sulphation:
       - text: For the treatment of sulphation on marble, there must be a reversal of sulphation, the use of ammonium carbonate or potassium carbonate is recommended.
       - text: The use of potassium carbonate is recommended for the reversal of sulphation on marble.
       - text: The best intervention will be to use potassium carbonate for the treatment and reversal of sulphation.
       - text: It is recommended to use potassium carbonate or ammonium carbonate for the treatment of sulphation.
+      - text: To address sulphation on marble, it is crucial to reverse the process, and using either ammonium carbonate or potassium carbonate is advised.
+      - text: The treatment of sulphation on marble involves the reversal of the process, with a recommended choice of either ammonium carbonate or potassium carbonate.
+      - text: For the effective treatment of sulphation on marble, the process must be reversed, and the use of ammonium carbonate or potassium carbonate is suggested.
+      - text: Treating sulphation on marble requires a reversal of the process, and it is recommended to use either ammonium carbonate or potassium carbonate.
+      - text: To treat sulphation on marble effectively, it is important to reverse the process, and ammonium carbonate or potassium carbonate is the recommended option.
+      - text: Effective treatment of sulphation on marble necessitates the reversal of the process, with either ammonium carbonate or potassium carbonate being recommended.
+      - text: The recommended treatment for sulphation on marble involves the reversal of the process, using either ammonium carbonate or potassium carbonate.
+      - text: Reversing the sulphation process is essential for treating marble, and it is advisable to use either ammonium carbonate or potassium carbonate.
+      - text: For treating sulphation on marble, the process needs to be reversed, and the use of ammonium carbonate or potassium carbonate is suggested.
+      - text: To address sulphation on marble, it is recommended to reverse the process, with either ammonium carbonate or potassium carbonate as the treatment option.
 
       utter_marble_with_cracks:
       - text: For the treatment of cracks on marble, the use of grout is recommended. Warning even the smallest cracks should be filled because they are a passage for the penetration of various corrosive factors. The material used for sealing cracks is recommended to be an inert material.
@@ -30,15 +50,39 @@ responses:
       - text: For the treatment of disintegration on marble, the use of titanium nails is recommended for the bigger fragments while for the smaller fragments the use of grout with the addition of calcite carbonate is recommended.
       - text: It is recommended to use grout with the addition of calcite carbonate for the treatment of disintegration on marble.
       - text: Grout should be used in order to glue back the fragments of the marble.
+      - text: Grout is recommended for reattaching the fragments of the marble.
+      - text: Reattach the marble fragments using grout as the adhesive.
+      - text: For gluing back the marble fragments, use grout as the preferred option.
+      - text: The fragments of the marble can be reattached by using grout.
+      - text: Use grout to glue the marble fragments back into place.
+      - text: Grout is the recommended adhesive for reattaching the marble fragments.
+      - text: Reattach the fragments of the marble with grout.
+      - text: Glue back the marble fragments using grout.
+      - text: Utilize grout as the adhesive to reattach the marble fragments.
+      - text: It is advised to use grout for gluing back the fragments of the marble.
 
       utter_marble_with_cavities:
       - text: We don't have a solution for the cavities on marble, the only thing we can do is to use a protective coating.
       - text: We cannot treat the cavities on marble, the only thing we can do is to use a protective coating.
       - text: The only thing we can do for the cavities on marble is to use a protective coating.
       - text: The already cavities in marble are irreparable, the only thing we can do is to use a protective coating.
+      - text: The cavities present in marble are permanent, and the sole solution is to apply a protective coating.
+      - text: Unfortunately, the cavities in marble cannot be repaired, leaving the only recourse of using a protective coating.
+      - text: Since the cavities in marble are irreparable, the best course of action is to implement a protective coating.
+      - text: Repairing the cavities in marble is not feasible; thus, the recommended approach is to employ a protective coating.
+      - text: Regrettably, the cavities in marble cannot be fixed, leaving us with the choice of applying a protective coating.
+      - text: There is no way to repair the cavities in marble; therefore, the only option is to use a protective coating.
+      - text: The cavities in marble cannot be reversed, necessitating the use of a protective coating.
+      - text: Given the irreparable nature of the cavities in marble, it is essential to resort to a protective coating.
+      - text: The cavities in marble are permanent, so the only recourse is to apply a protective coating.
+      - text: Since the cavities in marble cannot be repaired, we must rely on a protective coating.
 
       utter_marble_with_infection:
       - text: "Since we have marble with microbial contamination, the conditions that favor their growth must first be checked and appropriate biocides can then be used after first investigating the possible side effects on the marble surface.\n
       For safer solutions there are other more traditional methods. A frequent intervention for lichens is the mechanical method of scraping, although the process does not prevent their growth and must be repeated continuously.\n
       For mosses, the best-known and most effective method is removal by hand. The auxiliary tools that can be used with care are a hard brush, a metal brush, but also a spatula or a metal shovel. For the removal of the black crust, the use of anaerobic thiobacteria has been highlighted.\n
       In general, for preventive maintenance, it is advisable to remove moisture and generally control it if this is possible. In archaeological sites where rainfall is high, the placement of a roof is very important."
+      - text: "Considering the microbial contamination in the marble, the first step is to assess the conditions that promote their growth. Once identified, appropriate biocides can be used, but caution should be exercised, as potential side effects on the marble surface need to be investigated beforehand.\n
+      Alternatively, safer and more traditional methods are available. For lichens, a common approach is the mechanical method of scraping, although it does not prevent their regrowth, necessitating repeated interventions.\n
+      For mosses, the most recognized and effective method involves manual removal. Various auxiliary tools like hard brushes, metal brushes, spatulas, or metal shovels can be used with care. In the case of removing the black crust, the application of anaerobic thiobacteria has shown promise.\n
+      In general, preventive maintenance involves moisture removal and control, whenever possible."

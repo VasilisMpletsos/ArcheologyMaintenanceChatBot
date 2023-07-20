@@ -60,7 +60,7 @@ nlu:
       - what about shale cracks?
       - what about slate cracks?
     
-  - intent: inform_shale_with_sulfation
+  - intent: inform_shale_with_sulphation
     examples: | 
       - How to preserve shale with sulphation?
       - How to preserve slate with sulphation?

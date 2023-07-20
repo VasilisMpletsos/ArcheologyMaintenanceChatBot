@@ -149,6 +149,8 @@ nlu:
     - you are so sweet
     - you are so awesome
     - you are so amazing
+    - Ah okay, thanks
+    - ah okay
 
 - intent: bot_challenge
   examples: |

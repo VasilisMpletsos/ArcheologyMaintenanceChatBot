@@ -26,7 +26,7 @@ nlu:
       - we have mortar cracks what should we do?
       - what about mortar cracks?
     
-  - intent: inform_mortar_with_sulfation
+  - intent: inform_mortar_with_sulphation
     examples: | 
       - How to preserve mortar from sulphation?
       - how do you prevent mortar from being exposed to sulfur?

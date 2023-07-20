@@ -3,10 +3,25 @@ version: "3.1"
 responses:
 
       utter_shale_with_crystal_decomposition:
-      - text: It is recommended to remove any sources of salts from the environment through cleaning or clay poulticing.
+      - text: It is recommended to remove any sources of salts from the environment through cleaning or use clay poulticing.
+      - text: Cleaning or using clay poulticing is advised to eliminate any sources of salts from the environment.
+      - text: To eradicate sources of salts from the surroundings, it is recommended to employ cleaning or clay poulticing.
+      - text: For the removal of salt sources from the environment, it is suggested to resort to cleaning or clay poulticing.
+      - text: The recommended approach involves using cleaning or clay poulticing to get rid of any sources of salts in the surroundings.
+      - text: It is advisable to utilize cleaning or clay poulticing to eliminate sources of salts from the environment.
+      - text: To address sources of salts in the environment, it is advised to undertake cleaning or clay poulticing.
+      - text: Employing cleaning or clay poulticing is recommended to rid the environment of any sources of salts.
+      - text: The recommended course of action is to use cleaning or clay poulticing for the removal of salt sources in the environment.
+      - text: To mitigate the presence of salt sources in the surroundings, it is suggested to employ cleaning or clay poulticing.
+      - text: To eliminate any sources of salts from the environment, it is best to opt for cleaning or clay poulticing, as recommended.
 
-      utter_shale_with_sulfation:
+      utter_shale_with_sulphation:
       - text: To deal with the sugaring of the shale, the only thing we can do is surface fixation with sprays (ammonium oxalate) or impregnations, but the damage up to this point is irreparable. In general, the rate of corrosion in shale objects with saccharification is faster than that ie shales.
+      - text: Dealing with shale sugaring requires surface fixation using sprays (such as ammonium oxalate) or impregnations, but any damage incurred is irreparable. Shale objects with saccharification tend to corrode faster than other shales.
+      - text: Surface fixation through sprays (e.g., ammonium oxalate) or impregnations is the only effective approach to address shale sugaring, but the damage sustained is permanent. Shale objects with saccharification typically corrode at a faster rate than other shale varieties.
+      - text: To combat shale sugaring, the sole option available is surface fixation using sprays (like ammonium oxalate) or impregnations. Unfortunately, any damage sustained up to this point is irreversible. Notably, shale objects with saccharification exhibit a faster corrosion rate compared to other shale types.
+      - text: The sugaring of shale can be dealt with through surface fixation utilizing sprays (such as ammonium oxalate) or impregnations, yet the damage incurred cannot be reversed. In general, shale objects with saccharification are more susceptible to corrosion and tend to deteriorate faster than other shale varieties.
+      - text: To address shale sugaring, the most effective approach is surface fixation using sprays (like ammonium oxalate) or impregnations. However, it is important to note that any damage sustained up to this point cannot be repaired. In general, shale objects experiencing saccharification are prone to faster corrosion compared to other shale types.
 
       utter_shale_with_cracks:
       - text: If the cracks are extensive it is recommended to seperate the structure and combine it for start with the use of grout and stainless steel or titanium nails. If the cracks are small grout can be used.
@@ -18,9 +33,29 @@ responses:
 
       utter_shale_with_disintegration:
       - text: The required operation for shale with exfoliation is initially the fixation with impregnations, the filling of the cracks and the welding of the micro fragments with some special material.
+      - text: The recommended process for addressing shale with exfoliation is to start with impregnation fixation, followed by crack filling and micro fragment welding using a specialized material.
+      - text: For shale suffering from exfoliation, the necessary steps begin with fixation through impregnations, followed by crack filling and micro fragment welding using a specialized material.
+      - text: To handle exfoliated shale, it is essential to initiate the process with impregnation fixation, followed by crack filling and micro fragment welding using a specialized material.
+      - text: Shale affected by exfoliation should be treated by commencing with impregnation fixation, followed by crack filling and micro fragment welding using a specialized material.
+      - text: When dealing with exfoliated shale, the required operation entails starting with impregnation fixation, followed by crack filling and micro fragment welding using a specialized material.
+      - text: For shale exhibiting exfoliation, the recommended course of action is to first perform impregnation fixation, followed by crack filling and micro fragment welding using a specialized material.
+      - text: Shale with exfoliation can be effectively managed by initiating the process with impregnation fixation, followed by crack filling and micro fragment welding using a specialized material.
+      - text: When addressing exfoliated shale, it is necessary to begin with impregnation fixation, followed by crack filling and micro fragment welding using a specialized material.
+      - text: To handle shale suffering from exfoliation, the crucial steps include commencing with impregnation fixation, followed by crack filling and micro fragment welding using a specialized material.
+      - text: For shale affected by exfoliation, the appropriate operation involves starting with impregnation fixation, followed by crack filling and micro fragment welding using a specialized material.
 
       utter_shale_with_cavities:
       - text: It is important to address any underlying causes of the cavity formation, such as water penetration or pollutants, to prevent further damage to the shale. If there are cavities on the shale, it is recommended that they be filled with suitable material compatible with the historical structures of the time.
+      - text: To safeguard the shale from additional harm, it is essential to tackle the underlying causes of cavity formation, like water penetration or pollutants. Furthermore, any existing cavities should be filled with an appropriate material that aligns with historical structures from that time.
+      - text: Addressing the root causes of cavity formation, such as water penetration or pollutants, is of utmost importance to protect the shale from further damage. If there are already cavities present, it is recommended to fill them using materials that harmonize with the historical structures of that particular period.
+      - text: To avoid exacerbating the damage to the shale, it is imperative to deal with the fundamental reasons behind cavity formation, including water penetration or pollutants. Additionally, any existing cavities should be filled with material suitable for the historical structures of that specific era.
+      - text: Prioritizing the prevention of additional shale damage, it is vital to tackle the underlying factors that cause cavity formation, such as water penetration or pollutants. For existing cavities, the recommended approach is to fill them with compatible materials that align with historical structures from that time.
+      - text: The key to preserving the shale lies in addressing the root causes of cavity formation, such as water penetration or pollutants, to prevent further harm. Should there be cavities already present, they ought to be filled with appropriate materials that are consistent with the historical structures of that era.
+      - text: To protect the shale from further deterioration, it is critical to identify and address the underlying causes of cavity formation, such as water penetration or pollutants. In the case of existing cavities, the advisable action is to fill them with materials compatible with the historical structures of that period.
+      - text: Preventing additional damage to the shale hinges on addressing the root causes of cavity formation, like water penetration or pollutants. If there are already cavities on the shale, it is recommended to fill them with suitable materials that are consistent with the historical structures of that specific time.
+      - text: To ensure the shale's preservation, it is essential to tackle the underlying causes of cavity formation, such as water penetration or pollutants, to mitigate further harm. For any existing cavities, the best course of action is to fill them with materials that are in line with the historical structures of that era.
+      - text: Protecting the shale from additional damage necessitates addressing the root causes of cavity formation, such as water penetration or pollutants. Furthermore, existing cavities should be filled with compatible materials that align with the historical structures of the relevant time period.
+      - text: Preserving the integrity of the shale requires addressing the underlying causes of cavity formation, such as water penetration or pollutants, to prevent further damage. In instances of existing cavities, filling them with materials suitable for historical structures of that era is highly recommended.
 
       utter_shale_with_infection:
       - text: "Since we have shale with microbial contamination, the conditions that favor their growth must first be checked and then appropriate biocides can be used after first researching the possible side effects on the surface of the shale.

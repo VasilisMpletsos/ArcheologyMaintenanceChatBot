@@ -5,23 +5,23 @@ responses:
       utter_shell_stone_with_crystal_decomposition:
       - text: The use of special resins that secure the surface of the stone from crystallization damage is recommended.
 
-      utter_shell_stone_with_sulfation:
-      - text: To protect the pebbles from sulphation it is recommended to use n-semiconductor material but also to first use potassium carbonate to reverse the sulphation.
+      utter_shell_stone_with_sulphation:
+      - text: To protect the shell stone from sulphation it is recommended to use n-semiconductor material but also to first use potassium carbonate to reverse the sulphation.
       - text: In order to protect the shell stone from sulphation you must use n-semiconductor material and potassium carbonate to reverse the sulphation.
       - text: It could help to use apply a material made of n-semiconductor that helps protect against sulphation and UV radiation.
 
       utter_shell_stone_with_cracks:
-      - text: Once we have the cracked pebbles, it is recommended to fill them with grout. Attention, even the smallest cracks must be filled because they are a passage for the penetration of various corrosive agents. The material used to seal cracks is suggested to be some inert material.
+      - text: Once we have the cracked shell stone, it is recommended to fill them with grout. Attention, even the smallest cracks must be filled because they are a passage for the penetration of various corrosive agents. The material used to seal cracks is suggested to be some inert material.
       - text: Once we have cracks it is recommended to fill them with grout, attention even the smallest cracks must be filled because they are a passageway for the penetration of various corrosive agents the material used to seal cracks is suggested to be some inert material
 
       utter_shell_stone_with_disintegration:
-      - text: The required operation for shale with exfoliation is initially the fixation with impregnations, the filling of the cracks and the welding of the micro fragments with some special material.
-      - text: The required operation for shale with exfoliation is initially the fixation of impregnations filling of cracks and welding of micro fragments with some special material
-      - text: The required operation for shale with exfoliation is initially the fixation of impregnations the filling of cracks and the welding of micro fragments with some special material
-      - text: The required operation for shale exfoliation is initially the fixation with impregnations the filling of the cracks and welding of the micro fragments with some special material
+      - text: The required operation for shell stone with exfoliation is initially the fixation with impregnations, the filling of the cracks and the welding of the micro fragments with some special material.
+      - text: The required operation for shell stone with exfoliation is initially the fixation of impregnations filling of cracks and welding of micro fragments with some special material
+      - text: The required operation for shell stone with exfoliation is initially the fixation of impregnations the filling of cracks and the welding of micro fragments with some special material
+      - text: The required operation for shell stone exfoliation is initially the fixation with impregnations the filling of the cracks and welding of the micro fragments with some special material
 
       utter_shell_stone_with_cavities:
-      - text: To deal with the pits in the pebble it is recommended to grind it and also to throw marble dust with lime and sand to create a protective mantle.
+      - text: To deal with the pits in the shell stone it is recommended to grind it and also to throw marble dust with lime and sand to create a protective mantle.
       - text: In order to preserve the cavities in shell stone it is recommended to grind it and also to throw marble dust with lime and sand to create a protective mantle.
 
       utter_shell_stone_with_infection:

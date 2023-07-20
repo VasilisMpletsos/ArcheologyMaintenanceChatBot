@@ -7,30 +7,80 @@ nlu:
       - How to maintain pebbles with cracks?
       - What to do for pebbles with cracks?
       - We have pebbles with cracks, what to do?
-      - what about pebbles cracks?
-      - how do you maintain pebbles with cracks?
+      - What about pebbles cracks?
+      - How do you maintain pebbles with cracks?
+      - How do you preserve pebbles with crakcs?
+      - How do I preserve pebbles with crakcs?
+      - How can I preserve pebbles with crakcs?
+      - What to do with pebbles with cracks?
+      - What should I do for pebbles with cracks?
+      - What can I do for pebbles with cracks?
+      - We have pebbles with cracks what to do?
+      - We have pebbles with cracks what should we do?
+      - We have pebbles with cracks. What should we do?
+      - We have pebbles with cracks what do we do?
+      - What about the cracks in the pebbles?
+      - What about the cracks in pebbles?
     
-  - intent: inform_pebbles_with_sulfation
+  - intent: inform_pebbles_with_sulphation
     examples: | 
       - How to preserve pebbles with sulphation?
       - How to maintain pebbles with sulphation?
       - How to preserve pebbles with sulfur dioxide?
       - What to do for pebbles with sulphation?
       - We have pebbles with sulphation, what to do?
-      - what about pebbles sulphation?
+      - How do you preserve pebbles with sulphation?
+      - How to preserve pebbles by sulphation?
+      - How to sulphate pebbles?
+      - How do you maintain pebbles with sulphation?
+      - How do I maintain pebbles with sulphation?
+      - How do you preserve pebbles with sulfur dioxide?
+      - How do I preserve pebbles with sulfur dioxide?
+      - How sulfur dioxide can be used to preserve pebbles?
+      - What to do with pebbles with sulphation?
+      - What should I do for pebbles with sulphation?
+      - What can be done for pebbles with sulphation?
+      - We have pebbles with sulphation what to do?
+      - We have pebbles with sulphation what should we do?
+      - We have pebbles with sulphation. What should we do?
+      - What about pebbles sulphation?
+      - What about the sulphation of pebbles?
+      - What about the sulphation of the pebbles?
+      - What about pebble sulphation?
 
   - intent: inform_pebbles_with_cavities
     examples: | 
       - How to preserve pebbles with cavities?
       - How to maintain pebbles with cavities?
       - How to maintain pebbles with holes?
-      - How to preserve pebbles with cavities?
       - How to preserve pebbles with holes?
       - What to do for pebbles with cavities?
       - We have pebbles with cavities, what to do?
       - We have pebbles with holes, what to do?
-      - what about pebbles cavities?
-      - what about pebbles holes?
+      - How do you maintain pebbles with cavities?
+      - How to maintain pebbles without holes?
+      - How do you preserve pebbles with cavities?
+      - How do I preserve pebbles with cavities?
+      - How to preserve pebbles without holes?
+      - How do you preserve pebbles with holes?
+      - What to do with pebbles with cavities?
+      - What should I do for pebbles with cavities?
+      - What can I do for pebbles with cavities?
+      - We have pebbles with cavities what to do?
+      - We have pebbles with cavities what should we do?
+      - We have pebbles with cavities. What should we do?
+      - What should we do if we have pebbles with cavities?
+      - We have pebbles with holes what should we do?
+      - We have pebbles with holes what to do?
+      - We have pebbles with holes. What should we do?
+      - What to do with pebbles with holes?
+      - What about pebbles cavities?
+      - What about pebble cavities?
+      - What about the pebbles cavities?
+      - What about the pebble cavities?
+      - What about the holes in the pebbles?
+      - What about pebbles holes?
+      - What about pebble holes?
 
   - intent: inform_pebbles_with_crystal_decomposition
     examples: | 
@@ -41,8 +91,44 @@ nlu:
       - What to do for pebbles with crystallization?
       - We have pebbles with crystallization, what to do?
       - We have pebbles with crystal decomposition, what to do?
-      - what about pebbles crystallization?
-      - what about pebbles crystal decomposition?
+      - What about pebbles crystallization?
+      - What about pebbles crystal decomposition?
+      - How to preserve pebbles with crystallization?
+      - How do you preserve pebbles with crystallization?
+      - How do I preserve pebbles with crystallization?
+      - How to preserve pebbles with crystal decomposition?
+      - How do you preserve pebbles with crystal decomposition?
+      - How to preserve pebbles by crystal decomposition?
+      - How do I preserve pebbles with crystal decomposition?
+      - How to maintain pebbles with crystallization?
+      - How do you maintain pebbles with crystallization?
+      - How to maintain pebbles with crystal decomposition?
+      - How do you maintain pebbles with crystal decomposition?
+      - How do I maintain pebbles with crystal decomposition?
+      - What to do for pebble floor with crystallization?
+      - What should I do for pebble floor with crystallization?
+      - What to do with pebble floor with crystallization?
+      - What to do for pebble floor crystallization?
+      - We have pebbles with crystallization what to do?
+      - We have pebbles with crystallization what should we do?
+      - What to do for pebbles with crystallization?
+      - What should I do for pebbles with crystallization?
+      - What to do with pebbles with crystallization?
+      - What to do for pebbles crystallization?
+      - We have pebbles with crystallization what to do?
+      - We have pebbles with crystallization what should we do?
+      - What should we do if we have pebbles with crystallization?
+      - We have pebbles with crystallization. What should we do?
+      - We have pebbles with crystal decomposition what to do?
+      - We have pebbles with crystal decomposition what should we do?
+      - What should we do if we have pebbles with crystal decomposition?
+      - What to do with pebbles with crystal decomposition?
+      - What about the crystallization of pebbles?
+      - What about pebble crystallization?
+      - What about crystallization of pebbles?
+      - What about the crystal decomposition of pebbles?
+      - What about crystal decomposition of pebbles?
+      - What about the crystal decomposition of the pebbles?
 
   - intent: inform_pebbles_with_disintegration
     examples: | 
@@ -50,7 +136,27 @@ nlu:
       - How to maintain pebbles with disintegration?
       - What to do for pebbles with disintegration?
       - We have pebbles with disintegration, what to do?
-      - what about pebbles disintegration?
+      - What about pebbles disintegration?
+      - How to preserve pebble floor with disintegration?
+      - How to maintain pebble floor with disintegration?
+      - What to do for pebble floor with disintegration?
+      - We have pebble floor with disintegration, what to do?
+      - What about pebble floor disintegration?
+      - How do you preserve pebbles with disintegration?
+      - How do I preserve pebbles with disintegration?
+      - How can pebbles be preserved with disintegration?
+      - How do you maintain pebbles with disintegration?
+      - How do I maintain pebbles with disintegration?
+      - What should I do for pebbles with disintegration?
+      - What to do with pebbles with disintegration?
+      - What to do for a pebble with disintegration?
+      - We have pebbles with disintegration what should we do?
+      - We have pebbles with disintegration what to do?
+      - What should we do if we have pebbles with disintegration?
+      - We have pebbles with disintegration. What should we do?
+      - What about the disintegration of the pebbles?
+      - What about the disintegration of pebbles?
+      - What about the pebbles disintegration?
 
   - intent: inform_pebbles_with_infection
     examples: | 
@@ -62,18 +168,139 @@ nlu:
       - What to do for pebbles with lichens or fungus?
       - We have pebbles with infection, what to do?
       - We have pebbles with lichens or fungus, what to do?
-      - what to do if Stachybotrys was found in pebbles?
-      - what to do if Aspergillus was found in pebbles?
-      - what to do if Rhizopus was found in pebbles?
-      - what to do if Penicillium was found in pebbles?
-      - what to do if Acremonium was found in pebbles?
-      - what to do if Cladosporium was found in pebbles?
-      - what to do if Fusarium was found in pebbles?
-      - what to do if Streptococcus thermophilus was found in pebbles?
-      - what to do if Bacillus coagulans was found in pebbles?
-      - what to do if Brevibacillus brevis was found in pebbles?
-      - what to do if Chlamydomonas was found in pebbles?
-      - what to do if Volvox brevis was found in pebbles?
-      - what to do if Chlorococcum brevis was found in pebbles?
-      - what about pebbles infection?
-      - what about pebbles lichens or fungus?
+      - What to do if Stachybotrys was found in pebbles?
+      - What to do if Aspergillus was found in pebbles?
+      - What to do if Rhizopus was found in pebbles?
+      - What to do if Penicillium was found in pebbles?
+      - What to do if Acremonium was found in pebbles?
+      - What to do if Cladosporium was found in pebbles?
+      - What to do if Fusarium was found in pebbles?
+      - What to do if Streptococcus thermophilus was found in pebbles?
+      - What to do if Bacillus coagulans was found in pebbles?
+      - What to do if Brevibacillus brevis was found in pebbles?
+      - What to do if Chlamydomonas was found in pebbles?
+      - What to do if Volvox brevis was found in pebbles?
+      - What to do if Chlorococcum brevis was found in pebbles?
+      - What about pebbles infection?
+      - What about pebbles lichens or fungus?
+      - How to preserve pebbles from infection?
+      - How to keep pebbles from infection?
+      - How to protect pebbles from infection?
+      - How to preserve pebbles with infection?
+      - How to preserve pebbles with lichens or fungus?
+      - How to preserve pebbles with lichens or fungi?
+      - How do you preserve pebbles with lichens or fungus?
+      - How to keep pebbles with lichens or fungus?
+      - How to maintain pebbles with infection?
+      - How to keep pebbles from infection?
+      - How to keep pebbles with infection?
+      - How to keep pebbles from getting infection?
+      - How to maintain pebbles with lichens or fungus?
+      - How to keep pebbles with lichens or fungus?
+      - How to maintain pebbles with lichens or fungi?
+      - How do you maintain pebbles with lichens or fungus?
+      - What to do for pebbles with infection?
+      - What should I do for pebbles with infection?
+      - What to do to pebbles with infection?
+      - What to do if pebbles have infection?
+      - What to do for pebbles with lichens or fungus?
+      - What to do with pebbles with lichens or fungus?
+      - What should I do for pebbles with lichens or fungus?
+      - What to do for pebbles with lichens or fungi?
+      - We have pebbles with infection what should we do?
+      - We have pebbles with infection what to do?
+      - What should we do if we have pebbles with infection?
+      - What should I do if I have pebbles with infection?
+      - We have pebbles with lichens or fungus what to do?
+      - What to do if we have pebbles with lichens or fungus?
+      - We have pebbles with lichens or fungus what should we do?
+      - What to do if we have pebbles with lichens or fungi?
+      - What to do if Stachybotrys was found in pebbles?
+      - What to do if Stachybotrys is found in pebbles?
+      - What to do if stachybotrys was found in pebbles?
+      - What should we do if Stachybotrys was found in pebbles?
+      - What to do if Aspergillus was found in pebbles?
+      - What to do if Aspergillus is found in pebbles?
+      - What to do if aspergillus was found in pebbles?
+      - What should I do if Aspergillus was found in pebbles?
+      - What to do if rhizopus was found in pebbles?
+      - What to do if rhizopus is found in pebbles?
+      - What should we do if rhizopus is found in pebbles?
+      - What should I do if rhizopus is found in pebbles?
+      - What to do if pebbles contain penicillium?
+      - What to do if pebbles were found with penicillium?
+      - What to do if pebbles are found with penicillium?
+      - What to do if a pebble contains penicillium?
+      - What to do if Acremonium was found in pebbles?
+      - What to do if Acremonium is found in pebbles?
+      - What to do if acremonium is found in pebbles?
+      - What to do if acremonium was found in pebbles?
+      - What to do if cladosporium is found in pebbles?
+      - What to do if cladosporium was found in pebbles?
+      - What should we do if cladosporium is found in pebbles?
+      - What should I do if cladosporium is found in pebbles?
+      - What to do if fusarium is found in pebbles?
+      - What to do if fusarium was found in pebbles?
+      - What to do if a fusarium is found in pebbles?
+      - What to do if a fusarium was found in pebbles?
+      - What to do if Streptococcus thermophilus was found in pebbles?
+      - What to do if Streptococcus thermophilus is found in pebbles?
+      - What should I do if Streptococcus thermophilus is found in pebbles?
+      - What should I do if Streptococcus thermophilus was found in pebbles?
+      - What to do if Bacillus coagulans was found in pebbles?
+      - What to do if Bacillus coagulans is found in pebbles?
+      - What if Bacillus coagulans was found in pebbles?
+      - What if Bacillus coagulans is found in pebbles?
+      - What to do if brevibacillus brevis was found in pebbles?
+      - What to do if brevibacillus brevis is found in pebbles?
+      - What to do if Brevibacillus brevis was found in pebbles?
+      - What to do if Brevibacillus brevis is found in pebbles?
+      - What to do if Chlamydomonas was found in pebbles?
+      - What to do if Chlamydomonas is found in pebbles?
+      - Why is Chlamydomonas found in pebbles?
+      - Why is Chlamydomonas found on pebbles?
+      - What to do if Volvox brevis was found in pebbles?
+      - What to do if a Volvox brevis was found in pebbles?
+      - What to do if Volvox brevis is found in pebbles?
+      - What to do if the Volvox brevis was found in pebbles?
+      - What to do if Chlorococcum brevis was found in pebbles?
+      - What to do if Chlorococcum brevis is found in pebbles?
+      - What should we do if Chlorococcum brevis is found in pebbles?
+      - What should I do if Chlorococcum brevis is found in pebbles?
+      - What about pebbles infection?
+      - What about the pebbles infection?
+      - What about the infection of the pebbles?
+      - What about pebbles lichens or fungi?
+      - What about pebbles lichens or fungus?
+      - What about the pebbles lichens or fungi?
+      - What about the pebbles lichens or the fungus?
+      - How to preserve a pebble floor with infection?
+      - How to preserve a pebble floor with lichens or fungus?
+      - How to maintain a pebble floor with infection?
+      - How to maintain a pebble floor with lichens or fungus?
+      - What to do for a pebble floor with infection?
+      - What to do for a pebble floor with lichens or fungus?
+      - We have a pebble floor with infection, what to do?
+      - We have a pebble floor with lichens or fungus, what to do?
+      - What to do if Stachybotrys was found in a pebble floor?
+      - What to do if Aspergillus was found in a pebble floor?
+      - What to do if Rhizopus was found in a pebble floor?
+      - What to do if Penicillium was found in a pebble floor?
+      - What to do if Acremonium was found in a pebble floor?
+      - What to do if Cladosporium was found in a pebble floor?
+      - What to do if Fusarium was found in a pebble floor?
+      - How to preserve a pebbled structure with infection?
+      - How to preserve a pebbled structure with lichens or fungus?
+      - How to maintain a pebbled structure with infection?
+      - How to maintain a pebbled structure with lichens or fungus?
+      - What to do for a pebbled structure with infection?
+      - What to do for a pebbled structure with lichens or fungus?
+      - We have a pebbled structure with infection, what to do?
+      - We have a pebbled structure with lichens or fungus, what to do?
+      - What to do if Stachybotrys was found in a pebbled structure?
+      - What to do if Aspergillus was found in a pebbled structure?
+      - What to do if Rhizopus was found in a pebbled structure?
+      - What to do if Penicillium was found in a pebbled structure?
+      - What to do if Acremonium was found in a pebbled structure?
+      - What to do if Cladosporium was found in a pebbled structure?
+      - What to do if Fusarium was found in a pebbled structure?

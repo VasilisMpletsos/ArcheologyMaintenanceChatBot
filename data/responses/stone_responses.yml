@@ -6,7 +6,7 @@ responses:
       - text: It is recommended to place suitable resins that secure the decaying surface to the solid stone beneath and should prevent further crystallization damage.
       - text: You can use special resins that secure the surface of the stone and help in the prevention of further crystallization damage.
 
-      utter_stone_with_sulfation:
+      utter_stone_with_sulphation:
       - text: It is recommended that the pores of the crust layer can be blocked with calcium sulfate deposits as a result of direct pollution with calcium sulfate, and this can be precipitated by the use of lime mortars. To maintain stonework with sulphation, it is recommended to remove the cause through cleaning. This can be done through simple washing with water or a more effective methods for removing salts from the stone. However, this is a lengthy process and will need to be repeated a number of times for the best results.
       - text: The use of lime mortars can help in the prevention of sulphation. To maintain stonework with sulphation, it is recommended to remove the cause through cleaning and removing the salts. After that you can apply calcium sulfate deposits to protect and seal the pores of the stone.
       - text: Plastering is treated with a scalpel and the removal of deposits. For subsequent protection, a nanoparticle polymer film coating with superhydrophobic properties can be applied to protect the surface of the stone.

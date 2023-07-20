@@ -72,7 +72,7 @@ nlu:
       - what about limestone cracks?
       - what about alabaster cracks?
     
-  - intent: inform_marble_with_sulfation
+  - intent: inform_marble_with_sulphation
     examples: | 
       - How to preserve marble from sulphation?
       - How to preserve marmoreal from sulphation?

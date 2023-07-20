@@ -56,7 +56,7 @@ nlu:
       - what about stone degredations?
       - what about rock degredations?
     
-  - intent: inform_stone_with_sulfation
+  - intent: inform_stone_with_sulphation
     examples: | 
       - How to preserve stone from sulphation?
       - How to preserve rock from sulphation?
@@ -443,5 +443,6 @@ nlu:
       - what to do if Volvox brevis was found in rock?
       - what to do if Chlorococcum brevis was found in stone?
       - what to do if Chlorococcum brevis was found in rock?
+      - what about stone infection?
       - what about stone infection?
       - what about rock infection?
