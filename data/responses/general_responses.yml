@@ -41,62 +41,58 @@ responses:
       - Shell Stone (Kogxyliatis)\n
       - Pebbles (Votsaloto)\n"
       - text: "Hi, welcome to the chat! I'm an assistant chatbot here to help preserve cultural heritage. Ask me questions like:\n
-      How to maintain marble with cracks?\n
-      How to preserve stone with cavities?\n
-      We found mortar with cracks, what should we do?\n
+      -How to maintain marble with cracks?\n
+      -How to preserve stone with cavities?\n
+      -We found mortar with cracks, what should we do?\n
       Remember to specify the material and type of degradation. Or inquire about the root causes of cracks, cavities, sulphation, crystal decomposition, and disintegration."
       - text: "Hello! I'm a chatbot assisting with maintenance questions. Let me know the material and issue you're facing, like:\n
-      How to maintain marble with cracks?\n
-      How to preserve stone with cavities?\n
-      There are some cracks in the stone, what shall we do?\n
+      -How to maintain marble with cracks?\n
+      -How to preserve stone with cavities?\n
+      -There are some cracks in the stone, what shall we do?\n
       I can also answer general questions for materials like marble, stone, mortar, shale, shell stone, and pebbles."
       - text: "Welcome to the chat! I'm a chatbot here to help with preservation. Ask me questions for maintenance or general queries like:\n
-      How to maintain marble with cracks?\n
-      How to preserve stone with cavities?\n
-      What can I do to prevent mortar decomposition?\n
-      Is marble strong?\n
+      -How to maintain marble with cracks?\n
+      -How to preserve stone with cavities?\n
+      -What can I do to prevent mortar decomposition?\n
+      -Is marble strong?\n
       I can assist with materials such as marble, stone, mortar, shale, shell stone, and pebbles."
       - text: "Greetings! I'm an assistant chatbot, ready to guide you on preserving various materials. Feel free to ask maintenance or general questions:\n
-      How to maintain marble with cracks?\n
-      How to preserve stone with cavities?\n
-      What steps to take for stopping mortar decomposition?\n
-      Is marble a durable material?\n
+      -How to maintain marble with cracks?\n
+      -How to preserve stone with cavities?\n
+      -What steps to take for stopping mortar decomposition?\n
+      -Is marble a durable material?\n
       I'm here to help with marble, stone, mortar, shale, shell stone, and pebbles."
       - text: "Hello there! I'm a chatbot dedicated to assisting with material preservation. Ask me about maintenance or anything else:\n
-      How to maintain marble with cracks?\n
-      How to preserve stone with cavities?\n
-      How can we prevent mortar from deteriorating?\n
-      What are the properties of marble?\n
+      -How to maintain marble with cracks?\n
+      -How to preserve stone with cavities?\n
+      -What are the properties of marble?\n
       Feel free to inquire about marble, stone, mortar, shale, shell stone, or pebbles."
       - text: "Welcome! I'm a chatbot specializing in preserving different materials. Ask me questions on maintenance or other topics:\n
-      How to maintain marble with cracks?\n
-      How to preserve stone with cavities?\n
-      What solutions can be used for mortar protection?\n
-      Can you tell me about the strength of marble?\n
+      -How to maintain marble with cracks?\n
+      -How to preserve stone with cavities?\n
+      -Can you tell me about the strength of marble?\n
       I can help with marble, stone, mortar, shale, shell stone, and pebbles."
       - text: "Greetings, I'm an assistant chatbot eager to aid in material preservation. Share maintenance queries or general questions like:\n
-      How to maintain marble with cracks?\n
-      How to preserve stone with cavities?\n
-      Any suggestions to address mortar issues?\n
-      Tell me about the durability of marble.\n
+      -How to maintain marble with cracks?\n
+      -How to preserve stone with cavities?\n
+      -Tell me about the durability of marble.\n
       Feel free to discuss marble, stone, mortar, shale, shell stone, or pebbles with me."
       - text: "Hello! I'm here to assist with preserving various materials. Let me know about maintenance or general inquiries:\n
-      How to maintain marble with cracks?\n
-      How to preserve stone with cavities?\n
-      What can be done to protect mortar from degradation?\n
-      What are the unique characteristics of marble?\n
+      -How to maintain marble with cracks?\n
+      -How to preserve stone with cavities?\n
+      -What can be done to protect mortar from degradation?\n
       Feel free to ask about marble, stone, mortar, shale, shell stone, or pebbles."
 
       utter_goodbye:
-      - text: "Bye"
-      - text: "Bye-Bye"
-      - text: "Bye, see you soon!"
-      - text: "Talk to you later!"
-      - text: "Goodbye"
-      - text: "Goodbye, see you soon!"
-      - text: "Have a nice day!"
-      - text: "See you later!"
-      - text: "See you soon!"
+      - text: Bye
+      - text: Bye-Bye
+      - text: Bye, see you soon!
+      - text: Talk to you later!
+      - text: Goodbye
+      - text: Goodbye, see you soon!
+      - text: Have a nice day!
+      - text: See you later!
+      - text: See you soon!
       - text: Farewell!
       - text: Take care!
       - text: Goodbye and stay safe.
@@ -163,6 +159,24 @@ responses:
       - text: Just a friendly reminder that I am an AI chatbot here to provide you with answers.
       - text: I am not a human! I am a virtual assistant, also known as a chatbot.
       - text: It's essential to understand that I am a chatbot designed to provide you with support.
+
+      utter_ask_material:
+      - text: Okay tell me the material that has the problem
+      - text: Okay tell me the material that has the degradation
+      - text: Okay tell me the material that has the degradation problem
+      - text: Okay tell me the material that has the degradation issue
+      - text: What type of material has the problem?
+      - text: Could you let me know which material is experiencing problems?
+      - text: I'd like to know which material is facing degradation.
+      - text: Which specific material is encountering a degradation problem?
+      - text: Can you share details about the material with issues?
+      - text: I'm interested in knowing the material that has the problem.
+      - text: Could you specify the material that has the problem?
+      - text: Please provide details froam what material it is made.
+      - text: What type of material is currently dealing with problems?
+      - text: Can you let me know which material has the degradation?
+      - text: What kind of material is affected by the problem?
+
 
       utter_you_are_welcome:
       - text: I am happy that i helped you. If you have any further questions, please feel free to ask me again.

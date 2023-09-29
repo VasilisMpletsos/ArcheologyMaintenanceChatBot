@@ -92,6 +92,38 @@ nlu:
     - bye bye
     - see you later
 
+- intent: problem
+  examples: |
+    - We have a problem
+    - We have a problem with a structure
+    - we found a problem in a structure
+    - we found a problem in a building
+    - we have discovered degradation
+    - There is an issue that we need to address.
+    - A problem has been identified.
+    - We've encountered a problem that requires attention.
+    - There's an existing problem that needs resolving.
+    - The structure is facing an issue.
+    - We've come across a problem to a structure.
+    - A problem in a building has been detected.
+    - The team has discovered a problem in a structure.
+    - Degradation has been observed and needs attention.
+    - The presence of degradation has come to our notice.
+    - We're facing a predicament and could use your assistance.
+    - We're in a bit of a jam, would you be able to lend a hand?
+    - There's an issue we're dealing with, and we could really use your help.
+    - We've run into a problem and are seeking your expertise to resolve it.
+    - We find ourselves in a challenging situation and need your support.
+    - A difficulty has arisen, and we're hoping you can provide some guidance.
+    - We're stuck in a tough spot and would appreciate your aid in solving it.
+    - There's a matter we need assistance with, can you offer your expertise?
+    - We're encountering an obstacle and could use your advice to overcome it.
+    - Help is needed to address an issue we've come across, can you assist?
+    - Can you help me?
+    - Can you help me with something?
+    - Can you help us?
+    - We have another problem!
+
 - intent: affirm
   examples: |
     - yes

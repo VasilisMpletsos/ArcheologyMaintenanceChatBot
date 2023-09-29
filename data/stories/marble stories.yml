@@ -2,8 +2,6 @@ version: "3.1"
 
 stories:
 
-
-
 - story: told material stone and degradation cracks
   steps:
   - checkpoint: asked_degradation_for_marble

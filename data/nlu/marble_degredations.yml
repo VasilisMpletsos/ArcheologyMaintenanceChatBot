@@ -3,10 +3,10 @@ version: "3.1"
 nlu:
   - intent: inform_marble_with_cracks
     examples: | 
-      - How to preserve marble with crakcs?
-      - How to preserve marmoreal with crakcs?
-      - How to preserve limestone with crakcs?
-      - How to preserve alabaster with crakcs?
+      - How to preserve marble with cracks?
+      - How to preserve marmoreal with cracks?
+      - How to preserve limestone with cracks?
+      - How to preserve alabaster with cracks?
       - How to maintain marble with cracks?
       - How to maintain marmoreal with cracks?
       - How to maintain limestone with cracks?
@@ -530,3 +530,9 @@ nlu:
       - what about marmoreal infection?
       - what about limestone infection?
       - what about alabaster infection?
+      - how to prevent mold from growing marble?
+      - how to prevent mildew from growing marble?
+      - how can we prevent marble from mold?
+      - how can we prevent marble from mildew?
+      - what about marble mold?
+      - what about marble mildew?

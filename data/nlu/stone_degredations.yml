@@ -3,14 +3,14 @@ version: "3.1"
 nlu:
   - intent: inform_stone_with_cracks
     examples: | 
-      - How to preserve stone from crakcs?
-      - How to preserve rock from crakcs?
-      - how do we protect our stones from the crakcs?
-      - how do we protect our rocks from the crakcs?
-      - how do we protect our rocks from the crakcs?
-      - how do you save stones from crakcs?
-      - how do you save rocks from crakcs?
-      - how do you save rocks from crakcs?
+      - How to preserve stone from cracks?
+      - How to preserve rock from cracks?
+      - how do we protect our stones from the cracks?
+      - how do we protect our rocks from the cracks?
+      - how do we protect our rocks from the cracks?
+      - how do you save stones from cracks?
+      - how do you save rocks from cracks?
+      - how do you save rocks from cracks?
       - How to maintain stone that has cracks?
       - How to maintain rock that has cracks?
       - how can i keep a stone from cracking?
@@ -446,3 +446,9 @@ nlu:
       - what about stone infection?
       - what about stone infection?
       - what about rock infection?
+      - how to prevent mold from growing stone?
+      - how to prevent mildew from growing stone?
+      - how can we prevent stone from mold?
+      - how can we prevent stone from mildew?
+      - what about stone mold?
+      - what about stone mildew?

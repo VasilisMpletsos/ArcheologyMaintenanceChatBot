@@ -3,7 +3,7 @@ version: "3.1"
 nlu:
   - intent: inform_mortar_with_cracks
     examples: | 
-      - How to preserve mortar from crakcs?
+      - How to preserve mortar from cracks?
       - how to avoid crick-crack mortar?
       - How to maintain mortar from cracks?
       - how can mortar be kept from cracking?
@@ -25,6 +25,7 @@ nlu:
       - what do you do if you have mortar with cracks in it?
       - we have mortar cracks what should we do?
       - what about mortar cracks?
+      - how can we prevent mortar from cracks?
     
   - intent: inform_mortar_with_sulphation
     examples: | 
@@ -55,6 +56,7 @@ nlu:
       - what should i do when i have a mortar that has sulfur?
       - what should i do if my mortar is sulfurated?
       - what about mortar sulphation?
+      - how can we prevent mortar from sulphation?
 
   - intent: inform_mortar_with_cavities
     examples: | 
@@ -69,7 +71,6 @@ nlu:
       - how can i stop mortar from cutting into a hole?
       - how do i keep mortar from getting a hole?
       - tell me the best way to keep mortar out of holes?
-      - how do i prevent mortars from cracks?
       - How to preserve mortar from cavities?
       - how do you preserve a mortar from cavities?
       - How to preserve mortar from holes?
@@ -92,6 +93,8 @@ nlu:
       - what do you do if you have mortar that has holes in it?
       - what about mortar cavities?
       - what about mortar holes?
+      - how can we prevent mortar from holes?
+      - how can we prevent mortar from cavities?
 
   - intent: inform_mortar_with_crystal_decomposition
     examples: | 
@@ -137,6 +140,8 @@ nlu:
       - tell me the best thing to do when mortars have crystal decomposition?
       - what about mortar crystallization?
       - what about mortar crystal decomposition?
+      - how can we prevent mortar from crystallization?
+      - how can we prevent mortar from crystal decomposition?
 
   - intent: inform_mortar_with_disintegration
     examples: | 
@@ -166,6 +171,8 @@ nlu:
       - is there a mortar that has exfoliation?
       - what about mortar disintegration?
       - what about mortar exfoliation?
+      - how can we prevent mortar from disintegration?
+      - how can we prevent mortar from exfoliation?
 
   - intent: inform_mortar_with_infection
     examples: | 
@@ -200,3 +207,10 @@ nlu:
       - what to do if Volvox brevis was found in mortar?
       - what to do if Chlorococcum brevis was found in mortar?
       - what about mortar infection?
+      - how can we prevent mortar from infection?
+      - how to prevent mold from growing mortar?
+      - how to prevent mildew from growing mortar?
+      - how can we prevent mortar from mold?
+      - how can we prevent mortar from mildew?
+      - what about mortar mold?
+      - what about mortar mildew?

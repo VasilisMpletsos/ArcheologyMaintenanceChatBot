@@ -3,15 +3,15 @@ version: "3.1"
 nlu:
   - intent: inform_pebbles_with_cracks
     examples: | 
-      - How to preserve pebbles with crakcs?
+      - How to preserve pebbles with cracks?
       - How to maintain pebbles with cracks?
       - What to do for pebbles with cracks?
       - We have pebbles with cracks, what to do?
       - What about pebbles cracks?
       - How do you maintain pebbles with cracks?
-      - How do you preserve pebbles with crakcs?
-      - How do I preserve pebbles with crakcs?
-      - How can I preserve pebbles with crakcs?
+      - How do you preserve pebbles with cracks?
+      - How do I preserve pebbles with cracks?
+      - How can I preserve pebbles with cracks?
       - What to do with pebbles with cracks?
       - What should I do for pebbles with cracks?
       - What can I do for pebbles with cracks?
@@ -36,7 +36,6 @@ nlu:
       - How do I maintain pebbles with sulphation?
       - How do you preserve pebbles with sulfur dioxide?
       - How do I preserve pebbles with sulfur dioxide?
-      - How sulfur dioxide can be used to preserve pebbles?
       - What to do with pebbles with sulphation?
       - What should I do for pebbles with sulphation?
       - What can be done for pebbles with sulphation?
@@ -304,3 +303,9 @@ nlu:
       - What to do if Acremonium was found in a pebbled structure?
       - What to do if Cladosporium was found in a pebbled structure?
       - What to do if Fusarium was found in a pebbled structure?
+      - how to prevent mold from growing pebbled structure?
+      - how to prevent mildew from growing pebbled structure?
+      - how can we prevent pebbled structure from mold?
+      - how can we prevent pebbled structure from mildew?
+      - what about pebbled structure mold?
+      - what about pebbled structure mildew?

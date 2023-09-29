@@ -36,7 +36,7 @@ responses:
       - text: It is recommended to use a neutralized solution of thioglycolic acid to treat sulphation
       - text: It is recommended that a neutralized thioglycolic acid solution is used for sulphation
       - text: It is recommended to use neutralized thioglycolic acid solution to treat sulphation
-      - text: It is recommended to use a neutralized thioglycolic acid solution to treat sulfationI
+      - text: It is recommended to use a neutralized thioglycolic acid solution to treat sulphation
 
       utter_mortar_with_cracks:
       - text: It is recommended that it be filled with a matching mortar if it is durable or if the use of the new mortar has failed

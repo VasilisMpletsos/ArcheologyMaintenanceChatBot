@@ -27,11 +27,4 @@ responses:
       utter_shell_stone_with_infection:
       - text: You can mechanically clean the grown microorganisms carefully by scraping. You can use sand and water under a little pressure for the final cleaning.
       - text: It is recommended to clean the microorganisms mechanically by scraping. You can use sand and water under a little pressure for the final cleaning.
-      - text: You can use sand and water to cleant the surface and scrap the microorganisms carefully.
-      - text: You can use sand and water to clean up the surface and thoroughly scrape the microorganisms
-      - text: You can use sand and water to clean the surface and carefully remove microorganisms
-      - text: You can use sand and water to clean the surface and carefully scrape microorganisms
-      - text: You can use sand and water to clean the surface and carefully scrape the microorganisms
-      - text: You can use sand and water to clean and scrape the surface and remove microorganisms carefully
-      - text: You can use sand and water to clean the surface and remove microorganisms carefully
-      - text: You can use sand and water to clean the surface and scrape the microorganisms carefully
+      - text: You must reduce the moisture in the area and generally protext the structure from rain.

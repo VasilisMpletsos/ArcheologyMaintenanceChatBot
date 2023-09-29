@@ -1,0 +1,2 @@
+start cmd /k  "Powershell.exe -executionpolicy remotesigned -File  "C:\Users\vmpletsos\Desktop\Projects\Palimpsisto\Archeology Maintenance Chatbot\start_action_server.ps1""
+start cmd /k  "Powershell.exe -executionpolicy remotesigned -File  "C:\Users\vmpletsos\Desktop\Projects\Palimpsisto\Archeology Maintenance Chatbot\start_chatbot.ps1""

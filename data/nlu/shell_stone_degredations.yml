@@ -3,7 +3,7 @@ version: "3.1"
 nlu:
   - intent: inform_shell_stone_with_cracks
     examples: | 
-      - How to preserve shell stone with crakcs?
+      - How to preserve shell stone with cracks?
       - How to maintain shell stone with cracks?
       - What to do for shell stone with cracks?
       - We have shell stone with cracks, what to do?
@@ -75,3 +75,9 @@ nlu:
       - what to do if Chlorococcum brevis was found in shell stone?
       - what about shell stone with infection?
       - what about shell stone with lichens or fungus?
+      - how to prevent mold from growing shell stone?
+      - how to prevent mildew from growing shell stone?
+      - how can we prevent shell stone from mold?
+      - how can we prevent shell stone from mildew?
+      - what about shell stone mold?
+      - what about shell stone mildew?

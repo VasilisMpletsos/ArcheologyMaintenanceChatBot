@@ -27,6 +27,17 @@ stories:
   - intent: appreciate
   - action: utter_you_are_welcome
 
+- story: say we have a problem
+  steps:
+  - intent: problem
+  - action: utter_ask_material
+
+- story: informed material stone
+  steps:
+  - intent: inform_material_stone
+  - action: utter_what_degradation_it_has
+  - checkpoint: asked_degradation_for_stone
+
 - story: informed material stone
   steps:
   - intent: inform_material_stone

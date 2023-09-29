@@ -32,6 +32,7 @@ nlu:
       - There is a stone statue that shows signs of degradation
       - There is a stone sculpture that shows signs of degradation
       - There is a stone fountain that shows signs of degradation
+      - stone material
 
   - intent: inform_material_marble
     examples: |
@@ -42,6 +43,7 @@ nlu:
       - We have a marmoreal statue
       - We have a marble sculpture
       - We have a marble fountain
+      - marble material
       - We have a marmoreal fountain
       - We have a marble wall
       - We have a marble floor
@@ -72,6 +74,7 @@ nlu:
       - We are looking at a slate monument
       - These is a statue made of shale
       - These is a statue made of slate
+      - shale material
       - We are looking at a shale sculpture
       - We are looking at a slate sculpture
       - There is a fountain made of shale
@@ -114,6 +117,8 @@ nlu:
       - We have some mortar that has problems
       - We have some grout that has problems
       - We have some mortar that is damaged
+      - mortar material
+      - grout material
       - We have some grout that is damaged
       - We have some mortar that is deteriorated
       - We have some grout that is deteriorated
@@ -152,6 +157,7 @@ nlu:
       - There is a wall made of shell stone
       - There is a fountain made of shell stone
       - There is a sculpture made of shell stone
+      - shell stone material
       - There is a statue made of shell stone that has problems
       - There is a statue made of shell stone that is damaged
       - There is a statue made of shell stone that is deteriorated
@@ -175,6 +181,7 @@ nlu:
       - We found a pebbled floor
       - We found a floor made of pebbles
       - We found a floor made out of pebbles
+      - pebbles material
       - We found a floor that is made of pebbles
       - We found a floor that is made out of pebbles
 

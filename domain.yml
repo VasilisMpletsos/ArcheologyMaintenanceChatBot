@@ -13,6 +13,7 @@ intents:
   - faq
   - appreciate
   - where_to_find_degradation_rate
+  - problem
   - inform_material_stone
   - inform_material_marble
   - inform_material_shale

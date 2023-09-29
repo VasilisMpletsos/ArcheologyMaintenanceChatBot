@@ -59,25 +59,15 @@ responses:
       - text: You can opt for filling the voids with a material that complements the pebble structure. This can be achieved by using mortar mix, grout, or an alternative substance that closely matches the color and texture of the existing pebble structure. The process of filling the gaps will not only bolster the structural stability of the area but also protect the neighboring pebbles from further deterioration.
 
       utter_pebbles_with_infection:
-      - text: "To preserve a pebbled pebble structure with a biological infection, such as lichens or fungus, follow these steps:\n
-      Identify the Infection: First, identify the type of biological infection affecting the pebbled pebble structure. Lichens and fungi can have different treatments, so proper identification is crucial.\n
-      Clean the Surface: Thoroughly clean the pebbled pebble structure using a gentle cleaning solution to remove any loose debris, dirt, or organic matter that may be supporting the growth of the infection.\n
+      - text: "To preserve a pebble structure with a biological infection, such as lichens or fungus, follow these steps:\n
+      Identify the Infection: First, identify the type of biological infection affecting the pebble structure. Lichens and fungi can have different treatments, so proper identification is crucial.\n
+      Clean the Surface: Thoroughly clean the pebble structure using a gentle cleaning solution to remove any loose debris, dirt, or organic matter that may be supporting the growth of the infection.\n
       Use Natural Remedies: For mild infections, consider using natural remedies like hydrogen peroxide solutions to treat the affected areas. These substances have antifungal properties and can help eliminate the infection.\n
       Apply Antifungal Solutions: In more severe cases, apply specialized antifungal solutions designed for the type of infection present. Follow the manufacturer's instructions and wear appropriate protective gear during application.\n
       Scrubbing: Gently scrub the infected areas with a soft brush to remove the biological growth, being careful not to damage the pebbles.\n
       Ensure Adequate Drainage: Check for any areas where water may be pooling and ensure proper drainage to prevent moisture retention, which can promote the growth of biological infections.\n
-      Improve Ventilation: If the pebbled pebble structure is indoors, ensure proper ventilation and airflow to reduce humidity, as high humidity levels can encourage the growth of fungi and other biological agents.\n
+      Improve Ventilation: If the pebble structure is indoors, ensure proper ventilation and airflow to reduce humidity, as high humidity levels can encourage the growth of fungi and other biological agents.\n
       Sealing the Surface: Consider applying a sealer or coating specifically designed to protect against biological infections. These coatings can create a barrier that makes it harder for lichens and fungi to establish on the surface.\n
-      Regular Maintenance: Implement a regular cleaning and maintenance schedule to keep the pebbled pebble structure free from debris and prevent the reoccurrence of biological infections.
+      Regular Maintenance: Implement a regular cleaning and maintenance schedule to keep the pebble structure free from debris and prevent the reoccurrence of biological infections.
       "
-      - text: "Identify the specific biological infection affecting the pebbled structure.\n
-      Clean the pebbled structure thoroughly to remove any loose debris and organic matter.\n
-      Consider using natural remedies like hydrogen peroxide for mild infections.\n
-      Apply specialized antifungal solutions for more severe infections as per the manufacturer's instructions.\n
-      Gently scrub the infected areas with a soft brush to eliminate the biological growth.\n
-      Ensure proper drainage to prevent water pooling and reduce moisture retention.\n
-      Improve ventilation to lower humidity levels indoors and discourage biological growth.\n
-      Apply a suitable sealer or coating designed to protect against biological infections.\n
-      Maintain a regular cleaning schedule to prevent the reoccurrence of infections.\n
-      If needed, seek professional assistance for extensive or challenging infections.
-      "
+      - text: "Identify the specific biological infection affecting the pebble structure. Clean the pebble structure thoroughly to remove any loose debris and organic matter. Consider using natural remedies like hydrogen peroxide for mild infections. Apply specialized antifungal solutions for more severe infections as per the manufacturer's instructions. Gently scrub the infected areas with a soft brush to eliminate the biological growth. Ensure proper drainage to prevent water pooling and reduce moisture retention. Improve ventilation to lower humidity levels indoors and discourage biological growth. Apply a suitable sealer or coating designed to protect against biological infections. Maintain a regular cleaning schedule to prevent the reoccurrence of infections. If needed, seek professional assistance for extensive or challenging infections."
